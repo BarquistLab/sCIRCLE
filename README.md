@@ -1,6 +1,7 @@
 # sCIRCLE
 
-sCIRCLE (short for single-Cell Interactive Real-time Computer visualization for Low-dimensional Exploration) is a standalone Windows software for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
+### sCIRCLE (single-Cell Interactive Real-time Computer-visualization for Low-dimensional Exploration) 
+is a standalone Windows application for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
 
 ## 💻 Prerequisites
 You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended. 
@@ -9,9 +10,12 @@ You need a Windows partition to run the software. Additionally a 3-button mouse 
 For a quick start, load the latest release on the right, unpack it and start the .exe file included in the download. 
 To get a first look at the software load the three example files from the example folder in this repository and press "Start Visualization"
 
+## 📺 Tutorial
+
 
 ## 📂 Import File Formatting
 If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly.
+
 
 ## 🔧Tools & Functions:
 
