@@ -1,6 +1,6 @@
 # <sup>s</sup>CIRCLE
 
-### sCIRCLE (single-Cell Interactive Real-time Computer-visualization for Low-dimensional Exploration) 
+### <sup>s</sup>CIRCLE (single-Cell Interactive Real-time Computer-visualization for Low-dimensional Exploration) 
 is a standalone Windows application for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
 <img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/0a4778a5-af3a-4253-8459-53d496f3d6cf" width="950">
 
