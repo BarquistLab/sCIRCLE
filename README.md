@@ -17,6 +17,30 @@ To get a first look at the software load the three example files from the exampl
 If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly.
 
 
+### Count Matrix
+| Locus Tag  | CellID1 | CellID2 |....
+| ---------- | ------------- | ------------|-----------|
+| GeneID1        | Expression Count  | Expression Count  |...
+| GeneID2        | Expression Count  | Expression Count  | ...
+| ...        | ...               | ...               |...
+
+### Phenotypic Data
+| Categories  | CellID1 | CellID2 |....
+| ---------- | ------------- | ------------|-----------|
+| e.g. timepoints| OD.1  | OD.2  |...
+| e.g. batches    | 1  | 2  | ...
+| ...        | ...               | ...               |...
+
+### Gene Annotation File
+The gene annotation file can be loaded in common GTF format or a an excel or csv table. If importing a table use the following format:
+| Locus Tags | Start | End | Common Gene Name | eg. KEGG Pathways |eg. GO-terms |G_UserDefinedGeneGroup|....
+| ---------- | ------------- | ------------|-----------|-----------|-----------|-----------|-----------|
+| Gene ID1 | eg. 0  | eg. 250 | gene name 1 | PathwayID1,PathwayID2 |GO1,GO2,GO3...|0|...
+| Gene ID2 | eg. 251 | eg. 500  |gene name 2  | PathwayID3,PathwayID4 |GO5,GO6,GO7...|1|...
+| ...        | ...               | ...               |...|...|...|...|...
+
+Multiple entries in one cell have to be separated with a comma. Gene groups can be imported with the annotation file to be used as a filter inside the software. To define a user group the column name has to start with "G_". All genes that shall be part of the group have to be marked with a "1" all other genes with a "0". The user can add as many gene groups as needed.
+
 # 🔧Tools & Functions:
 
 ## Import & Export
@@ -39,6 +63,7 @@ Via the export tab it is possible to export the currently displayed dimensionali
 Custom matrices can be imported instead of using the on-board dimensionality reduction algorithms. This can either be previously saved CSV-files from inside the tool itself or dimensionality reduction matrices that were calculated with different tools. The only prerequisite is that the number of cells corresponds with the number of cells in the currently loaded data set.
 
 ## Nested Interactive Plots
+
 
 ## Gene Filtering
 There is a filter menu for filtering and sorting for genes of interest in the upper right corner. 
@@ -83,9 +108,12 @@ When an entry of a certain metadata category is clicked it is automatically assi
 ![scRNA-Seq_UI01 Kopie](https://github.com/BarquistLab/sCIRCLE/assets/46606031/b85132f4-54a6-454b-9f2b-749174e12ede)
 
 ## Visualization options
+In the visualization tab it is possible to scale the cells or the whole plot, to display imported cell IDs or to hide and unhide the coordinate system.
+Additionally, the cell-colouring can be changed based on one of the imported categories like time points, different batches, pre-computed clusters or custom selected clusters inside the software using the "Painting Clusters" tool. Furthermore, it is possible to colour the cells based on the expression values of the currently selected gene across all cells. 
+
 
 ## Painting Clusters
-
+With this option it is possible to assign cell groups and conditions manually. This can be used to mark certain clusters of genes by hand or select outliers to export them for further analysis. When activating this feature Alt+Mouse wheel can be used to dial in the brush size. Clicking one of the added colours and then clicking on cells with the brush assigns them to a colour. The different painted or hand-selected clusters can be named and then saved for later use or to export them.
 
 ## Fold Changes
 If fold changes are activated, logFoldChanges between two cells or two metacells can be calculated and displayed. For filtering the displayed genes in the logFoldChange graph a dedicated filter bank can be used, which is explained above. To select two cells for comparison they have to be selected by clicking them with the middle mouse button while hovering. The logFoldChange will always be calculated using the second last clicked cell and comparing it to the last clicked cell. When pressing "L" it is possible to display only the logFoldChange chart centered on the screen.
