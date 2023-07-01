@@ -63,7 +63,7 @@ The counts can be log transformed before feeding them into any of the dimensiona
 
 ### PCA
 The principal component analysis is computed using the [Accord Statistics .net nuget](http://accord-framework.net).
-3-dimensional or 2-dimensional PCA can be visualized. The components can be swapped freely between the three axis and if more than three components are computed, it is possible to switch back and forth between different combinations of components. 
+3-dimensional or 2-dimensional PCA plots can be visualized. The components can be swapped freely between the three axis and if more than three components are computed, it is possible to switch back and forth between different combinations of components. 
 
 ### UMAP
 A 3d UMAP is computed using the [C# UMAP nuget](https://github.com/curiosity-ai/umap-sharp).
