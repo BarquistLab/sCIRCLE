@@ -2,6 +2,7 @@
 
 ### sCIRCLE (single-Cell Interactive Real-time Computer-visualization for Low-dimensional Exploration) 
 is a standalone Windows application for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
+<img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/0a4778a5-af3a-4253-8459-53d496f3d6cf" width="950">
 
 ## 💻 Prerequisites
 You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended. 
@@ -10,14 +11,15 @@ You need a Windows partition to run the software. Additionally a 3-button mouse 
 For a quick start, load the latest release on the right, unpack it and start the .exe file included in the download. 
 To get a first look at the software load the three example files from the example folder in this repository and press "Start Visualization"
 
-## 📺 Tutorial
+## 📺 Tutorials
 
 
 ## 📂 Import File Formatting
-If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly.
-
+If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly. To start the software you must provide a count matrix, a phenotypic data file for cell annotation and a gene annotation file. The number of cells and genes have to be constant in all three import files.
 
 ### Count Matrix
+You can import your count matrix as a csv- or excel-file. You can load in raw counts or normalized and pre-processed counts, depending on what you want to visualize.
+
 | Locus Tag  | CellID1 | CellID2 |....
 | ---------- | ------------- | ------------|-----------|
 | GeneID1        | Expression Count  | Expression Count  |...
@@ -25,6 +27,7 @@ If you want to import your own data set, you have to follow certain conventions 
 | ...        | ...               | ...               |...
 
 ### Phenotypic Data
+You can import your phenotypic data as a csv- or excel-file.
 | Categories  | CellID1 | CellID2 |....
 | ---------- | ------------- | ------------|-----------|
 | e.g. timepoints| OD.1  | OD.2  |...
@@ -32,7 +35,7 @@ If you want to import your own data set, you have to follow certain conventions 
 | ...        | ...               | ...               |...
 
 ### Gene Annotation File
-The gene annotation file can be loaded in common GTF format or a an excel or csv table. If importing a table use the following format:
+The gene annotation file can be loaded in the common GTF format or a an excel or csv-table. If importing a table use the following format:
 | Locus Tags | Start | End | Common Gene Name | eg. KEGG Pathways |eg. GO-terms |G_UserDefinedGeneGroup|....
 | ---------- | ------------- | ------------|-----------|-----------|-----------|-----------|-----------|
 | Gene ID1 | eg. 0  | eg. 250 | gene name 1 | PathwayID1,PathwayID2 |GO1,GO2,GO3...|0|...
@@ -43,7 +46,16 @@ Multiple entries in one cell have to be separated with a comma. Gene groups can 
 
 # 🔧Tools & Functions:
 
-## Import & Export
+## Import
+Import file formats are specified above. You can import a different data set during any session by going to the Import tab in the tools menu.
+
+## Export
+You can export several files from the software:
+* Export gene annotation file with saved gene groups. Your gene groups saved in the software are added to the gene annotation file you've loaded and saved as a csv-file.
+* Export phenotypic data with saved clusters. Painted and selected clusters are added as additional rows to your imported phenotypic data file.
+* Export the currently visible dimensionality reduced matrix as a csv-file.
+* Export the currently visible expression diagram as a png- or svg-file.
+* Export the currently visible logFoldChange graph as a png- or svg-file.
 
 ## Dimensionality Reduction 
 The tool features three different means of dimensionality reduction UMAP, PCA and self-imported dimensionality reduced matrices.
@@ -63,6 +75,10 @@ Via the export tab it is possible to export the currently displayed dimensionali
 Custom matrices can be imported instead of using the on-board dimensionality reduction algorithms. This can either be previously saved CSV-files from inside the tool itself or dimensionality reduction matrices that were calculated with different tools. The only prerequisite is that the number of cells corresponds with the number of cells in the currently loaded data set.
 
 ## Nested Interactive Plots
+
+This tool features a novel concept of nested interactive plot by interlacing expression count data and functional annotation data with dimensioality reduced scatter plot. Each cell inside the dimensionality reduced scatter plot can be selected with the left mouse button. When a cell is selected the expression pattern across the whole genome of the specific cell becomes visible in the form of a radial bar chart. The genome can be filtered with the filters described below and every gene is selectable, so that the metadata annotation for the specific gene is displayed in the metadata inspector. When clicking another cell all filters and gene expression data updates in real-time and shows a adapted radial bar chart for the newly selected cell. Thereby all expression data per cell and all functional annotation data per gene are accessible in real-time and just a click away, but can be selectively viewed so that the user is not overwhelmed by the amount of data and can efficiently explore the data set.  
+
+<img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/9cd4a423-f76f-4525-8121-4587c56bb070" width="600">
 
 
 ## Gene Filtering
@@ -96,8 +112,7 @@ You can save any set of genes, with all filters, which are currently applied, an
 ### Modular Filter System
 All Filters are chainable in any combination and the order of the filters is swappable with the arrow keys next to the respective filter. The same filter can also be chained multiple time, to filter for different metadata categories for example or to filter for a range of gene expression values by applying two conditional filters.
 
-![scRNA-Seq_UI05 Kopie](https://github.com/BarquistLab/sCIRCLE/assets/46606031/9c07da5c-6031-4924-8e95-1ade60e71721)
-
+<img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/9c07da5c-6031-4924-8e95-1ade60e71721" width="600">
 
 ## Metadata Inspector
 On the upper left corner the metadata inspector can be opened. It queries all metadata annotations from the currently selected gene in real-time.
@@ -105,7 +120,8 @@ If too many metadata categories are annotated for a gene the window becomes scro
 When clicking on a metadata category in the left column the category is automatically selected to display metadata connections for this category in the visualization option.
 Clicking one of the categories also reveals the colour-coded legend for the metadata connections.
 When an entry of a certain metadata category is clicked it is automatically assigned as a filter term, when using a metadata filter with that category later on. Clicking another entry in the same category overwrites the filter term.
-![scRNA-Seq_UI01 Kopie](https://github.com/BarquistLab/sCIRCLE/assets/46606031/b85132f4-54a6-454b-9f2b-749174e12ede)
+
+<img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/b85132f4-54a6-454b-9f2b-749174e12ede" width="600">
 
 ## Visualization options
 In the visualization tab it is possible to scale the cells or the whole plot, to display imported cell IDs or to hide and unhide the coordinate system.
@@ -145,6 +161,14 @@ A simple VR viewer mode is activatable if VR glasses are connected using OpenVR.
 * Tab: Delete cache of current radial diagram
 * Alt+Mouse Wheel: Change brush size, when in Paint Clusters mode
 * Ctrl+Mouse Wheel: Side-scroll long rows in metadata inspector window
-  
+
+
+# 🔧 Development and Contribution
+This tool has been programmed using  [vvvv](https://visualprogramming.net) a visual programming environment based on C#. If anybody wants to contribute to the development of this tool, get in touch or create a pull request. 
+In case you discover a bug or have a wish for certain feature, please feel free to create an issue in this repository.
+
+
+# Acknowledgement
+
 
 
