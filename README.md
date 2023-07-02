@@ -80,6 +80,10 @@ This tool features a novel concept of nested interactive plot by interlacing exp
 
 <img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/9cd4a423-f76f-4525-8121-4587c56bb070" width="600">
 
+### Visualizing corresponding entries in metadata
+If the option for "metadata connections" in the visualization tab is active, it is possible to view the occurance of certain entries in a metadata category over all currently visible genes. Clicking a metadata category in the metadata inspector e.g. KEGG Pathway highlights all occurances of the annotated KEGG Pathways in the currently selected gene among all the other visibile genes. The corresponding entries are color-coded and colored lines show the connections.
+
+
 
 ## 🔍Gene Filtering
 There is a filter menu for filtering and sorting for genes of interest in the upper right corner. 
