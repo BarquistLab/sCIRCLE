@@ -18,7 +18,7 @@ To get a first look at the software load the three example files from the exampl
 If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly. To start the software you must provide a count matrix, a phenotypic data file for cell annotation and a gene annotation file. The number of cells and genes have to be constant in all three import files.
 
 ### Count Matrix
-You can import your count matrix as a csv- or excel-file. You can load in raw counts or normalized and pre-processed counts, depending on what you want to visualize.
+You can import your count matrix as a csv- or excel-file. You can load in raw counts or normalized and pre-processed counts, depending on what you want to visualize. When initially importing a count matrix you have to decide whether you want to normalize for library size computing Transcripts Per Million.
 
 | Locus Tag  | CellID1 | CellID2 |....
 | ---------- | ------------- | ------------|-----------|
@@ -109,7 +109,10 @@ Any metadata category can be used to filter for other genes that have the same s
 Examples for the application of that filter would be filtering for a certain Cog Category, KEGG Pathway or GO-term.
 
 ### Filter for Gene Group
-This filter can be used to filter for pre-imported gene groups, which the user has defined in the gene annotation file. This could be used to filter for marker genes, pathogenicity islands or genes of interest in the specific experiment. This filter can also be used to load a gene set that has been saved inside the application..
+This filter can be used to filter for pre-imported gene groups, which the user has defined in the gene annotation file. This could be used to filter for marker genes, pathogenicity islands or genes of interest in the specific experiment. This filter can also be used to load a gene set that has been saved inside the application.
+
+### LogTransform Counts
+Even if this is not a filter per se, you can logTransform your counts to custom selected base via the filter menu. LogTransform counts should always be in the first filter slot, when chaining multiple filters.
 
 ### Saving a Gene Group
 You can save any set of genes, with all filters, which are currently applied, and with a custom name. From the moment the gene set is saved it is available within the "Filter for Gene Group" option.
@@ -145,7 +148,7 @@ Inside the software metacells can be used like normal single-cells. This means t
 
 
 ## 👓VR
-A simple VR viewer mode is activatable if VR glasses are connected using OpenVR. The VR viewer makes it possible to look at the 3d scatter plot scale and rotate it, select certain cells and genes and look at logFoldChanges. The user interface is currently only useable in the desktop version..
+A simple VR viewer mode is activatable if VR glasses are connected using OpenVR. The VR viewer makes it possible to look at the 3d scatter plot scale and rotate it, select certain cells and genes and look at logFoldChanges. The user interface is currently only useable in the desktop version.
 
 # 🔑 Navigation and Shortcuts
 
