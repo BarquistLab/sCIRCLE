@@ -14,7 +14,7 @@ For a quick start, load the latest release on the right, unpack it and start the
 To get a first look at the software load the three example files from the example folder in this repository and press "Start Visualization"
 
 ## 📺 Tutorial
-[![Watch the video](https://img.youtube.com/embed/o5RBYT8c8E0/default.jpg)](https://www.youtube.com/embed/o5RBYT8c8E0)
+[![Watch the video tutorial](https://img.youtube.com/o5RBYT8c8E0/default.jpg)](https://www.youtube.com/o5RBYT8c8E0)
 
 ## 📂 Import File Formatting
 If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly. To start the software you must provide a count matrix, a phenotypic data file for cell annotation and a gene annotation file. The number of cells and genes have to be constant in all three import files. You can import tsv, csv (tab-separated) or excel files. For Gene Annotation files you can also import GFF-files.
