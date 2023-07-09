@@ -12,7 +12,7 @@ You need a Windows partition to run the software. Additionally a 3-button mouse 
 ## ➡️ Getting Started
 For a quick start, load the latest release on the right, unpack it and start the .exe file included in the download. 
 To get a first look at the software load the three example files from the example folder in this repository and press "Start Visualization"
-
+ 
 ## 📺 Tutorial
 [![Watch the video tutorial](https://img.youtube.com/o5RBYT8c8E0/default.jpg)](https://www.youtube.com/o5RBYT8c8E0)
 
