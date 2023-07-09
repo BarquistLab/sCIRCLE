@@ -4,6 +4,8 @@
 is a standalone Windows application for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
 <img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/0a4778a5-af3a-4253-8459-53d496f3d6cf" width="950">
 
+
+
 ## 💻 Prerequisites
 You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended. 
 
@@ -12,8 +14,7 @@ For a quick start, load the latest release on the right, unpack it and start the
 To get a first look at the software load the three example files from the example folder in this repository and press "Start Visualization"
 
 ## 📺 Tutorial
-
-<iframe width="960" height="540" src="https://www.youtube.com/embed/o5RBYT8c8E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/embed/o5RBYT8c8E0/default.jpg)](https://www.youtube.com/embed/o5RBYT8c8E0)
 
 ## 📂 Import File Formatting
 If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly. To start the software you must provide a count matrix, a phenotypic data file for cell annotation and a gene annotation file. The number of cells and genes have to be constant in all three import files. You can import tsv, csv (tab-separated) or excel files. For Gene Annotation files you can also import GFF-files.
