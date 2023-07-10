@@ -1,0 +1,86 @@
+!SceneAsset
+Id: 549e18b5-2d4e-40eb-993b-d43d307284e8
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 7c9e2695-cf3d-4596-9d46-2781dcaeab3d
+        - ref!! f30982b7-2bdb-4b42-b9f3-951dfe637819
+        - ref!! 7df654c1-4e52-496e-8ccb-02145337751f
+        - ref!! 3b9dad30-d7bd-4ee2-8d12-b02c18ec8763
+    Parts:
+        -   Entity:
+                Id: 3b9dad30-d7bd-4ee2-8d12-b02c18ec8763
+                Name: Skybox texture
+                Components:
+                    c6f4e23a794b80d5d6aeeedc7a9b9ff0: !TransformComponent
+                        Id: c82a5035-b981-4667-9935-82bbfa705c34
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be9bd54829182a471a94ca249cac88af: !SpriteComponent
+                        Id: 17d3aaba-4870-4329-951e-c1394d241861
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 3e904c18-785d-42d0-8313-f6a14c3cc048:Skybox texture
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 7c9e2695-cf3d-4596-9d46-2781dcaeab3d
+                Name: GeneFilters
+                Components:
+                    32a58557c1c267c0406868aa3da2e297: !TransformComponent
+                        Id: c530f324-56ea-42d8-aaee-c16784e78597
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    df085dc28f669753076a28e2da5fa6a0: !UIComponent
+                        Id: 4da402e7-2444-401b-a680-7c01f8ef919d
+                        Page: b9446ff1-fbbc-4167-9f3c-8eebe7980bbd:UI
+                        Resolution: {X: 1000.0, Y: 1000.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+            Base:
+                BasePartAsset: b904f2a3-0c15-4f03-af75-d720f0ffd46c:UI-Prefab
+                BasePartId: 8e59c7cb-5c51-47d2-9a5e-84ddd43c04dc
+                InstanceId: 24c4d2ba-074e-4c9c-a215-7cb07bf8acf9
+        -   Entity:
+                Id: 7df654c1-4e52-496e-8ccb-02145337751f
+                Name: GeneInfo
+                Components:
+                    8b70cc77105c67a5c56c12ed596238f0: !TransformComponent
+                        Id: f6189a94-26af-47c5-b631-e149fe38eed2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e03ff6839ab5d59cfd99349485736765: !UIComponent
+                        Id: ede889a8-def9-4896-9350-3a9c66322b8a
+                        Page: ee6f22dc-c43c-4630-b582-054ca588664f:GeneInfo
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+            Base:
+                BasePartAsset: b904f2a3-0c15-4f03-af75-d720f0ffd46c:UI-Prefab
+                BasePartId: aaeee4fc-a21b-4ff8-b9fb-e86036943dd2
+                InstanceId: 24c4d2ba-074e-4c9c-a215-7cb07bf8acf9
+        -   Entity:
+                Id: f30982b7-2bdb-4b42-b9f3-951dfe637819
+                Name: DimensionalityReduction
+                Components:
+                    f0540fa9970f193832c77351d5acc866: !TransformComponent
+                        Id: e053b49c-38e3-4ef6-b459-375e1afa733e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9626ef4fc7ac4e3920065380d9d92bc0: !UIComponent
+                        Id: bb4beb84-7c67-4538-b88e-2cd68e134e6c
+                        Page: c6fb5383-3f94-44c1-8afd-6426f301ac90:DimensionalityReduction
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+            Base:
+                BasePartAsset: b904f2a3-0c15-4f03-af75-d720f0ffd46c:UI-Prefab
+                BasePartId: 04a7f492-c1ac-4813-afbe-515099a6a49e
+                InstanceId: 24c4d2ba-074e-4c9c-a215-7cb07bf8acf9

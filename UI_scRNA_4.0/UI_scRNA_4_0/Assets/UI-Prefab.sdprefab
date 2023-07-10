@@ -1,0 +1,25 @@
+!PrefabAsset
+Id: b904f2a3-0c15-4f03-af75-d720f0ffd46c
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 12af4037-c122-4961-8bc7-3db619edec4e
+    Parts:
+        -   Entity:
+                Id: 12af4037-c122-4961-8bc7-3db619edec4e
+                Name: UI
+                Components:
+                    4598d08cf36c2381938ab77c55f1c24d: !TransformComponent
+                        Id: 92bc22c7-97bf-46fb-8864-31216fce29ff
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fa9b9c2986a275da0a900b02cbf8a013: !UIComponent
+                        Id: 3ecfa4ec-2810-4464-8073-99c596c85012
+                        Page: b9446ff1-fbbc-4167-9f3c-8eebe7980bbd:UI
+                        Resolution: {X: 720.0, Y: 1920.0, Z: 1000.0}
+                        Size: {X: 0.72, Y: 1.92, Z: 1.0}
+                        ResolutionStretch: FixedHeightAdaptableWidth
+                        IsFixedSize: true

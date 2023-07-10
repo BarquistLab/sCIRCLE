@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI_scRNA_4_0</RootNamespace>
+
+    <OutputPath>..\Bin\Windows\$(Configuration)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+    <!-- Force msbuild to check to rebuild this assembly instead of letting VS IDE guess -->
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UI_scRNA_4_0\UI_scRNA_4_0.csproj" />
+  </ItemGroup>
+
+</Project>

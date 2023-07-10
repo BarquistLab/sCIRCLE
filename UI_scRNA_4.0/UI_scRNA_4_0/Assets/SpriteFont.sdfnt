@@ -1,0 +1,13 @@
+!SpriteFont
+Id: 649308c5-87ba-4191-b7d1-7fc321f851e6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !SystemFontProvider
+    FontName: Suisse Intl
+    Style: Regular
+FontType: !SignedDistanceFieldSpriteFontType
+    CharacterSet: null
+    CharacterRegions:
+        9d5769e6e34f35d14e34378434c86794:
+            Start: ' '
+            End: "\x7F"

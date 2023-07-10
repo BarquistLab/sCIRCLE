@@ -1,0 +1,2584 @@
+!UIPageAsset
+Id: b9446ff1-fbbc-4167-9f3c-8eebe7980bbd
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 720.0, Y: 1920.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! b6272ada-d557-47ee-96d0-2aba81657226
+    Parts:
+        -   UIElement: !Border
+                Id: 03984294-b9da-46a2-ac62-43453d7edbe5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !ToggleButton
+                Id: 08159ac2-2a46-4ed3-93ec-b5c90d520519
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: dimension_a_pca
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !StackPanel
+                Id: 0b59724f-dadc-4e46-bceb-bf94533b2364
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: f_FilterForPathway
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! bdff0326-0113-4656-86cf-164e19da9cbb
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 9c8e9821-3c61-47e8-9df9-6fa1fd530aa2
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 0b61886f-afdb-4bf6-bfde-7e5ba9702e10
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 224.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: 
+                Text: Explained Variance
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 0d7c6690-8b68-4207-b413-8650fd03d7a8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: g_KEGGPathways
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: 112c29d4-0c7f-4757-a2d3-b06598dac500
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: c_LogFoldChange
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 7436217b-8f25-4033-a913-50684b72a8ad
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! cb677b1a-1ae9-4521-aebc-6e06b6b0cbff
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: 12c684c1-f61c-4f19-b6f3-1dce5d36e2a9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Slider
+                Id: 154bfd23-ca0b-4107-8816-b5f3ccfb0fe3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 211.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Left: 135.0}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_b_top
+                Value: 1.0
+                Minimum: 1.0
+                Maximum: 100.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !TextBlock
+                Id: 15a6ca7e-136a-4fdf-bfa6-6b2602dd1573
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: IEP
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Slider
+                Id: 18b391e6-8cd8-4711-80a6-e5014f3b330f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 64.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_e_unregulated
+                Maximum: 50.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !Border
+                Id: 19c9f070-84cc-46d4-94ec-83fe4c939d99
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Top: 50.0}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Right: 1.0}
+        -   UIElement: !StackPanel
+                Id: 211a1c03-93dc-4f90-87ce-1fe79970c4c9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 25, B: 255, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: InSPI2
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! cf567014-f25e-4d52-a70f-042ca09170e9
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 2466b622-39af-435d-bb10-89c2f8e46114
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: 21e37a51-e71c-407c-a41a-ca45da85407f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: 22564f76-d1a4-4dba-b312-6b8c93da2005
+                DependencyProperties: {}
+                BackgroundColor: {R: 12, G: 33, B: 14, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: HIRI_Bulk
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 86f3202c-8a38-49ba-84ae-8dd826bec859
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! fc9ba571-74af-4553-ae8a-c16048917384
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: 227c7a64-f629-435e-930e-3b11365c8bf8
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: e_Descending Order
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! bdacf109-6079-4669-99e5-328dbc8b4e56
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 7dc37fe5-6892-4774-8c2d-c99d8e0c419a
+                Orientation: Horizontal
+        -   UIElement: !ToggleButton
+                Id: 2466b622-39af-435d-bb10-89c2f8e46114
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_d_InSPI2
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Slider
+                Id: 257a5e5c-706d-4ae2-9ddb-13c45d9ea5b4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 65.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: dimension_e_y
+                Maximum: 50.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !StackPanel
+                Id: 25a79a4b-1b70-4566-a68e-b32185a4c902
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: UIGrid
+                Children:
+                    8267ef94cb33e0d68dd7b14244af5b21: !ToggleButton ref!! 48c78161-fb56-4fe0-b592-5375e8b97751
+                    04424b47c1e732bd7247764e0c23215e: !StackPanel ref!! 70ba893b-c1c2-4c3c-8b09-92a5a8a94399
+                    c368ef3f57e13c0280bc964817771b3b: !ToggleButton ref!! c9bab4b6-98ab-4e06-871b-aba03f944d49
+                    b4bb0dc95116cd74dd7d168941e9e182: !StackPanel ref!! c9181422-bf14-4894-8c3b-da508e13947f
+                    4693087218f7816bf708a9f12c4f6f8c: !ToggleButton ref!! be0b672e-6607-4de3-8036-5a18f2b0b3d4
+                    133a0619a74b47f14ee668776c6e78b0: !StackPanel ref!! e72b7aa5-d3fb-4025-b5b2-550812dc90f7
+                    e77cba10573fd206d7280a968b214616: !ToggleButton ref!! be128482-d321-4f13-8831-c5be7c6d01f7
+                    a80326849076d6272e0501e7a74a1a98: !StackPanel ref!! 88d78b84-505d-44ae-a2c7-6695059e216e
+        -   UIElement: !TextBlock
+                Id: 28d361d7-270b-4ca6-afb1-f12fed7228ec
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 22.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: a_Common Gene Name
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 29591b2e-5d0d-4bea-b7d6-6c62e276c6f9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Top
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: 2b7a0a4f-1c13-4041-85d7-d7be2a071475
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: Axis
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 71ef9f45-acf0-4903-a02a-50fa8e14f0a7
+                    775710bb01e0179b585317cdc02a8d10: !TextBlock ref!! 4598bee3-6932-4885-a12b-0619e380bf11
+                    d7fc562110802d8d3c03556c2069976f: !Slider ref!! 7a06f717-ea1c-4673-83aa-bbf818b57057
+                    8dd0cec01cc274b4de3c5e72de2c59fb: !TextBlock ref!! 33826660-a040-46f9-afdf-026d79b32f26
+                    0b9d2e674d0d8e7901519fd0acd81e66: !Slider ref!! 257a5e5c-706d-4ae2-9ddb-13c45d9ea5b4
+                    940b03f5bd56c28122e306ae7d56d748: !TextBlock ref!! 4362f5e4-21f9-40e2-a7d4-ed2ade1e3653
+                    479df4a87c40ca68da3bba6a9d6b47e1: !Slider ref!! 59ab4f96-2a57-4b28-a197-d381fe5e27e9
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 2e50dbb4-c01d-4ab9-a66b-6c19a744081d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: HIRI_M_NACL
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 30be1366-f800-442a-b4e7-a28b36c7871b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: LEP
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 33826660-a040-46f9-afdf-026d79b32f26
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 30.3000183
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 3.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: y
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 34f845e9-f426-4e1d-bcd6-f956d17f052e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Height: 65.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Selected Gene
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 50.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 35ce524c-31bc-4901-8e4c-f5a31b4ecea7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Common Gene Name
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 37c04106-10dc-496f-9d02-c04339db31a3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: 
+                Text: HIRI_M_Stationary_Phase
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: 38dea559-e5f5-4609-9f99-c2e79b75bcf0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 38ef8304-bdc9-4be1-b86e-734df950929b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: COG Categories
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !EditText
+                Id: 3a2a69a3-6252-4932-9ce0-8abce2288157
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 598.0
+                Height: 33.0
+                HorizontalAlignment: Left
+                Margin: {Left: 69.0, Top: 11.0, Bottom: 11.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_j_cogInput
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+        -   UIElement: !TextBlock
+                Id: 4362f5e4-21f9-40e2-a7d4-ed2ade1e3653
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 30.3000183
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 17.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: z
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: 436704f1-0c49-4706-b15e-ae080abea518
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 43977a7f-04c7-4149-b014-2a6914e55a86
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: EEP
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: 443b0d98-f6f1-4cff-b04e-e7254812740b
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: d_Most Regulated Genes
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! d500365f-6a48-4f3b-93c2-e3c4aa5d13f8
+                    f9a881e5d8cdcefe88abfa648bc6a569: !TextBlock ref!! c5f23996-15e1-47c5-aa04-1087437a8cc6
+                    ad8dfd4deb6cd7cda7d2faf52f8d6169: !Slider ref!! 5c870de1-550d-45fc-ba89-4c28ab09dfb3
+                    d4c51beedf83c21f34698f5da4ae0662: !TextBlock ref!! 8afff49f-abe5-482d-a9c5-029b7aebc203
+                    acaba2083a8a435296f9a0146430a1ee: !Slider ref!! 18b391e6-8cd8-4711-80a6-e5014f3b330f
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 4598bee3-6932-4885-a12b-0619e380bf11
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 30.3000183
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 65.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: x
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 46f7fa01-b2f3-43ca-9256-e05ff26b5659
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Height: 65.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Dimensionality Reduction
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 50.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !ToggleButton
+                Id: 48c78161-fb56-4fe0-b592-5375e8b97751
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: aa_FilterGenesButton
+                Padding: {Left: 23.0}
+                Content: !TextBlock ref!! ffe4cf7e-fc25-485e-8bfd-f88dc756d624
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !ToggleButton
+                Id: 4b6b2e99-ed0f-47c3-81e5-88cc5e46213e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_i_cogfilter
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !StackPanel
+                Id: 4f851310-30e9-488a-8a35-c6ca1e9ea85a
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: COG Categories
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 38ef8304-bdc9-4be1-b86e-734df950929b
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! dc9ec8a3-0711-4956-8227-74a7fe90eec0
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 55e47adc-4259-4a71-ba0e-41a0026bd15b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: ESP
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 589b296c-e096-4bc6-beeb-d16be9e7233f
+                DependencyProperties: {}
+                BackgroundColor: {R: 22, G: 22, B: 22, A: 100}
+                Width: 107.300018
+                Height: 55.0
+                HorizontalAlignment: Left
+                Margin: {Left: 14.6999817}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: c_Start
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Slider
+                Id: 59ab4f96-2a57-4b28-a197-d381fe5e27e9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 65.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Left: 3.0, Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: dimension_f_z
+                Maximum: 50.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !Border
+                Id: 5c79a2bc-9a73-4925-824b-a07fb295e07a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Slider
+                Id: 5c870de1-550d-45fc-ba89-4c28ab09dfb3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 61.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Left: 47.0, Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_d_regulated
+                Maximum: 50.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !TextBlock
+                Id: 5d159728-690d-4af0-b622-600a0d073d48
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Else
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 5fba78ac-9824-4942-892f-a2f85504a661
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Show highly expressed Genes
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: 61bdc8f9-4ff5-4e67-89f5-4f67237eb38d
+                DependencyProperties: {}
+                BackgroundColor: {R: 255, G: 0, B: 197, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: EEP
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 43977a7f-04c7-4149-b014-2a6914e55a86
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! a8959d62-bc7c-46ef-9a54-d78ca9cbb56b
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 63795594-0d0b-41bb-b6bd-479c01b43127
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 80.30002
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Strand
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !ToggleButton
+                Id: 65ce3060-76fa-44df-a600-1f4078da0850
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_k_Else
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: 663f6a92-239b-4b5d-831b-83cb9ee2730e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Filter for COG Category
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: 6853c17d-e35c-4552-a052-3d719efdd57f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: 6998db1e-261f-42a1-98d3-14f7de9d5045
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Strand_Start_End
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 63795594-0d0b-41bb-b6bd-479c01b43127
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! ea35553b-cef0-4f58-849c-16e309a18955
+                    678f2751f440504e993eda618600ef9e: !Border ref!! 19c9f070-84cc-46d4-94ec-83fe4c939d99
+                    5a32b575f5eb1ef9a60079338e450fca: !TextBlock ref!! 6aa444b8-94eb-4a94-9ae3-fa149a556ad4
+                    89de35b8c9dddb0c855177720f996e19: !TextBlock ref!! 589b296c-e096-4bc6-beeb-d16be9e7233f
+                    1fc31f42771502f626b75bf91f1b4184: !Border ref!! 89e8d650-a661-4a07-addc-f49dceacbe93
+                    ada98f1b27860554238ca11f350fac39: !TextBlock ref!! ad76f204-80e0-4c52-92d0-1557ae3f6c4d
+                    a4137cf6c791aa05459dec89e044e301: !TextBlock ref!! dbe39906-268f-48da-8d37-5e766caecb74
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 6aa444b8-94eb-4a94-9ae3-fa149a556ad4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 80.30002
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 41.69998, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Start
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 6cc1f634-a893-49b3-a9f8-445f2e404c0f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: KEGG Pathways
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: 70ba893b-c1c2-4c3c-8b09-92a5a8a94399
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: aa_FilterGenesTab
+                Children:
+                    703fa7ad664e7b4c0f56888d9cd3d2da: !StackPanel ref!! b088c979-e15a-4a7e-9c34-5fff03e9ca38
+                    26645281c04a3ea0aceb2e1c0e3790fc: !Border ref!! 8fa6e3a1-0e93-4db5-a922-330b95e3fea1
+                    eaef2b5983001460da3540003c80fb93: !StackPanel ref!! 908d51cf-9dd0-4314-b7a8-7ba9153a5a7a
+                    6fdac8b111f7ae1ab80332e1529f2002: !Border ref!! 82edb973-fb47-4ee4-922b-7ec5e66f3e97
+                    2f38726fef29033ecb341a70b2d5dbcf: !StackPanel ref!! 112c29d4-0c7f-4757-a2d3-b06598dac500
+                    86e87a943e9fddda4f6573e7f8e60442: !Border ref!! cbd71c3a-8dc8-47be-b120-40652f27c2f7
+                    3ac321215ad47066bafcb22f139dc122: !StackPanel ref!! 443b0d98-f6f1-4cff-b04e-e7254812740b
+                    0e81436e7c986b45a44fdcb68ac527b1: !Border ref!! b6089b69-ffa3-472c-b0df-fb76561cff51
+                    a3f8cf1b6972eae6cbb8346a30e09aac: !StackPanel ref!! 227c7a64-f629-435e-930e-3b11365c8bf8
+                    8a9913a9b1531536c619f8e1e928ab2f: !Border ref!! b38c8712-0ed6-4e58-af90-e466b9d03447
+                    1909f9c876dc73af9183fb0c2c74af6f: !StackPanel ref!! 0b59724f-dadc-4e46-bceb-bf94533b2364
+                    c98d37e84f4d5e0e489e4bbb56d3fcdd: !Border ref!! 97a88c63-8141-4e33-9d01-62ab20d96b4c
+                    e1c49af001af103ccc62ee0cdcabe224: !StackPanel ref!! f3626225-7a53-4543-9f2d-27d440420da2
+                    59519ab305d410cc8e232284cc5994a5: !Border ref!! 38dea559-e5f5-4609-9f99-c2e79b75bcf0
+                    0cc6d452f31002578492e3a671eecd92: !StackPanel ref!! f776e2b8-4569-4261-ac6f-7ace8f62b176
+                    2804e7c70afc364e2dceacbd57eddb6b: !StackPanel ref!! f976de36-8571-4cd1-b2ce-9a377bc81752
+                    c177f21dad0e4600b2f5a9053843f421: !Border ref!! 03984294-b9da-46a2-ac62-43453d7edbe5
+                    ac3c1de77b871d0fe388b013a9df2593: !StackPanel ref!! fc3c4e07-8e13-4b95-b614-bc2f347d0a41
+                    d619d3596970c573ae47cd1f05f76f36: !StackPanel ref!! e425324b-b11d-4ef2-93bd-a70797c145a6
+        -   UIElement: !Border
+                Id: 71bd7145-2c5b-4357-ba66-22f54f5b5769
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 71ef9f45-acf0-4903-a02a-50fa8e14f0a7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 221.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Dimension on Axis
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 7436217b-8f25-4033-a913-50684b72a8ad
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: LogFoldChange
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !ToggleButton
+                Id: 77467760-0dcc-4ad8-a5d3-0b266fd0e962
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_a_high
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Slider
+                Id: 7a06f717-ea1c-4673-83aa-bbf818b57057
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 65.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: dimension_d_x
+                Maximum: 50.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !ToggleButton
+                Id: 7b473879-a79d-488e-8049-ac52d11a7df1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_k_conditional
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !StackPanel
+                Id: 7da86e93-9d26-49c3-8f85-a05742e44a8d
+                DependencyProperties: {}
+                BackgroundColor: {R: 58, G: 37, B: 31, A: 200}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: HIRI_M_NACL
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 2e50dbb4-c01d-4ab9-a66b-6c19a744081d
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! d47b8bef-917f-44ea-9514-dc65cf2124e6
+                Orientation: Horizontal
+        -   UIElement: !ToggleButton
+                Id: 7dc37fe5-6892-4774-8c2d-c99d8e0c419a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_f_descending
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: 7e11bb29-dc99-4e05-a5b6-5b327c8978e8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Border
+                Id: 82edb973-fb47-4ee4-922b-7ec5e66f3e97
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Border
+                Id: 85d5e23b-b9f7-4944-985a-c0ce7b73caf8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: 865a8026-e0dc-455c-b262-7ce369b669f4
+                DependencyProperties: {}
+                BackgroundColor: {R: 163, G: 0, B: 19, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: LEP
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 30be1366-f800-442a-b4e7-a28b36c7871b
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! a83d7331-2019-4686-9dbf-c6fb0382dd77
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: 86f3202c-8a38-49ba-84ae-8dd826bec859
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: HIRI_Bulk
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 8714ea9f-e04b-42e0-8015-dcf5e6fd643a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Height: 65.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Latent Space
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 50.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !StackPanel
+                Id: 88d78b84-505d-44ae-a2c7-6695059e216e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Collapsed
+                Width: 720.0
+                Height: 1080.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ad_LatentSpaceTab
+                Children:
+                    703fa7ad664e7b4c0f56888d9cd3d2da: !StackPanel ref!! 61bdc8f9-4ff5-4e67-89f5-4f67237eb38d
+                    26645281c04a3ea0aceb2e1c0e3790fc: !Border ref!! 5c79a2bc-9a73-4925-824b-a07fb295e07a
+                    79bc2cf116df7d1977bcf807a39aa1ea: !StackPanel ref!! 865a8026-e0dc-455c-b262-7ce369b669f4
+                    677d79d0b5bddec0b69ca02df9deda13: !Border ref!! f85e72db-fca4-4946-beca-8a7f21f0bcb0
+                    d35b222b619119dfdc143a53a2859b78: !StackPanel ref!! 8e374322-da64-4c25-b6c6-593c32d088d8
+                    fe6f80c00b8b178e6821aaa6c0b8c38d: !Border ref!! 12c684c1-f61c-4f19-b6f3-1dce5d36e2a9
+                    a23d08b97552934988d6c63be1d871bd: !StackPanel ref!! 211a1c03-93dc-4f90-87ce-1fe79970c4c9
+                    6c2fd0663cb56a9d32bd6166b19925cf: !Border ref!! 85d5e23b-b9f7-4944-985a-c0ce7b73caf8
+                    bbf6c0601e5e6a5fd8116b3464d3c66d: !StackPanel ref!! ef04f364-2d21-4ef4-9466-9737cb244791
+                    95b55140d45e75568b0b0512f8ce82b5: !Border ref!! b7e1454f-11b9-4b03-b0a3-ddd10a49b49f
+                    66ccf75d45863887efdfeb6595eb704e: !StackPanel ref!! 90e14539-66fe-419e-822f-7fd4f7204bbe
+                    c3ed251495ed7d2d42c88728bae6934e: !Border ref!! 71bd7145-2c5b-4357-ba66-22f54f5b5769
+                    1f22db971e3e9314d90b8041d6a6d518: !StackPanel ref!! 22564f76-d1a4-4dba-b312-6b8c93da2005
+                    930d0e1a5218780551fed3c7aa1dda87: !Border ref!! 7e11bb29-dc99-4e05-a5b6-5b327c8978e8
+                    b10257e11b3f062d178705117b0458f3: !StackPanel ref!! 7da86e93-9d26-49c3-8f85-a05742e44a8d
+                    b49627e4bb3c7f81584f88a61ba1b649: !Border ref!! bf144075-7736-4f24-8a30-83e56e2fed9b
+                    d6a38eb308eba2e26dbb9f0664122924: !StackPanel ref!! baf20ab6-fd1a-4d77-8d1b-b87c5d9428b5
+                    319888dc6e7583208dfbc5790e758754: !Border ref!! d6fcb581-ff91-4c16-b12e-fa63e4bbc396
+                    a50c2ba2cf8babf1e927712ae3269349: !StackPanel ref!! d83e9288-94b0-4adb-a617-2fd23f673320
+                    8207ea66aeb88bbe4d07940b20957d32: !Border ref!! fe827b80-2b61-495c-babc-1336caea8a43
+                    45b9168c94acded5f2e942f27a23bd9c: !StackPanel ref!! 9cf92a8c-0884-493b-ae44-7b02966de29c
+                    1a583e7054064be4f9fd394d2c052f01: !Border ref!! 6853c17d-e35c-4552-a052-3d719efdd57f
+        -   UIElement: !Border
+                Id: 89e8d650-a661-4a07-addc-f49dceacbe93
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Top: 50.0}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Right: 1.0}
+        -   UIElement: !TextBlock
+                Id: 8afff49f-abe5-482d-a9c5-029b7aebc203
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 20.3000488
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 26.6999512, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Down
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Slider
+                Id: 8d3dfeb2-8d7e-46ba-a9e0-4c7d7b60593a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 92.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Left: 31.0, Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: dimension_c_n
+                Value: 1.0
+                Maximum: 100.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !StackPanel
+                Id: 8e374322-da64-4c25-b6c6-593c32d088d8
+                DependencyProperties: {}
+                BackgroundColor: {R: 250, G: 255, B: 0, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ESP
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 55e47adc-4259-4a71-ba0e-41a0026bd15b
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 968fca94-7d93-4b02-a0f1-f5643164bc27
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: 8fa6e3a1-0e93-4db5-a922-330b95e3fea1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: 908d51cf-9dd0-4314-b7a8-7ba9153a5a7a
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: b_Top
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 29591b2e-5d0d-4bea-b7d6-6c62e276c6f9
+                    ad8dfd4deb6cd7cda7d2faf52f8d6169: !Slider ref!! 154bfd23-ca0b-4107-8816-b5f3ccfb0fe3
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: 90e14539-66fe-419e-822f-7fd4f7204bbe
+                DependencyProperties: {}
+                BackgroundColor: {R: 45, G: 195, B: 229, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: IEP
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 15a6ca7e-136a-4fdf-bfa6-6b2602dd1573
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! c00766a1-77cb-4bca-ac65-fcadd98a04f9
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: 91af0c76-805c-415c-8ecb-8dfe254a4ed5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: 926e40c1-942e-4eeb-b105-e3910fac14dd
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: PCA
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! f9239240-b29b-42c6-a618-133921d4c87f
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 08159ac2-2a46-4ed3-93ec-b5c90d520519
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: 95be2858-09c6-453c-a2f7-9daaa7095c1f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !ToggleButton
+                Id: 968fca94-7d93-4b02-a0f1-f5643164bc27
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_c_ESP
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: 97a88c63-8141-4e33-9d01-62ab20d96b4c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Border
+                Id: 9aff340e-b840-4b42-92a6-434b1f83a6ef
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !ToggleButton
+                Id: 9c8e9821-3c61-47e8-9df9-6fa1fd530aa2
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_g_pathwayfilter
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: 9ca2b014-a83b-4263-b73e-f1bc93ac34d5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: 9cf92a8c-0884-493b-ae44-7b02966de29c
+                DependencyProperties: {}
+                BackgroundColor: {R: 97, G: 107, B: 84, A: 200}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Else
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 5d159728-690d-4af0-b622-600a0d073d48
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 65ce3060-76fa-44df-a600-1f4078da0850
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: a62c2454-e1af-496a-9359-2b1e0f9cf388
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: HIRI_M_Anaeboric
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !EditText
+                Id: a70792c1-1a7c-479f-af48-82130b6f31f9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 598.0
+                Height: 33.0
+                HorizontalAlignment: Left
+                Margin: {Left: 69.0, Top: 11.0, Bottom: 11.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_h_pathwayinput
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+        -   UIElement: !ToggleButton
+                Id: a83d7331-2019-4686-9dbf-c6fb0382dd77
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_b_LEP
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !ToggleButton
+                Id: a8959d62-bc7c-46ef-9a54-d78ca9cbb56b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_a_EEP
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: aa6dfbaa-8865-4ee6-bd44-610ef7266d09
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: ad76f204-80e0-4c52-92d0-1557ae3f6c4d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.30002
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 51.69998, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: End
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: b025b2ca-01ef-41d7-866d-72c88a62ed71
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Common Gene Name
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 35ce524c-31bc-4901-8e4c-f5a31b4ecea7
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! 28d361d7-270b-4ca6-afb1-f12fed7228ec
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: b088c979-e15a-4a7e-9c34-5fff03e9ca38
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: a_Show highly expressed genes
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 5fba78ac-9824-4942-892f-a2f85504a661
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 77467760-0dcc-4ad8-a5d3-0b266fd0e962
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: b0ac0dde-7355-4c0a-ae50-a467ff7fbd60
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Border
+                Id: b38c8712-0ed6-4e58-af90-e466b9d03447
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !EditText
+                Id: b3fe1c5e-c96c-4c25-ac8b-e220f68d3320
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 598.0
+                Height: 33.0
+                HorizontalAlignment: Left
+                Margin: {Left: 69.0, Top: 11.0, Bottom: 11.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_l_conditional
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+        -   UIElement: !Border
+                Id: b6089b69-ffa3-472c-b0df-fb76561cff51
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !Grid
+                Id: b6272ada-d557-47ee-96d0-2aba81657226
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    99bd5d19413a3a930f0033a35ff1933f: !StackPanel ref!! 25a79a4b-1b70-4566-a68e-b32185a4c902
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ToggleButton
+                Id: b6c281ec-d8fd-4fc7-b1c5-a0bf0234b39d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_j_Anaerobic
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: b7e1454f-11b9-4b03-b0a3-ddd10a49b49f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: baf20ab6-fd1a-4d77-8d1b-b87c5d9428b5
+                DependencyProperties: {}
+                BackgroundColor: {R: 68, G: 0, B: 49, A: 200}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: HIRI_M_Stationary_Phase
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 37c04106-10dc-496f-9d02-c04339db31a3
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! bdcea68c-996e-49ca-a46d-4cd5e101de4c
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: bdacf109-6079-4669-99e5-328dbc8b4e56
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: DescendingOrder
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !ToggleButton
+                Id: bdcea68c-996e-49ca-a46d-4cd5e101de4c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_i_Stationary_Phase
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: bdd0002a-0f5d-4e6b-919f-100eda7f4b3f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Conditional Filter
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: bdff0326-0113-4656-86cf-164e19da9cbb
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Filter for Pathway
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !ToggleButton
+                Id: be0b672e-6607-4de3-8036-5a18f2b0b3d4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ac_GeneInfoButton
+                Padding: {Left: 23.0}
+                Content: !TextBlock ref!! 34f845e9-f426-4e1d-bcd6-f956d17f052e
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !ToggleButton
+                Id: be128482-d321-4f13-8831-c5be7c6d01f7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Collapsed
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ad_LatentSpaceButton
+                Padding: {Left: 23.0}
+                Content: !TextBlock ref!! 8714ea9f-e04b-42e0-8015-dcf5e6fd643a
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: bf144075-7736-4f24-8a30-83e56e2fed9b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !ToggleButton
+                Id: c00766a1-77cb-4bca-ac65-fcadd98a04f9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_f_IEP
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Slider
+                Id: c137c0c0-f60f-43c2-b606-35c6fa7bb2b1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 127.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Stretch
+                Margin: {Left: 31.0, Top: 13.025, Bottom: 9.974998}
+                MaximumWidth: 500.0
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: dimension_b_k
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !TextBlock
+                Id: c5f23996-15e1-47c5-aa04-1087437a8cc6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 20.3000488
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Up
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: c9181422-bf14-4894-8c3b-da508e13947f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ab_DimensionalityReductionTab
+                Children:
+                    703fa7ad664e7b4c0f56888d9cd3d2da: !StackPanel ref!! 926e40c1-942e-4eeb-b105-e3910fac14dd
+                    26645281c04a3ea0aceb2e1c0e3790fc: !Border ref!! 95be2858-09c6-453c-a2f7-9daaa7095c1f
+                    eaef2b5983001460da3540003c80fb93: !StackPanel ref!! e3a36490-8629-4469-8430-84af0b82af11
+                    6fdac8b111f7ae1ab80332e1529f2002: !Border ref!! b0ac0dde-7355-4c0a-ae50-a467ff7fbd60
+                    2f38726fef29033ecb341a70b2d5dbcf: !StackPanel ref!! 2b7a0a4f-1c13-4041-85d7-d7be2a071475
+                    86e87a943e9fddda4f6573e7f8e60442: !Border ref!! 21e37a51-e71c-407c-a41a-ca45da85407f
+        -   UIElement: !ToggleButton
+                Id: c9bab4b6-98ab-4e06-871b-aba03f944d49
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ab_DimensionalityReductionButton
+                Padding: {Left: 23.0}
+                Content: !TextBlock ref!! 46f7fa01-b2f3-43ca-9256-e05ff26b5659
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !ToggleButton
+                Id: cb677b1a-1ae9-4521-aebc-6e06b6b0cbff
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: filter_c_log
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: cbd71c3a-8dc8-47be-b120-40652f27c2f7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: cf567014-f25e-4d52-a70f-042ca09170e9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: 
+                Text: InSPI2
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: d1a2e38c-b477-4217-8b24-bf0faa2f9190
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: KEGGPathways
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 6cc1f634-a893-49b3-a9f8-445f2e404c0f
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! 0d7c6690-8b68-4207-b413-8650fd03d7a8
+                Orientation: Horizontal
+        -   UIElement: !ToggleButton
+                Id: d47b8bef-917f-44ea-9514-dc65cf2124e6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_h_NACL
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: d500365f-6a48-4f3b-93c2-e3c4aa5d13f8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Most regulated Genes
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: d6fcb581-ff91-4c16-b12e-fa63e4bbc396
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: d83e9288-94b0-4adb-a617-2fd23f673320
+                DependencyProperties: {}
+                BackgroundColor: {R: 56, G: 3, B: 0, A: 200}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: HIRI_M_Anaerobic
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! a62c2454-e1af-496a-9359-2b1e0f9cf388
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! b6c281ec-d8fd-4fc7-b1c5-a0bf0234b39d
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: dbe39906-268f-48da-8d37-5e766caecb74
+                DependencyProperties: {}
+                BackgroundColor: {R: 22, G: 22, B: 22, A: 100}
+                Width: 120.300018
+                Height: 55.0
+                HorizontalAlignment: Left
+                Margin: {Left: 14.6999817}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: d_End
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: dc9ec8a3-0711-4956-8227-74a7fe90eec0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: f_CogCategories
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: e3a36490-8629-4469-8430-84af0b82af11
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: k and n
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 0b61886f-afdb-4bf6-bfde-7e5ba9702e10
+                    ad8dfd4deb6cd7cda7d2faf52f8d6169: !Slider ref!! c137c0c0-f60f-43c2-b606-35c6fa7bb2b1
+                    862fb649fce148309e424a35e9f822ff: !TextBlock ref!! ec2fdf78-d842-4204-a181-d1f7a72c4e43
+                    0425036f8cdfc4cfcb389a258ba9a1ea: !Slider ref!! 8d3dfeb2-8d7e-46ba-a9e0-4c7d7b60593a
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: e425324b-b11d-4ef2-93bd-a70797c145a6
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: k_ConditionalFiltering
+                Children:
+                    4f932bdec8da39b29df7669dbd8599ed: !EditText ref!! b3fe1c5e-c96c-4c25-ac8b-e220f68d3320
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: e72b7aa5-d3fb-4025-b5b2-550812dc90f7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: ac_GeneInfoTab
+                Children:
+                    703fa7ad664e7b4c0f56888d9cd3d2da: !StackPanel ref!! b025b2ca-01ef-41d7-866d-72c88a62ed71
+                    e46a1e8ece73a2aa25f4452a2e92e424: !Border ref!! aa6dfbaa-8865-4ee6-bd44-610ef7266d09
+                    c83339140ae1bacea7cb1a9b7e43b2fb: !StackPanel ref!! 6998db1e-261f-42a1-98d3-14f7de9d5045
+                    9c8e6df5ea153df0dec9243d55668d60: !Border ref!! 9aff340e-b840-4b42-92a6-434b1f83a6ef
+                    85967bc661c1d6da7b6eff5c4dde9cbb: !StackPanel ref!! eec10a5f-45c5-41ca-980b-749ccd65041c
+                    9431b634fb589be72dfa0ed3bd6979fb: !Border ref!! 9ca2b014-a83b-4263-b73e-f1bc93ac34d5
+                    730f80b0e073bbe67ac1bfd954663d9e: !StackPanel ref!! 4f851310-30e9-488a-8a35-c6ca1e9ea85a
+                    22c82d879e564068735d01a420042040: !Border ref!! 436704f1-0c49-4706-b15e-ae080abea518
+                    79119782cf19b779167aadee885eca65: !StackPanel ref!! d1a2e38c-b477-4217-8b24-bf0faa2f9190
+                    b734510ac5403c950774597752dc4536: !Border ref!! 91af0c76-805c-415c-8ecb-8dfe254a4ed5
+        -   UIElement: !TextBlock
+                Id: ea35553b-cef0-4f58-849c-16e309a18955
+                DependencyProperties: {}
+                BackgroundColor: {R: 22, G: 22, B: 22, A: 100}
+                Width: 42.30002
+                Height: 55.0
+                HorizontalAlignment: Left
+                Margin: {Left: 25.6999817, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: b_Strand
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: ec2fdf78-d842-4204-a181-d1f7a72c4e43
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 24.3000183
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: k
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: eec10a5f-45c5-41ca-980b-749ccd65041c
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Gene Expression TPM
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! f3da19de-1b91-4775-be06-74f878537465
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! f3b2a5ad-3477-4911-839d-bc117f90779e
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: ef04f364-2d21-4ef4-9466-9737cb244791
+                DependencyProperties: {}
+                BackgroundColor: {R: 255, G: 93, B: 0, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: MEP
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! f5208a06-6d64-4da0-a515-7342433ad509
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! f8cbca9d-20b6-449d-814a-9cc3dfd31479
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: f3626225-7a53-4543-9f2d-27d440420da2
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: g_PathwayInput
+                Children:
+                    4f932bdec8da39b29df7669dbd8599ed: !EditText ref!! a70792c1-1a7c-479f-af48-82130b6f31f9
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: f3b2a5ad-3477-4911-839d-bc117f90779e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: e_GeneExpression
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: f3da19de-1b91-4775-be06-74f878537465
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Gene Expression TPM
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: f5208a06-6d64-4da0-a515-7342433ad509
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: MEP
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: f776e2b8-4569-4261-ac6f-7ace8f62b176
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: h_FilterForCog
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 663f6a92-239b-4b5d-831b-83cb9ee2730e
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 4b6b2e99-ed0f-47c3-81e5-88cc5e46213e
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: f85e72db-fca4-4946-beca-8a7f21f0bcb0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !ToggleButton
+                Id: f8cbca9d-20b6-449d-814a-9cc3dfd31479
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_e_MEP
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: f9239240-b29b-42c6-a618-133921d4c87f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: PCA
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: f976de36-8571-4cd1-b2ce-9a377bc81752
+                DependencyProperties: {}
+                BackgroundColor: {R: 78, G: 78, B: 78, A: 100}
+                Visibility: Collapsed
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: i_CogCategory
+                Children:
+                    4f932bdec8da39b29df7669dbd8599ed: !EditText ref!! 3a2a69a3-6252-4932-9ce0-8abce2288157
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: fc3c4e07-8e13-4b95-b614-bc2f347d0a41
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MinimumHeight: 55.0
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                DefaultHeight: 55.0
+                Name: j_ConditionalFilter
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! bdd0002a-0f5d-4e6b-919f-100eda7f4b3f
+                    6b4897a168eeed36bae5cf1b8cc1ebae: !ToggleButton ref!! 7b473879-a79d-488e-8049-ac52d11a7df1
+                Orientation: Horizontal
+        -   UIElement: !ToggleButton
+                Id: fc9ba571-74af-4553-ae8a-c16048917384
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 214.0
+                Height: 28.95
+                HorizontalAlignment: Left
+                DepthAlignment: Stretch
+                Margin: {Left: 132.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: latent_g_HIRI_Bulk
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !Border
+                Id: fe827b80-2b61-495c-babc-1336caea8a43
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: ffe4cf7e-fc25-485e-8bfd-f88dc756d624
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Height: 65.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Filter Genes
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 50.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center

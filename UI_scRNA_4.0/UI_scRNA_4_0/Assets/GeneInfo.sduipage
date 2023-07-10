@@ -1,0 +1,467 @@
+!UIPageAsset
+Id: ee6f22dc-c43c-4630-b582-054ca588664f
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 720.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! fc87ec68-0016-49ac-925d-5d71f251bc72
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 00e8a249-3a79-4c55-b9df-7f7cce3ffec7
+                DependencyProperties: {}
+                BackgroundColor: {R: 22, G: 22, B: 22, A: 100}
+                Width: 107.300018
+                Height: 55.0
+                HorizontalAlignment: Left
+                Margin: {Left: 14.6999817}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Start
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: 0877b026-8574-4435-805c-cde215fd37d7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 08e20484-47b9-4a69-a2fc-973ddbac882b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 255}
+                Width: 720.0
+                Height: 69.4799957
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Selected Gene
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 50.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !StackPanel
+                Id: 0ff7be5d-6708-43ae-b466-aa7af15ec48b
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Strand_Start_End
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 529eb546-e844-48f8-91e8-965ef5fc684b
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! 9a81706d-842e-4399-b45c-ed9868f056f3
+                    678f2751f440504e993eda618600ef9e: !Border ref!! 9fb72848-9122-4e27-b1de-62319f4fd405
+                    5a32b575f5eb1ef9a60079338e450fca: !TextBlock ref!! 72284fc1-4731-48b2-a751-e45690d88a36
+                    89de35b8c9dddb0c855177720f996e19: !TextBlock ref!! 00e8a249-3a79-4c55-b9df-7f7cce3ffec7
+                    1fc31f42771502f626b75bf91f1b4184: !Border ref!! 61933630-7e43-4467-84e3-c1e3a4345572
+                    ada98f1b27860554238ca11f350fac39: !TextBlock ref!! 8e882f88-25fa-4bef-8dc3-a79a8fa06f48
+                    a4137cf6c791aa05459dec89e044e301: !TextBlock ref!! dde6454d-6909-4010-b89b-925401c2dc33
+                Orientation: Horizontal
+        -   UIElement: !Border
+                Id: 2e0b4bb3-7508-4499-ae0a-de2cdabf7eaa
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 529eb546-e844-48f8-91e8-965ef5fc684b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 80.30002
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 68.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Strand
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: 61933630-7e43-4467-84e3-c1e3a4345572
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Top: 50.0}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Right: 1.0}
+        -   UIElement: !Border
+                Id: 65352696-a8b3-4bf9-9837-133cbd1c8b97
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 72284fc1-4731-48b2-a751-e45690d88a36
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 80.30002
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 41.69998, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Start
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: 7713ae7e-6e11-4b25-b59d-a70682c1ba69
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: KEGGPathways
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! 97651767-bd7d-4bb7-a6b1-86f0dc930112
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! cbb54e52-9691-4eb6-8aea-60a2dc703e24
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: 7ad0a70c-5b77-4184-b345-bcd5a833d581
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                Height: 715.0
+                Margin: {Top: 180.0, Bottom: 185.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: SelectedGene
+                Children:
+                    9979119b216e6577f3a1cdc1edfdb138: !TextBlock ref!! 08e20484-47b9-4a69-a2fc-973ddbac882b
+                    703fa7ad664e7b4c0f56888d9cd3d2da: !StackPanel ref!! c8ce09d4-cbed-4910-ac65-72bb77133f6c
+                    e46a1e8ece73a2aa25f4452a2e92e424: !Border ref!! 65352696-a8b3-4bf9-9837-133cbd1c8b97
+                    c83339140ae1bacea7cb1a9b7e43b2fb: !StackPanel ref!! 0ff7be5d-6708-43ae-b466-aa7af15ec48b
+                    9c8e6df5ea153df0dec9243d55668d60: !Border ref!! 0877b026-8574-4435-805c-cde215fd37d7
+                    85967bc661c1d6da7b6eff5c4dde9cbb: !StackPanel ref!! db6b3613-08fa-46d3-986e-477cb4c1bf69
+                    9431b634fb589be72dfa0ed3bd6979fb: !Border ref!! 814ccb13-0c59-451d-a15e-0d290c56283e
+                    730f80b0e073bbe67ac1bfd954663d9e: !StackPanel ref!! c820685a-6095-46b3-9087-d9f4d4537e3f
+                    22c82d879e564068735d01a420042040: !Border ref!! b7254df7-f720-4acb-91f0-5cb6b384c413
+                    79119782cf19b779167aadee885eca65: !StackPanel ref!! 7713ae7e-6e11-4b25-b59d-a70682c1ba69
+                    b734510ac5403c950774597752dc4536: !Border ref!! 2e0b4bb3-7508-4499-ae0a-de2cdabf7eaa
+        -   UIElement: !Border
+                Id: 814ccb13-0c59-451d-a15e-0d290c56283e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !TextBlock
+                Id: 8e882f88-25fa-4bef-8dc3-a79a8fa06f48
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 70.30002
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 51.69998, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: End
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 97651767-bd7d-4bb7-a6b1-86f0dc930112
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: KEGG Pathways
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 99dac5dc-5448-44b9-8625-b715f2733077
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: CogCategories
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 9a81706d-842e-4399-b45c-ed9868f056f3
+                DependencyProperties: {}
+                BackgroundColor: {R: 22, G: 22, B: 22, A: 100}
+                Width: 42.30002
+                Height: 55.0
+                HorizontalAlignment: Left
+                Margin: {Left: 25.6999817, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Strand
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 9fa674ac-3cef-40fc-872b-76f6a6ff418f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                Margin: {Left: 22.0, Top: 13.025, Bottom: 13.0250015}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Common Gene Name
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Border
+                Id: 9fb72848-9122-4e27-b1de-62319f4fd405
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Top: 50.0}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Right: 1.0}
+        -   UIElement: !TextBlock
+                Id: a3647c20-0b66-42a0-bb76-35e6b61b5ce9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Common Gene Name
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !ScrollBar
+                Id: a8bc6193-c74e-4740-9925-ebc343d86728
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                Height: 720.0
+                Margin: {}
+                BarColor: {R: 0, G: 0, B: 0, A: 0}
+        -   UIElement: !Border
+                Id: b7254df7-f720-4acb-91f0-5cb6b384c413
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {}
+                BorderColor: {R: 0, G: 0, B: 0, A: 255}
+                BorderThickness: {Left: 1.0, Top: 1.0, Right: 1.0, Bottom: 1.0}
+        -   UIElement: !StackPanel
+                Id: c820685a-6095-46b3-9087-d9f4d4537e3f
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: COG Categories
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! df24dbcf-3721-4d86-95f2-414b68c5f91b
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! 99dac5dc-5448-44b9-8625-b715f2733077
+                Orientation: Horizontal
+        -   UIElement: !StackPanel
+                Id: c8ce09d4-cbed-4910-ac65-72bb77133f6c
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Common Gene Name
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! a3647c20-0b66-42a0-bb76-35e6b61b5ce9
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! 9fa674ac-3cef-40fc-872b-76f6a6ff418f
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: cbb54e52-9691-4eb6-8aea-60a2dc703e24
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: KEGGPathways
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: cc289960-45c0-4c8e-9df5-dfec8ecd2a37
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Gene Expression TPM
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !StackPanel
+                Id: db6b3613-08fa-46d3-986e-477cb4c1bf69
+                DependencyProperties: {}
+                BackgroundColor: {R: 128, G: 122, B: 122, A: 100}
+                Width: 720.0
+                Height: 55.0
+                VerticalAlignment: Top
+                DepthAlignment: Stretch
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Gene Expression TPM
+                Children:
+                    412ebd0bb151924763014967ca045797: !TextBlock ref!! cc289960-45c0-4c8e-9df5-dfec8ecd2a37
+                    68dbe937cce1dae8c0328b56cb1539f7: !TextBlock ref!! f5787dc9-a3a9-4036-b4da-b33cdb1e04b1
+                Orientation: Horizontal
+        -   UIElement: !TextBlock
+                Id: dde6454d-6909-4010-b89b-925401c2dc33
+                DependencyProperties: {}
+                BackgroundColor: {R: 22, G: 22, B: 22, A: 100}
+                Width: 120.300018
+                Height: 55.0
+                HorizontalAlignment: Left
+                Margin: {Left: 14.6999817}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: End
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: df24dbcf-3721-4d86-95f2-414b68c5f91b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: COG Categories
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: f5787dc9-a3a9-4036-b4da-b33cdb1e04b1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 253.300018
+                Height: 28.95
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {Left: 68.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: GeneExpression
+                Text: 
+                Font: 649308c5-87ba-4191-b7d1-7fc321f851e6:SpriteFont
+                TextSize: 25.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Grid
+                Id: fc87ec68-0016-49ac-925d-5d71f251bc72
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 720.0
+                Height: 720.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    299ce40f2472f212a1cf2b4e5b4d4f32: !StackPanel ref!! 7ad0a70c-5b77-4184-b345-bcd5a833d581
+                    892e4bfc601c59aa94d6645740817c40: !ScrollBar ref!! a8bc6193-c74e-4740-9925-ebc343d86728
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
