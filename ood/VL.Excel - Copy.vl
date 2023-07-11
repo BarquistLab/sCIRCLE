@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="CqXlcP24pmvMp1lEl7TXjN" Version="0.93">
+  <Patch Id="CvrMyjMUmaeOoh96aufCbB">
+    <Canvas Id="EKRNq6N8F8DLmMS12sCLvM" DefaultCategory="Excel" CanvasType="FullCategory">
+      <!--
+
+    ************************ Root ************************
+
+-->
+      <Node Name="Root" Bounds="200,100" Id="Rs3Ni7Pq1uVNYaJprTUEO3">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="RRHfk9SjFRuO5boVNDVyZH">
+          <Canvas Id="E72xrFHthElPbx07i453fL" CanvasType="Group">
+            <Pad Id="HW8xT2IdwnCO9NrUFdGbkH" Comment="" Bounds="311,104,137,19" ShowValueBox="true" isIOBox="true" Value="{&quot;_path&quot;:&quot;Eisner.xlsx&quot;}">
+              <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Path" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Node Bounds="245,183,351,183" Id="A5fE5hJqN0fNGj9U6qnlQL">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:NodeReference>
+              <Pin Id="F9hueflZAdgMtfiKfPVrKg" Name="Condition" Kind="InputPin" />
+              <Patch Id="FFVmLN4qzJANs3eXDg7eRS" ManuallySortedPins="true">
+                <Patch Id="PrFn6AQ7WsZMXXuCz02o0L" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="OjCxZg5tbIDLpiKr3YDNDo" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="257,257,305,22" Id="DUuVeCK7Hv9PJ1fYr4Aamz">
+                  <p:NodeReference LastCategoryFullName="Microsoft.Office.Interop.Excel.Workbooks" LastSymbolSource="Microsoft.Office.Interop.Excel.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Open" />
+                    <CategoryReference Kind="AssemblyCategory" Name="Workbooks" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="JQpPQfc4hAqLVgQXEAPZzB" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="VDM2dIt60AyQIfe32VVdua" Name="Filename" Kind="InputPin" />
+                  <Pin Id="CuUDYFWLFaDPUBGCfN6vO8" Name="Update Links" Kind="InputPin" />
+                  <Pin Id="EuVAcZC1r21OVVN25fbmTF" Name="Read Only" Kind="InputPin" />
+                  <Pin Id="FYtF2k1HKzoQUPrBWuw8Zl" Name="Format" Kind="InputPin" />
+                  <Pin Id="TuBJbSTgQYINTdrFLe4d3Q" Name="Password" Kind="InputPin" />
+                  <Pin Id="R8ycBgKM7w4POO9mWcOYiY" Name="Write Res Password" Kind="InputPin" />
+                  <Pin Id="IjNderRc6KqQQoQBKfoRZt" Name="Ignore Read Only Recommended" Kind="InputPin" />
+                  <Pin Id="Sb3dvJZEgZsMHuVpkihPX7" Name="Origin" Kind="InputPin" />
+                  <Pin Id="TkcWAlbiDqWPbttUfWo7qr" Name="Delimiter" Kind="InputPin" />
+                  <Pin Id="J3hCmYZxoEtNgu4HG4e2e6" Name="Editable" Kind="InputPin" />
+                  <Pin Id="RocsDq70I4EMJAC26IzXSW" Name="Notify" Kind="InputPin" />
+                  <Pin Id="Rwf0LEOM8KlLoNhSIjQ17Z" Name="Converter" Kind="InputPin" />
+                  <Pin Id="Kzh4dcKvEV1LTKruCidROv" Name="Add To Mru" Kind="InputPin" />
+                  <Pin Id="C2nD6KiWqWiLNuvQCdidoA" Name="Local" Kind="InputPin" />
+                  <Pin Id="S3h8pFsMHhnM1OFR6U1JgJ" Name="Corrupt Load" Kind="InputPin" />
+                  <Pin Id="UZgK3notj0pO3tzrZHnhCl" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="GuPjzyvbJ6ELjNJAzOUaXl" Name="Result" Kind="OutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="UIULjOswJOAMzp7Q0eHVJm" Bounds="570,360" Alignment="Bottom" />
+              <ControlPoint Id="C453F96wb0HPC0CwylRdqL" Bounds="551,189" Alignment="Top" />
+            </Node>
+            <Pad Id="DfKYa1qIozPN04PHLLmDYn" Comment="" Bounds="247,75,40,19" ShowValueBox="true" isIOBox="true" Value="false">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
+            <Pad Id="IbquVV3bb0GPO5UxV52G4W" SlotId="FyVoij205vgLdsojP50v6k" Bounds="570,403,29,19" ShowValueBox="true" />
+            <Pad Id="FhT58KwWzxLMu44R1pDIRJ" SlotId="FyVoij205vgLdsojP50v6k" Bounds="545,116" />
+            <Node Bounds="648,648,80,80" Id="UPAGal4ROyXNCT10tW1IXq">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:NodeReference>
+              <Pin Id="B3xZu59prdzPINTNut2dKd" Name="Condition" Kind="InputPin" />
+              <Patch Id="BHwtL0uOWsUPGVJigyIh6m" ManuallySortedPins="true">
+                <Patch Id="HQNIVzyujZlQMjvP6G550h" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="I87Kfj4Y3FZLtzL4PmADRn" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="672,678,33,22" Id="D53HRNlo4RYP4Gs2JD7DCj">
+                  <p:NodeReference LastCategoryFullName="Microsoft.Office.Interop.Excel.IRange" LastSymbolSource="Microsoft.Office.Interop.Excel.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Rows" />
+                    <CategoryReference Kind="AssemblyCategory" Name="IRange" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="CY82RtXXOC5Lvfjg6LrveS" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Tpe48iar5N5NkJKYek0mHd" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="QOzajXGhI9xNTkwRdX4dhQ" Name="Rows" Kind="OutputPin" />
+                </Node>
+              </Patch>
+            </Node>
+            <Node Bounds="132,-216,69,22" Id="OnfLIpyVL2yObZ4TxcKBtH">
+              <p:NodeReference LastCategoryFullName="Microsoft.Office.Interop.Excel.ApplicationClass" LastSymbolSource="Microsoft.Office.Interop.Excel.dll">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Create" />
+                <CategoryReference Kind="AssemblyCategory" Name="ApplicationClass" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="GQXm0koXPsUPrz0vpriTYu" Name="Output" Kind="StateOutputPin" />
+            </Node>
+            <Pad Id="EIN3WVLfqjLMXgxrzgxIs8" SlotId="USnOhUgkhEwN3JWPfp9mEb" Bounds="198,-19" ShowValueBox="true" />
+            <Pad Id="FqWeUgnqxaWMQZAxz6Q70p" Comment="" Bounds="455,2,143,30" ShowValueBox="true" isIOBox="true" />
+            <Node Bounds="306,131,48,13" Id="MnApfBHB4YNLRm7bI1CvSi">
+              <p:NodeReference LastCategoryFullName="IO.Path" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="Category" Name="Path" />
+                <Choice Kind="OperationCallFlag" Name="ToString" />
+              </p:NodeReference>
+              <Pin Id="QUXEMvwgHdHNBdkwUVgmw4" Name="Input" Kind="StateInputPin" />
+              <Pin Id="DqIN9R9XwcLOLHvCaLOmnk" Name="Result" Kind="OutputPin" />
+            </Node>
+            <Pad Id="E0xf7nio3RPOxRSzg2AxKV" Comment="" Bounds="722,25,180,20" ShowValueBox="true" isIOBox="true" />
+            <Pad Id="QRofIEEV4DbNBCAF5o8SUU" Comment="Filename" Bounds="734,144,320,20" ShowValueBox="true" isIOBox="true" Value="&quot;@\&quot;C:\\VL\\VL.Excel\\Eisner.xlsx\&quot;&quot;">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Node Bounds="-438,17,400,238" Id="Kuw3SwJSAupOL82hUV8o9d">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                <CategoryReference Kind="Category" Name="Primitive" />
+              </p:NodeReference>
+              <Pin Id="GnHM9VlMQSgOVUf2ZCceWh" Name="Condition" Kind="InputPin" />
+              <Patch Id="BmjrJBmEhgpMEEv8X2Mpn1" ManuallySortedPins="true">
+                <Patch Id="CAVuXjSpbwDLX8TCXJNOcK" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="LT1tueujD6pLs2xDs93ugB" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="-394,193,61,22" Id="VRJbdAfjkVLOE0RkGrHc7w">
+                  <p:NodeReference LastCategoryFullName="Microsoft.Office.Interop.Excel._Application" LastSymbolSource="Microsoft.Office.Interop.Excel.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Workbooks" />
+                    <CategoryReference Kind="AssemblyCategory" Name="_Application" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="JNca2G3pORDNynbdSbnkIt" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="T7Z1OieKoiWPoreCW0gx02" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="BAHNBoPIrZhOxUpWw3Gbsi" Name="Workbooks" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="-392,37,342,127" Id="EeiiQgKP3RrNn2ZNQ2V53h">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                    <Choice Kind="ApplicationRegion" Name="Script" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                  </p:NodeReference>
+                  <Patch Id="Bw4Y7IaMvOkLeuc2uWdbfh" ManuallySortedPins="true">
+                    <Patch Id="Mj3JM7cLiJIOXbSaaQMsRb" Name="Update" ManuallySortedPins="true" />
+                    <Pad Id="Lhyt7oCCf75LeRyQnUHXcS" Bounds="-376,101,308,87" ShowValueBox="true" isIOBox="true" Value="&quot;public static Microsoft.Office.Interop.Excel.Application Script()\r\n{\r\n      return new Microsoft.Office.Interop.Excel.Application();\r\n}&quot;">
+                      <p:TypeAnnotation LastCategoryFullName="System" LastSymbolSource="mscorlib.dll">
+                        <Choice Kind="TypeFlag" Name="String" />
+                      </p:TypeAnnotation>
+                      <p:ValueBoxSettings>
+                        <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+                      </p:ValueBoxSettings>
+                    </Pad>
+                  </Patch>
+                  <Pin Id="OAyZvBBtGelLW3ytXnV13I" Name="Result" Kind="OutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="Vabcn0GqlzML59JVbd1vk0" Bounds="-137,35" Alignment="Top" />
+              <ControlPoint Id="V0XQWyPs7GbMiJnGGjEFTM" Bounds="-324,249" Alignment="Bottom" />
+            </Node>
+            <Pad Id="SJNeghWx7PBLGZnHXmeHgY" SlotId="USnOhUgkhEwN3JWPfp9mEb" Bounds="-207,575,143,30" ShowValueBox="true" />
+            <Pad Id="MxMJg3D0QHoMFUahxUFwfo" Comment="" Bounds="-237,-116,40,19" ShowValueBox="true" isIOBox="true" Value="false">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
+            <Node Bounds="386,631,96,16" Id="VZttkbEJmCVPDH1dG9SIFI">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:NodeReference>
+              <Pin Id="SQlzanCdwNHLNtpdhsPnc2" Name="Condition" Kind="InputPin" />
+              <Patch Id="NMB9OK9rd8OM6liqyyvCyr" ManuallySortedPins="true">
+                <Patch Id="CZ0PRHXdlJeQCes6ZpX6eP" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="HBK4hPhtVYULUpnz0TicMe" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="386,634" Id="MccyI37G3cIMhlhmf72UTo">
+                  <p:NodeReference LastCategoryFullName="System.Runtime.InteropServices.Marshal" LastSymbolSource="System.Runtime.InteropServices.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="ReleaseComObject" />
+                  </p:NodeReference>
+                  <Pin Id="KsdgB3ZzyVPLBLKSYpPvua" Name="O" Kind="InputPin" />
+                  <Pin Id="VjThe9vOrPUOOam7cKKRFJ" Name="Result" Kind="OutputPin" />
+                </Node>
+              </Patch>
+            </Node>
+            <Pad Id="IOX7eHWlGYLP9NxwXuE3cz" Comment="Corrupt Load" Bounds="676,244,40,19" ShowValueBox="true" isIOBox="true" Value="false">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Boolean" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings />
+            </Pad>
+            <Node Bounds="206,-132,69,22" Id="TM8HqlTzwOnNtcwOonKHjT">
+              <p:NodeReference LastCategoryFullName="Microsoft.Office.Interop.Excel.ApplicationClass" LastSymbolSource="Microsoft.Office.Interop.Excel.dll">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Workbooks" />
+                <CategoryReference Kind="AssemblyCategory" Name="ApplicationClass" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="LvjYMA1i5NCM3kWjsWRk4P" Name="Input" Kind="StateInputPin" />
+              <Pin Id="TM320NYoyw4NazxUbIODfE" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="HGhoTcQ5vMvQB1zSWbp9Nn" Name="Workbooks" Kind="OutputPin" />
+            </Node>
+            <Pad Id="P1s3BzowQ0OPkhIdoH6HFm" Comment="" Bounds="-536,-202,40,19" ShowValueBox="true" isIOBox="true" Value="false">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
+            <Pad Id="BRVCnNL2pGVPjE8DZBTPOZ" Bounds="-87,-460,587,96" ShowValueBox="true" isIOBox="true" Value="&quot;https://coderwall.com/p/app3ya/read-excel-file-in-c\r\n\r\nhttps://stackoverflow.com/questions/9672112/read-data-from-excel-files\r\n\r\nhttps://stackoverflow.com/questions/32999550/read-data-from-an-excel-file&quot;">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
+                <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+              </p:ValueBoxSettings>
+            </Pad>
+          </Canvas>
+          <Patch Id="FwY82pwxRJAPyGebj0nJJ2" Name="Create" ParticipatingElements="TM8HqlTzwOnNtcwOonKHjT" />
+          <Patch Id="Ss4v3qcHS3qPkYOn0dvIKf" Name="Update" />
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="E89OuvkIykhLlfChButmLQ">
+            <Fragment Id="VKRdi8WDv0oNLkdVsUNhQr" Patch="FwY82pwxRJAPyGebj0nJJ2" Enabled="true" />
+            <Fragment Id="QVQZeMIbiz2QR4cZVX7if7" Patch="Ss4v3qcHS3qPkYOn0dvIKf" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="NBNBSyM3FvEO9FtEAEJ5Be" Ids="HW8xT2IdwnCO9NrUFdGbkH,QUXEMvwgHdHNBdkwUVgmw4" />
+          <Link Id="O1xZ3QodclHLdKUq6pf4Nh" Ids="C453F96wb0HPC0CwylRdqL,UIULjOswJOAMzp7Q0eHVJm" IsFeedback="true" />
+          <Link Id="GT2H08f6HIeLgoO1UmtRN5" Ids="UIULjOswJOAMzp7Q0eHVJm,IbquVV3bb0GPO5UxV52G4W" />
+          <Slot Id="FyVoij205vgLdsojP50v6k" Name="wb" />
+          <Link Id="MRvM8g83DRZOorLWIbH5cK" Ids="FhT58KwWzxLMu44R1pDIRJ,C453F96wb0HPC0CwylRdqL" />
+          <Link Id="QFUagWTDGxANIiRo6XAe2R" Ids="GuPjzyvbJ6ELjNJAzOUaXl,UIULjOswJOAMzp7Q0eHVJm" />
+          <Link Id="CLcOulwmL7nMgu3uLXxJMy" Ids="DfKYa1qIozPN04PHLLmDYn,F9hueflZAdgMtfiKfPVrKg" />
+          <Link Id="K8yP04h3ZZDMh3PTSFFquO" Ids="EIN3WVLfqjLMXgxrzgxIs8,JQpPQfc4hAqLVgQXEAPZzB" />
+          <Link Id="FsMy3dWbUFXNwtRiZWKfP9" Ids="EIN3WVLfqjLMXgxrzgxIs8,FqWeUgnqxaWMQZAxz6Q70p" />
+          <Link Id="NQPQ2etJ8UzO6E9nPGSdce" Ids="DqIN9R9XwcLOLHvCaLOmnk,E0xf7nio3RPOxRSzg2AxKV" />
+          <Slot Id="USnOhUgkhEwN3JWPfp9mEb" Name="xl" />
+          <Link Id="SnznGWzvegcOcvh6Ck56ml" Ids="Vabcn0GqlzML59JVbd1vk0,V0XQWyPs7GbMiJnGGjEFTM" IsFeedback="true" />
+          <Link Id="QRdijZFADaBLXJvemTzXqL" Ids="V0XQWyPs7GbMiJnGGjEFTM,SJNeghWx7PBLGZnHXmeHgY" />
+          <Link Id="QTkO6IncGhlPMfJJX5czl6" Ids="EIN3WVLfqjLMXgxrzgxIs8,Vabcn0GqlzML59JVbd1vk0" />
+          <Link Id="B0uznSPNuMcNDx5rbqzGKI" Ids="MxMJg3D0QHoMFUahxUFwfo,GnHM9VlMQSgOVUf2ZCceWh" />
+          <Link Id="GG70K0fX4ZkNhE9kWe1hBx" Ids="E0xf7nio3RPOxRSzg2AxKV,VDM2dIt60AyQIfe32VVdua" />
+          <Link Id="GjrYFPQ88LzPbFHpVuS8E4" Ids="GQXm0koXPsUPrz0vpriTYu,LvjYMA1i5NCM3kWjsWRk4P" />
+          <Link Id="BgpAO3PaCOdLOQ1SVOWJXu" Ids="BAHNBoPIrZhOxUpWw3Gbsi,V0XQWyPs7GbMiJnGGjEFTM" />
+          <Link Id="Uad38UIL4NeP19FrMA5QHN" Ids="HGhoTcQ5vMvQB1zSWbp9Nn,EIN3WVLfqjLMXgxrzgxIs8" />
+          <Link Id="KkSXGBXExqiMuicJO9tAS1" Ids="OAyZvBBtGelLW3ytXnV13I,JNca2G3pORDNynbdSbnkIt" />
+        </Patch>
+      </Node>
+    </Canvas>
+  </Patch>
+  <NugetDependency Id="DkzfOpHmFlgLvrqrY3xcsv" Location="VL.Core" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="IZ9jqJn2A4aOOermRJRppV" Location="VL.CoreLib" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="J0KWfH2SjQtMH7XLJQvUk2" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
+  <PlatformDependency Id="O9WjftbKySfM30UVZOfWxQ" Location="Microsoft.Office.Interop.Excel" />
+  <PlatformDependency Id="UJZaJRJxBprMrcGMJFVfZg" Location="System" />
+  <PlatformDependency Id="LfoaTcvXLbcL9D0LfpDksK" Location="System.Runtime.InteropServices" />
+</Document>

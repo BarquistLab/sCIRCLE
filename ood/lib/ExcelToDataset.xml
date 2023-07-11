@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExcelToDataset</name>
+    </assembly>
+    <members>
+        <member name="M:Excel.ExcelDataSet.ExcelToDataset(System.String,System.Boolean,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="filename">Gets or sets a value indicating whether to set the DataColumn.DataType property in a second pass.</param>
+            <param name="_UseColumnDataType"></param>
+            <param name="_EmptyColumnNamePrefix">Gets or sets a value indicating the prefix of generated column names.</param>
+            <param name="_UseHeaderRow">Gets or sets a value indicating whether to use a row from the data as column names.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
