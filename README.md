@@ -171,7 +171,7 @@ Inside the software metacells can be used like normal single-cells. This means t
 
 
 # 🔧 Development and Contribution
-This tool has been programmed using  [vvvv](https://visualprogramming.net) a visual programming environment based on C#. If anybody wants to contribute to the development of this tool, get in touch or create a pull request. 
+This tool has been programmed using  [vvvv](https://visualprogramming.net) a visual programming environment based on C#. If anybody wants to contribute to the development of this tool, get in touch or create a push request. 
 In case you discover a bug or have a wish for certain feature, please feel free to create an issue in this repository.
 
 
