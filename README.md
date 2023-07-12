@@ -4,7 +4,7 @@
 is a standalone Windows application for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
 <img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/0a4778a5-af3a-4253-8459-53d496f3d6cf" width="950">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o5RBYT8c8E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## 💻 Prerequisites
 You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended. 
@@ -20,7 +20,7 @@ To get a first look at the software load the three example files from the exampl
 If you want to import your own data set, you have to follow certain conventions in order to make sCIRCLE read your data set correctly. To start the software you must provide a count matrix, a phenotypic data file for cell annotation and a gene annotation file. The number of cells and genes have to be constant in all three import files. You can import tsv, csv (tab-separated) or excel files. For Gene Annotation files you can also import GFF-files.
 
 ### Count Matrix
-You can import your count matrix as a csv- or excel-file. You can load in raw counts or normalized and pre-processed counts, depending on what you want to visualize. When initially importing a count matrix you have to decide whether you want to normalize for library size computing Transcripts Per Million. Any column that is not a CellID must start with an "_". The column with the Locus Tag has to be named "_LocusTag". 
+You can import your count matrix as a csv-,tsv- or excel-file. You can load in raw counts or normalized and pre-processed counts, depending on what you want to visualize. When initially importing a count matrix you have to decide whether you want to normalize for library size computing Transcripts Per Million. Any column that is not a CellID must start with an "_". The column with the Locus Tag has to be named "_LocusTag". 
 
 | _LocusTag  | CellID1 | CellID2 |....
 | ---------- | ------------- | ------------|-----------|
@@ -29,7 +29,7 @@ You can import your count matrix as a csv- or excel-file. You can load in raw co
 | ...        | ...               | ...               |...
 
 ### Phenotypic Data
-You can import your phenotypic data as a csv- or excel-file.
+You can import your phenotypic data as a csv-,tsv- or excel-file.
 | IDs  | e.g. timepoints| e.g. batches     |....
 | ---------- | ------------- | ------------|-----------|
 | CellID1| OD.1  | OD.2  |...
@@ -37,7 +37,7 @@ You can import your phenotypic data as a csv- or excel-file.
 | ...        | ...               | ...               |...
 
 ### Gene Annotation File
-The gene annotation file can be loaded in the common GTF format or a an excel or csv-table. If importing a table use the following format:
+The gene annotation file can be loaded in the common GFF format or a an excel, csv or tsv-table. If importing a table use the following format:
 | Locus_Tag | Start | End | Common Gene Name | eg. KEGG Pathways |eg. GO-terms |G_UserDefinedGeneGroup|....
 | ---------- | ------------- | ------------|-----------|-----------|-----------|-----------|-----------|
 | Gene ID1 | eg. 0  | eg. 250 | gene name 1 | PathwayID1,PathwayID2 |GO1,GO2,GO3...|0|...
@@ -148,9 +148,6 @@ If fold changes are activated, logFoldChanges between two cells or two metacells
 When the metacell feature is activated one metacell is computed per condition of the selected category. For example if a pre-defined category with different time points is selected, one metacell will be computed per time point. The user can select if per gene the mean or median is calculated across all cells inside the specific condition.
 Inside the software metacells can be used like normal single-cells. This means the gene expression of metacells can be filtered and logFoldChanges between different metacells can be calculated. This makes it possible to compare the data set on a condition level.
 
-
-## 👓VR
-A simple VR viewer mode is activatable if VR glasses are connected using OpenVR. The VR viewer makes it possible to look at the 3d scatter plot scale and rotate it, select certain cells and genes and look at logFoldChanges. The user interface is currently only useable in the desktop version.
 
 # 🔑 Navigation and Shortcuts
 
