@@ -2,7 +2,8 @@
 
 ### <sup>s</sup>CIRCLE (single-Cell Interactive Real-time Computer-visualization for Low-dimensional Exploration) 
 is a standalone Windows application for visual data mining and exploration of scRNA-Seq data sets and functional annotation data. 
-<img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/72e41ee4-5fe4-450d-ae64-3dd5041237ab" width="600">
+
+<img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/72e41ee4-5fe4-450d-ae64-3dd5041237ab" width="950">
 
 ## 💻 Prerequisites
 You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended. 
@@ -13,6 +14,8 @@ To get a first look at the software load the three example files from the exampl
  
 ## 📺 Tutorial
 [![Watch the video tutorial](https://github.com/BarquistLab/sCIRCLE/assets/46606031/694b9653-300d-48c5-8953-79b385fb4976)](https://www.youtube.com/embed/o5RBYT8c8E0)
+
+[Watch the tutorial now](https://www.youtube.com/watch?v=o5RBYT8c8E0)
 
 
 ## 📂 Import File Formatting
