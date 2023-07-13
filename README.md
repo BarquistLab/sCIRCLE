@@ -174,6 +174,11 @@ Inside the software metacells can be used like normal single-cells. This means t
 This tool has been programmed using  [vvvv](https://visualprogramming.net) a visual programming environment based on C#. If anybody wants to contribute to the development of this tool, get in touch or create a push request. 
 In case you discover a bug or have a wish for certain feature, please feel free to create an issue in this repository.
 
+# Example Data Set
+The included example data set is taken from the following publication, gene annotations have been enriched using [EggNOGMapper](http://eggnog-mapper.embl.de/).
+
+Homberger, C., Hayward, R. J., Barquist, L., & Vogel, J. (2023). Improved bacterial single-cell RNA-seq through automated MATQ-seq and Cas9-based removal of rRNA reads. Mbio, 14(2), e03557-22.
+
 
 # Acknowledgement
 
