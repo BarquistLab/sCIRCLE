@@ -185,5 +185,9 @@ Homberger, C., Hayward, R. J., Barquist, L., & Vogel, J. (2023). Improved bacter
 
 # Acknowledgement
 
+Author: Max Seeger 
+
+Supervision: Lars Barquist (HIRI), Erich Schöls (THWS)
+
 
 
