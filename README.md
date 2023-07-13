@@ -183,7 +183,7 @@ The included example data set is taken from the following publication, gene anno
 Homberger, C., Hayward, R. J., Barquist, L., & Vogel, J. (2023). Improved bacterial single-cell RNA-seq through automated MATQ-seq and Cas9-based removal of rRNA reads. Mbio, 14(2), e03557-22.
 
 
-# Acknowledgement
+# Credits
 
 Author: Max Seeger 
 
