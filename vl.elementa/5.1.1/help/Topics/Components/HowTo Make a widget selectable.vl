@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="H49f8Y0EKnMO2KaujaNrOk" LanguageVersion="2020.3.0.138" Version="0.128">
+  <NugetDependency Id="GppMEmuWTWwNu1380AsTBu" Location="VL.CoreLib" Version="2021.3.0-0021-g44253d2755" />
+  <Patch Id="U2OktPJIft6LmRYDfHRaRo">
+    <Canvas Id="OnAcnjd8HswONAJUfjLtjR" DefaultCategory="Main" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="EoAbfNCWqS5MsdhUrqzi2E">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="VqFoQpeKjRwPzA7t9182BO">
+        <Canvas Id="FVfcVguj6qwOP9aPSWpeuE" CanvasType="Group">
+          <Node Bounds="87,380,175,19" Id="GYMi2ggH9laMpFEruA80Xp">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Toggle.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="Toggle" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="IzBZv5yKMAgQYgRr1may1d" Name="Position" Kind="InputPin" />
+            <Pin Id="QTnQN2S2jHVPuFtMQRWdim" Name="Size" Kind="InputPin" />
+            <Pin Id="P8jHhFyI4zRMJjtlh1UpC8" Name="Value" Kind="InputPin" />
+            <Pin Id="EHCXKTfwovuL6Eo9Tly8s6" Name="Component" Kind="InputPin" />
+            <Pin Id="R5sagrkDAnQP3zB98D6nfa" Name="Output" Kind="OutputPin" />
+            <Pin Id="FFnEve8NWKsOuyMP1aILt3" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="AVrVEQx9eVQMwdJ9Q8ZsDV" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="361,380,154,19" Id="ViQA41aHDKPOVp3oWUkRwd">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Bang.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="Bang" />
+            </p:NodeReference>
+            <Pin Id="Ov3Egy9zSQqMWeYBX1C3j2" Name="Position" Kind="InputPin" />
+            <Pin Id="FUDQJglfHCYMcXBi0a3y8c" Name="Size" Kind="InputPin" />
+            <Pin Id="GxgthezkVtEMRylwKVuMLd" Name="Value" Kind="InputPin" />
+            <Pin Id="SAGK5QGvyNzOLEHlxY0Dck" Name="Output" Kind="OutputPin" />
+            <Pin Id="Kf9v9l3EHTeNifCP83tych" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="H8HnGDUVCtkLVGi6k4fhBE" Name="Value" Kind="OutputPin" />
+            <Pin Id="AtGnI0j4OGnOmmxkBssrTQ" Name="Component" Kind="InputPin" />
+          </Node>
+          <Node Bounds="47,753,165,19" Id="KVlKvjUe3PYOg1XuqMlhMM">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="Kh9yBi3OEd5MvWP8UR1lL8" Name="Bounds" Kind="InputPin" DefaultValue="1020, 80, 312, 620">
+              <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
+                <Choice Kind="TypeFlag" Name="Rectangle" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="CdQpXQhrGqNPHCy4LMQ2aA" Name="Bound to Document" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="FYYfPUKN0GILGb1kKygWtQ" Name="Input" Kind="InputPin" />
+            <Pin Id="Ul0b6eMIoQNLuMXkJ8I53J" Name="Color" Kind="InputPin" />
+            <Pin Id="RLrWVlu4SmOMHnNHHHyZI3" Name="Clear" Kind="InputPin" />
+            <Pin Id="ApcUYAbpjR8L5MIjRAaGKo" Name="Space" Kind="InputPin" DefaultValue="DIPTopLeft">
+              <p:TypeAnnotation LastCategoryFullName="VL.Skia" LastSymbolSource="VL.Skia.dll">
+                <Choice Kind="TypeFlag" Name="CommonSpace" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="LJBvMf4YYjGNDvoTjgtJb1" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="M3F4p6B2Cw8N6X1bGQmKm2" Name="VSync" Kind="InputPin" />
+            <Pin Id="BYks0LGwsdZN4pSVmGOEkk" Name="Enabled" Kind="InputPin" />
+            <Pin Id="DlxHZrGPfnLQD62Dlmk0y6" Name="Form" Kind="OutputPin" />
+            <Pin Id="UfNkUiA1K96NqRQncEzmHK" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="R2IHlGXWw9JOObTxbrCzAF" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="87,610,105,19" Id="TcAzEtI5S3QNJ6r6y51KDH">
+            <p:NodeReference LastCategoryFullName="VL.Elementa" LastSymbolSource="VL.Elementa.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Elementa" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="Elementa" />
+            </p:NodeReference>
+            <Pin Id="CZ2toJlF15cPEfFIkhvVkM" Name="Input" Kind="InputPin" />
+            <Pin Id="C69ICq9AovzOo3n11dNqi0" Name="Enabled" Kind="InputPin" />
+            <Pin Id="AUZzdq1j3biLGCCeyJNLrl" Name="Output" Kind="OutputPin" />
+            <Pin Id="JY44eVv8CiVNAL1xMPZDFr" Name="Context" Kind="OutputPin" />
+          </Node>
+          <Pad Id="KFdF2vpy2RyN6DjB7cvOZX" Comment="Text" Bounds="109,440,49,15" ShowValueBox="true" isIOBox="true" Value="Toggle">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="87,470,85,19" Id="BKADV7pn7PEPnnNVWvvxbo">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Label.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="Label" />
+            </p:NodeReference>
+            <Pin Id="E8hYGWdIPgAMRCYZ8k9d2U" Name="Input" Kind="InputPin" />
+            <Pin Id="L7y0mzqAgU2OBjcDj5wuJm" Name="Size" Kind="InputPin" />
+            <Pin Id="BV7eJVYiMhGPS09xqzqAAh" Name="Left / Bottom" Kind="InputPin" />
+            <Pin Id="FoZP4w0fscNPAEikCTKfTs" Name="Text" Kind="InputPin" />
+            <Pin Id="KmDSgTokvW6PvFVjbea05g" Name="Spacing" Kind="InputPin" />
+            <Pin Id="VaRszPeCVA8Mwpvsh7BM7w" Name="Update" Kind="InputPin" />
+            <Pin Id="PEZA0dFJRO5PDd0rC5EkuO" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="GE1KVypULyIOhENQFuAc5V" Comment="Text" Bounds="383,440,49,15" ShowValueBox="true" isIOBox="true" Value="Bang">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="361,466,85,19" Id="Ay57JzLSLv2MYSaYHGPLTP">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Label.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="Label" />
+            </p:NodeReference>
+            <Pin Id="IQxLjLoE8t3LGwDqjYwueJ" Name="Input" Kind="InputPin" />
+            <Pin Id="QJZKLZVm9z8LcqR85IWEab" Name="Size" Kind="InputPin" />
+            <Pin Id="ElTEMiXpOE2PRozHB6SoyO" Name="Left / Bottom" Kind="InputPin" />
+            <Pin Id="Klsnl3yluHDQIlQjYc0BXJ" Name="Text" Kind="InputPin" />
+            <Pin Id="HlTpxxziQV1M5W1BEcqvUb" Name="Spacing" Kind="InputPin" />
+            <Pin Id="MtvmI9XDiAEN6lRgsnk1c2" Name="Update" Kind="InputPin" />
+            <Pin Id="B2mtQq5ZRUhLx0IQnlxctC" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="AHHNt2rqPXcM9ueQ6bPJAX" Comment="Text" Bounds="658,440,78,15" ShowValueBox="true" isIOBox="true" Value="Stylable Object">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="636,471,85,19" Id="V15SnJvOA2QQaJLuFntSBt">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Label.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="Label" />
+            </p:NodeReference>
+            <Pin Id="FFxuopfsgNsMyFJ64S4Cpm" Name="Input" Kind="InputPin" />
+            <Pin Id="B2qElVlrjlmLPzQhOQ5iNg" Name="Size" Kind="InputPin" />
+            <Pin Id="A13D5fdn5k2LYuohK5kxEl" Name="Left / Bottom" Kind="InputPin" />
+            <Pin Id="IWL3wupAuuZNdu20kb2GL8" Name="Text" Kind="InputPin" />
+            <Pin Id="CZs5AwxOC2OQcgDJAeK88K" Name="Spacing" Kind="InputPin" />
+            <Pin Id="RDxLK28Sux8L4SvanbCUDa" Name="Update" Kind="InputPin" />
+            <Pin Id="ASI6lfiKRkaP4T6rgsjzZQ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="257,213,65,19" Id="N4R1nc1JbQ4MKCB0qF9eoq">
+            <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Selectable.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Selectable" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="N7hRRszQNEkM0e6PxfGMSb" Name="Is Selectable" Kind="InputPin" />
+            <Pin Id="GxiLdv97bUpPzTmNFwORXG" Name="Start Selection" Kind="InputPin" />
+            <Pin Id="E42XQw180OcPYgk0EaBCZB" Name="Propagate Notification on Start" Kind="InputPin" />
+            <Pin Id="Rh7ETwKpSL6NAZX55oK5nk" Name="Custom Start Selection Func" Kind="InputPin" />
+            <Pin Id="RBACw3cP2AFMLHof64Dlxk" Name="Custom Filter Rule" Kind="InputPin" />
+            <Pin Id="CQ2EbAK7ldnMHXFxKBa13d" Name="Output" Kind="OutputPin" />
+            <Pin Id="DlwozIRDpgnP5D8SYPnXZ0" Name="Selected" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Qk192ZLOV5ILc7repjlbVM" Comment="" Bounds="319,251,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OK9O7H2M7GNLvf157gjKnR" Comment="Radius" Bounds="695,279,35,28" ShowValueBox="true" isIOBox="true" Value="0.2, 0.2">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="721,318,65,19" Id="IuzvGaChZpYL1PpoZP6cGH">
+            <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Selectable.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Selectable" />
+            </p:NodeReference>
+            <Pin Id="V6W6uEAIDKSNAsjZsGPNmx" Name="Is Selectable" Kind="InputPin" />
+            <Pin Id="Db2AMfMgvXePnVlxEXxNeP" Name="Start Selection" Kind="InputPin" />
+            <Pin Id="JYtpOzsuu8bM9Zo5UVpy5T" Name="Propagate Notification on Start" Kind="InputPin" />
+            <Pin Id="PMA4gH4MqJ4OOPJJJjBwKE" Name="Custom Start Selection Func" Kind="InputPin" />
+            <Pin Id="Rgb5LwV9oQdNehxx6oO8fr" Name="Custom Filter Rule" Kind="InputPin" />
+            <Pin Id="L0cuTSeFBxvOt5uTUtky94" Name="Output" Kind="OutputPin" />
+            <Pin Id="NeD1Ar1P67dP9oXy5LenbB" Name="Selected" Kind="OutputPin" />
+          </Node>
+          <Pad Id="I5RILSjaGV1OgQZqI6zuM1" Comment="Selected" Bounds="783,356,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="510,314,65,19" Id="IuAwONAdDZxOvJtQhQwdWz">
+            <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Selectable.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Selectable" />
+            </p:NodeReference>
+            <Pin Id="Szcq4to2awWOZ8jECYKhiy" Name="Is Selectable" Kind="InputPin" />
+            <Pin Id="CLMOKQvmk3kNdjkhvFL0aX" Name="Start Selection" Kind="InputPin" />
+            <Pin Id="AjKbISwvRydLYk36AzuTEQ" Name="Propagate Notification on Start" Kind="InputPin" />
+            <Pin Id="PkatStHzIk8QLQPWZ5U5MD" Name="Custom Start Selection Func" Kind="InputPin" />
+            <Pin Id="F6oI0BSS9DjOpY21n5S2S9" Name="Custom Filter Rule" Kind="InputPin" />
+            <Pin Id="LjW2FJM2RYFQH22nvMGLUJ" Name="Output" Kind="OutputPin" />
+            <Pin Id="V3I1z4W4hYOM2rpXGTuMSy" Name="Selected" Kind="OutputPin" />
+          </Node>
+          <Pad Id="LvEG34jaEdWLEaGvJlzsvR" Comment="" Bounds="572,352,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="CsZbzuVPgzaO4GrDIjDVm4" Bounds="96,210,142,79" ShowValueBox="true" isIOBox="true" Value="Just add the Selectable component to any Elementum to make it selectable">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="MeI9sVnnnjaLzdheH0h5cw" Bounds="76,132,543,19" ShowValueBox="true" isIOBox="true" Value="The Selectable component allows an Elementum to be selected with Space + left drag">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UIfe7aemjOjPox7oqTO3mR" Bounds="67,210,35,27" ShowValueBox="true" isIOBox="true" Value="1.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ObvJKbGKOu3MZLGgxoTVYQ" Bounds="406,652,138,56" ShowValueBox="true" isIOBox="true" Value="You'll retrieve selected Elementa here">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="QapemCTx6ObMFMXBJN6X0o" Bounds="377,652,35,27" ShowValueBox="true" isIOBox="true" Value="2.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="636,380,90,19" Id="C3uImQS0WgwOapTPBhlxXw">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="RoundRectangle" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="UuTxLV8Sf9uLXDXiW4ZnTP" Name="Position" Kind="InputPin" />
+            <Pin Id="S0WX2gSdR9DLkdf62gJaLW" Name="Size" Kind="InputPin" />
+            <Pin Id="HVCvRneTbn6MPXjl9iJfJN" Name="Radius" Kind="InputPin" />
+            <Pin Id="F0nE8O64nWxNgYC4pd17ko" Name="Component" Kind="InputPin" />
+            <Pin Id="VpjQHwppf0xMSVWyDhZpF1" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="263,694,44,19" Id="CMDNHO4aGQbQIuXIxa5q3z">
+            <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Count" />
+              <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="IHQJ3YWAWukMxdWIaXume9" Name="Input" Kind="InputPin" />
+            <Pin Id="IDQlK0B0e9UPlysUakkCyZ" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="EPzfkJsqkozMLZOOSLodQI" Comment="" Bounds="265,742,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="87,518,554,19" Id="PXDD6vyS4sIMTRouqaaEpR">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Cons" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="CxgHet0qGYQOaDfgpghl0Z" Name="Input" Kind="StateInputPin" />
+            <Pin Id="Bltw5lUEwcBLAzRYEKpK93" Name="Input 2" Kind="StateInputPin" />
+            <Pin Id="M4Hiq3ew5zFLfaqfkkH6NV" Name="Result" Kind="OutputPin" />
+            <Pin Id="NVTsKHRb1nvOavwi4NtIpE" Name="Input 3" Kind="InputPin" />
+          </Node>
+          <Node Bounds="263,646,111,19" Id="G0aoMMh6WA2M5nkuBZWGw1">
+            <p:NodeReference LastCategoryFullName="Elementa.Component.Selectable" LastSymbolSource="VL.Elementa.Component.Selectable.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="GetSelectedElementa" />
+            </p:NodeReference>
+            <Pin Id="VGHmfhd3Ge4NydaXXjuHR9" Name="Input" Kind="InputPin" />
+            <Pin Id="RFKsjp14pzbPvzYhbgicaC" Name="Output" Kind="OutputPin" />
+            <Pin Id="F8R6eY0Q0RVNlVr1Iifcgn" Name="Is Selecting" Kind="OutputPin" />
+          </Node>
+          <Pad Id="HSS1TcFHhYVLNqjBx34ZsY" Bounds="319,272,146,73" ShowValueBox="true" isIOBox="true" Value="It outputs a bool indicating whether the attached widget is selected.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="87,568,25,19" Id="Es6F9FAPPaTMPaRpHOCITF">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Layout" LastSymbolSource="VL.Elementa.Layout.Stack.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Layout" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="Elementa" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="ProcessAppFlag" Name="StackY" />
+            </p:NodeReference>
+            <Pin Id="VNg7UlJLkfbOr4FlwIwR4Q" Name="Input" Kind="InputPin" />
+            <Pin Id="Hi5s1FIAx7gPchumGnjwoy" Name="Position" Kind="InputPin" />
+            <Pin Id="Drts6xw8faAQbrN7OF32Lr" Name="Size" Kind="InputPin" />
+            <Pin Id="TlYUv6ubmRJQcGgb9JRRki" Name="Margin" Kind="InputPin" DefaultValue="0.21">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="O2Us6QpAm0AO7cmRRRnq93" Name="Padding" Kind="InputPin" DefaultValue="0.1">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+                <p:TypeArguments>
+                  <TypeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="SVJhn3QurfrOudUAWHIQMP" Name="Output" Kind="OutputPin" />
+            <Pin Id="SF5RuNozwVmQJkkmZcgjKk" Name="Graph Version" Kind="OutputPin" />
+            <Pin Id="UMRbcGHunUUNpUMXDJmfA5" Name="Layout Version" Kind="OutputPin" />
+          </Node>
+          <Pad Id="UMIwSoiKfjGOByStJl3Gw7" Comment="Is Selecting" Bounds="371,728,35,35" ShowValueBox="true" isIOBox="true" />
+        </Canvas>
+        <Patch Id="KdTKK5TpWjnPJ5vScQ5VCP" Name="Create" />
+        <Patch Id="JqQ55xVIbp9PzgWa6c2UoC" Name="Update" />
+        <ProcessDefinition Id="KCbNdC3C1rvQSRlkzEaYM5">
+          <Fragment Id="JjAbZGkfQHNOouW7iiqGRz" Patch="KdTKK5TpWjnPJ5vScQ5VCP" Enabled="true" />
+          <Fragment Id="KgcjUwTNJcNPOmuabMBKZS" Patch="JqQ55xVIbp9PzgWa6c2UoC" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="ScnzAz1R9anM3Cg5CvPrsy" Ids="AUZzdq1j3biLGCCeyJNLrl,FYYfPUKN0GILGb1kKygWtQ" />
+        <Link Id="KKvUfmzoCeEPGyarh9deGd" Ids="R5sagrkDAnQP3zB98D6nfa,E8hYGWdIPgAMRCYZ8k9d2U" />
+        <Link Id="DfRpxth2ylMNi7fbQpuekm" Ids="KFdF2vpy2RyN6DjB7cvOZX,FoZP4w0fscNPAEikCTKfTs" />
+        <Link Id="MbGdkv5X1lGMDcgmzYcASo" Ids="GE1KVypULyIOhENQFuAc5V,Klsnl3yluHDQIlQjYc0BXJ" />
+        <Link Id="DPu9olbZetkP0cPFksHB1i" Ids="AHHNt2rqPXcM9ueQ6bPJAX,IWL3wupAuuZNdu20kb2GL8" />
+        <Link Id="CWe9SU3eoPHLkg2woykoVh" Ids="DlwozIRDpgnP5D8SYPnXZ0,Qk192ZLOV5ILc7repjlbVM" />
+        <Link Id="H1WN5eYJQcDPZsapQRZ1uw" Ids="SAGK5QGvyNzOLEHlxY0Dck,IQxLjLoE8t3LGwDqjYwueJ" />
+        <Link Id="QTCCE9jCFoHPsQ1YQOWzcx" Ids="NeD1Ar1P67dP9oXy5LenbB,I5RILSjaGV1OgQZqI6zuM1" />
+        <Link Id="Bv7bgljZzqNLoO8LbtkXxa" Ids="V3I1z4W4hYOM2rpXGTuMSy,LvEG34jaEdWLEaGvJlzsvR" />
+        <Link Id="IPZrCooh4UYPv9tJQSIkFQ" Ids="CQ2EbAK7ldnMHXFxKBa13d,EHCXKTfwovuL6Eo9Tly8s6" />
+        <Link Id="Ncr7DMseVFqLrvlP8XGLPq" Ids="OK9O7H2M7GNLvf157gjKnR,HVCvRneTbn6MPXjl9iJfJN" />
+        <Link Id="GXLBnJZ1q0HOaN5D6buEpY" Ids="L0cuTSeFBxvOt5uTUtky94,F0nE8O64nWxNgYC4pd17ko" />
+        <Link Id="JjJrYZIcAFLNBevnMNxEj9" Ids="IDQlK0B0e9UPlysUakkCyZ,EPzfkJsqkozMLZOOSLodQI" />
+        <Link Id="JG63R62vu2QPzKpiqQ3jYM" Ids="PEZA0dFJRO5PDd0rC5EkuO,CxgHet0qGYQOaDfgpghl0Z" />
+        <Link Id="DJDguhCzl48LG3SxfyNtTA" Ids="B2mtQq5ZRUhLx0IQnlxctC,Bltw5lUEwcBLAzRYEKpK93" />
+        <Link Id="BokNYqPqfcqN4E8QJM96Qj" Ids="JY44eVv8CiVNAL1xMPZDFr,VGHmfhd3Ge4NydaXXjuHR9" />
+        <Link Id="C7P9m9bznAuL4lilntUpnV" Ids="RFKsjp14pzbPvzYhbgicaC,IHQJ3YWAWukMxdWIaXume9" />
+        <Link Id="NfMtar1GroqMOuoXIdGaDV" Ids="ASI6lfiKRkaP4T6rgsjzZQ,NVTsKHRb1nvOavwi4NtIpE" />
+        <Link Id="RPYRVjs3j3AMibTASRHGXP" Ids="M4Hiq3ew5zFLfaqfkkH6NV,VNg7UlJLkfbOr4FlwIwR4Q" />
+        <Link Id="R2EoALXEVYyO1MJau7cq1d" Ids="SVJhn3QurfrOudUAWHIQMP,CZ2toJlF15cPEfFIkhvVkM" />
+        <Link Id="KYnZgxbvlMsMS0aR663yY4" Ids="F8R6eY0Q0RVNlVr1Iifcgn,UMIwSoiKfjGOByStJl3Gw7" />
+        <Link Id="B45EihMPHvdLgsIFpxFyR2" Ids="VpjQHwppf0xMSVWyDhZpF1,FFxuopfsgNsMyFJ64S4Cpm" />
+        <Link Id="CGEADArNTYgOwazKuZEsDW" Ids="LjW2FJM2RYFQH22nvMGLUJ,AtGnI0j4OGnOmmxkBssrTQ" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="BK19P87Va2DQHghawJyKCN" Location="VL.Skia" Version="2021.3.0-0021-g44253d2755" />
+  <NugetDependency Id="ATLPsm8jJ82L9KRR90n3Lp" Location="VL.Elementa" Version="0.0.0.0" />
+</Document>

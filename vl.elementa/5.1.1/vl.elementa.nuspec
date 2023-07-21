@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>VL.Elementa</id>
+    <version>5.1.1</version>
+    <title>VL.Elementa</title>
+    <authors>natan.sinigaglia</authors>
+    <owners>natan.sinigaglia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/vvvv-dottore/VL.Elementa</projectUrl>
+    <description>UI widget library for VL</description>
+    <summary>UI widget library for VL</summary>
+    <copyright>Copyright © 2019 by Natan Sinigaglia. All rights reserved.</copyright>
+    <tags>VL</tags>
+  </metadata>
+</package>
