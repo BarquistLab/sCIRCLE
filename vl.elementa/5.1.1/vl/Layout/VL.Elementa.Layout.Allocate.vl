@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="OXyR0OhsYOYPdDpIkF34gB" LanguageVersion="2021.4.0.365" Version="0.128">
-  <NugetDependency Id="DSWcAXJqILlL9F9cCISPZd" Location="VL.CoreLib" Version="2021.4.0-0365-g698d9b47a2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OXyR0OhsYOYPdDpIkF34gB" LanguageVersion="2023.5.1" Version="0.128">
+  <NugetDependency Id="DSWcAXJqILlL9F9cCISPZd" Location="VL.CoreLib" Version="2023.5.1" />
   <Patch Id="Tg1nUwlwRLIOLdCV2932lh">
     <Canvas Id="JtRacgwi6KCMADk5eHM1EV" DefaultCategory="Elementa.Layout" CanvasType="FullCategory">
       <!--
@@ -16,7 +16,7 @@
         <Patch Id="TSpNirkyfnHMVVXcH5Ch2K">
           <Canvas Id="AtFiw2mPEIhNOYR9dPJJzP" CanvasType="Group">
             <Node Bounds="91,593,773,19" Id="BfTDdl3hWadM868Q46mBDT">
-              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastSymbolSource="VL.Elementa.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastDependency="VL.Elementa.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Layout" />
               </p:NodeReference>
@@ -41,7 +41,7 @@
             <ControlPoint Id="VcGq54c9a4xN5Lg8BfaZgD" Bounds="477,678" />
             <ControlPoint Id="AfYGsiFrnUfLxVoKHnAHGg" Bounds="861,676" />
             <Node Bounds="440,394,145,19" Id="ExuFcINuBaVQd4iU7QSHah">
-              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="CommonLayoutTechnique_R" />
               </p:NodeReference>
@@ -49,7 +49,7 @@
               <Pin Id="RRMhzm6dDYyNy2Kxbnvysc" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="58,506,58,19" Id="KHuc3brVtEvPjWjc6cWJcX">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Common.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Component.Common.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Taggable" />
                 <PinReference Kind="InputPin" Name="Tag" />
@@ -58,12 +58,12 @@
               <Pin Id="AIyRr6aLLHmMEnyt9YBabH" Name="Tag" Kind="InputPin" />
             </Node>
             <Pad Id="EyJWGi7FqspPeCvk1U440h" Comment="" Bounds="60,481,57,18" ShowValueBox="true" isIOBox="true" Value="AllocateX">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="Rrx6nP3snsPOv8Zvc59PhE" Comment="Widget Vertical Alignment" Bounds="605,106,58,15" ShowValueBox="true" isIOBox="true" Value="None">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Layout" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Layout" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="VerticalAlignment" />
               </p:TypeAnnotation>
             </Pad>
@@ -77,7 +77,7 @@
             <ControlPoint Id="U0JLpZHjCV2LWdGIzWf3RE" Bounds="782,562" />
             <ControlPoint Id="MoF8y9vq0tKMjYGBeOyP7q" Bounds="858,527" />
             <Node Bounds="58,540,39,19" Id="PCEj5AJ0Fe9QYFDm2u617e">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Cons" />
                 <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -86,7 +86,7 @@
               <Pin Id="MfUwQysJwWCNHjx67YTNKv" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="503,292,95,19" Id="GmTQpMTUuRcLLhjlAgoBRi">
-              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout.Utils" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout.Utils" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="CommonLayoutTechnique_M_Editor" />
               </p:NodeReference>
@@ -117,18 +117,18 @@
             <ControlPoint Id="LYWasIW715XM0QjDozXk8o" Bounds="685,180" />
             <ControlPoint Id="DVQeKlgOhzAP9SN0M6A0gJ" Bounds="805,206" />
             <Pad Id="Kf5xdJS1wivPENFVM6qBdR" Comment="Arrangement Mode" Bounds="565,83,73,15" ShowValueBox="true" isIOBox="true" Value="Allocate">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Component.Layout" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Component.Layout" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="TypeFlag" Name="LayoutMode" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="BCObQulkY1jLAw4Dh5yxlE" Comment="Arrangement Orientation" Bounds="545,57,76,15" ShowValueBox="true" isIOBox="true" Value="Horizontal">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="Orientation" />
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="J50oEs4PsUxOZtz3gRKQov" Bounds="845,261" />
             <Pad Id="KE2XUeJKgsZQVOWSEUz9Bj" Comment="Init Alignment Within Bounds Enabled" Bounds="626,132,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:TypeAnnotation>
@@ -137,7 +137,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <Pad Id="ESe0ng402T4PQbkwkB5TKj" Comment="Init Auto Size" Bounds="504,15,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:TypeAnnotation>
@@ -146,99 +146,34 @@
               </p:ValueBoxSettings>
             </Pad>
           </Canvas>
-          <Patch Id="BcutQ3NdtUzMkK4T8GHOOL" Name="Create" ParticipatingElements="DmJqk7Ms53SOAUxOQpmbHX,I8NQ27z7wx0LZzWNFEcPze,DkEedAT8Er3QAi7iUnpHDP,KSP5LymRPqLM81jvhOdwTY,CT8lazQXRx5NFIRQDPujSQ" />
           <Link Id="RRra8AEA5AfLl4xddHDxdA" Ids="MYo9ewiHvCnPffKHENQCmp,IBdBjnJAsn0Nwd1uRhLoU2" />
           <Link Id="IchvXc2C428M9K6MCf8CfG" Ids="IBdBjnJAsn0Nwd1uRhLoU2,OsUIgnM4A6gMzFcpYWTPu6" IsHidden="true" />
           <Link Id="AIXDmpmXjA5MWNKSLgrvf1" Ids="VcGq54c9a4xN5Lg8BfaZgD,NxV2p4ZORfdNFHKdgbQ5vD" IsHidden="true" />
           <Link Id="Op9PWRlBuSGQaaEpQ5QAJN" Ids="AfYGsiFrnUfLxVoKHnAHGg,IsWkQBf4P1oMuaLXyZWXmx" IsHidden="true" />
           <Link Id="DmJqk7Ms53SOAUxOQpmbHX" Ids="RRMhzm6dDYyNy2Kxbnvysc,HAAAKuJuH66Ow1imsVxPcA" />
-          <Patch Id="ByDcrLf2QiqOcxVyNSm9Vr" Name="GetGraphVersion (Internal)">
-            <Pin Id="NxV2p4ZORfdNFHKdgbQ5vD" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="OMFOXsaUB95LIdrwGk1WcI" Name="GetLayoutVersion (Internal)">
-            <Pin Id="IsWkQBf4P1oMuaLXyZWXmx" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="P60UsUc5OrqLeRylIDK48D" Ids="BfkWWllh8dwPWFUpytdVMM,AfYGsiFrnUfLxVoKHnAHGg" />
           <Link Id="RsHeLhd348mO8SuiQCZDw7" Ids="EsHEdyTZ2MbQLAe7kmNDn3,VcGq54c9a4xN5Lg8BfaZgD" />
           <Link Id="CT8lazQXRx5NFIRQDPujSQ" Ids="EyJWGi7FqspPeCvk1U440h,AIyRr6aLLHmMEnyt9YBabH" />
-          <Patch Id="DnhlG2pKeusP7vMFl4N4l9" Name="SetPositionSize (Internal)">
-            <Pin Id="JmxZIqwtjo5MvulHbOz3ho" MergeId="1025661" Name="Position" Kind="InputPin" />
-            <Pin Id="VxtvacdcdioML13nY4wIRV" MergeId="1025662" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="QqkZ61dvMipPnDgyb6i8Yf" MergeId="1025663" Name="Anchor" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="IMwAyqSx2bPMYSkslIpuZi" Ids="JmxZIqwtjo5MvulHbOz3ho,TeRiKcMRuy7Ljow1eOWWkv" IsHidden="true" />
           <Link Id="LiPHlas8d7sMIvSVVf1g0I" Ids="VxtvacdcdioML13nY4wIRV,LwGmAz3Vvl0M50V0Q3Kebi" IsHidden="true" />
           <Link Id="BVy8vGzYWKPNnYzJDX6qrQ" Ids="QqkZ61dvMipPnDgyb6i8Yf,SNV1ihV1OGUN8C9LhLP3wH" IsHidden="true" />
           <Link Id="V8UCcrMJW07PVCFyobUvpR" Ids="TeRiKcMRuy7Ljow1eOWWkv,Na6vuyqkT8wMI89p0H3t40" />
           <Link Id="BtoscNWiBv2MrvTwLOlf1q" Ids="LwGmAz3Vvl0M50V0Q3Kebi,UHFq0TmawN5LHXELILM4LK" />
           <Link Id="LCfUxQOEE2hOxB0ohtCCU3" Ids="SNV1ihV1OGUN8C9LhLP3wH,MWp1oJv81ACMzelNouzN7t" />
-          <Patch Id="NATUZhblRJoMMMupOdRRlB" Name="SetInput (Internal)">
-            <Pin Id="Igy9o9jUJ8lNMnKVakWqor" MergeId="1540098" Name="Input" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="NUq08xl9iWiObsWepAYNdD" Ids="Igy9o9jUJ8lNMnKVakWqor,B8hjWbZ71AZP1aSZtgcLP7" IsHidden="true" />
           <Link Id="Kbx4UsF6XUVPEP1NNtQXdI" Ids="B8hjWbZ71AZP1aSZtgcLP7,IVZxVOp3zbaLVyulwwmGj8" />
-          <Patch Id="P8cAtkfsFcZLRI4Z3LcE3o" Name="SetPadding (Internal)">
-            <Pin Id="RsoYjVCZaSHLuI2fAVgigU" MergeId="1073130" Name="Padding" Kind="InputPin" />
-          </Patch>
           <Link Id="AQGHD7gnWiGLf4aoWjQU4g" Ids="RsoYjVCZaSHLuI2fAVgigU,Cwi7G2N6jnQN1DX8xaik9f" IsHidden="true" />
           <Link Id="LNZ5ybYC2NzNET0MVdgfSz" Ids="Cwi7G2N6jnQN1DX8xaik9f,F3zVSH84gXXNyMhoEd1nEy" />
-          <Patch Id="ESvJNrJ6EVAM4WTxN5ewcF" Name="SetClipElementaLayer (Internal)">
-            <Pin Id="VLsB44uQSlrNrxlNOXjQmY" MergeId="1422319" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="QZfNSFOUjEhMxg0y6CI8AR" Name="SetHelper (Internal)">
-            <Pin Id="T9IpVsGz3zQMMEYfHOqTHh" MergeId="1422316" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
-            <Pin Id="SuTEge6r8kQLwcACwSE7l3" MergeId="1422317" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="Nf5wK8G9kugQOu3DJlDGuh" Ids="VLsB44uQSlrNrxlNOXjQmY,DYmmzGQv6T7NcUDfAwTRib" IsHidden="true" />
           <Link Id="QkJ98OtlMXhN1kyT4dNPlw" Ids="T9IpVsGz3zQMMEYfHOqTHh,LQg8mvqiqm4QDMN2RY2Ny7" IsHidden="true" />
           <Link Id="PcWTpJcTMqmOn1jAHhPSH2" Ids="SuTEge6r8kQLwcACwSE7l3,U0JLpZHjCV2LWdGIzWf3RE" IsHidden="true" />
           <Link Id="RN5cPtI4fk7NaCcpO0fUOd" Ids="DYmmzGQv6T7NcUDfAwTRib,JDYcFYepmw2L1YWstMf8Dk" />
           <Link Id="KPvY3lNVa4FPRqJPcuWK7B" Ids="LQg8mvqiqm4QDMN2RY2Ny7,RFWi2YWXDt0PNrwzx6MTBk" />
           <Link Id="IwnUSlK9fRSPBYwJUsslKw" Ids="U0JLpZHjCV2LWdGIzWf3RE,FR6b8rH4jkuLJ4wQfpgEyX" />
-          <Patch Id="HxzeixObLbtO7FCbI3Ub9I" Name="SetExternalComponents (Internal)">
-            <Pin Id="KG1ZubPJbz8OqW8TmCBvv5" MergeId="1750791" Name="Components" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="LD1ydYGeVJdMwbpM9NiLBV" Ids="KG1ZubPJbz8OqW8TmCBvv5,MoF8y9vq0tKMjYGBeOyP7q" IsHidden="true" />
           <Link Id="DadK07MVpMFMywZbwwnmv4" Ids="Qf03PFdpm73NOMiyHG9dnr,KwLGqZM3zMrNkHLItL7CuF" />
           <Link Id="NXGzKTl9hwWLTXUkU7yMkU" Ids="MfUwQysJwWCNHjx67YTNKv,Ujc2vlWg7T9N67kAnilnEr" />
           <Link Id="ATmVLBnOvJ7OS2qdczatut" Ids="MoF8y9vq0tKMjYGBeOyP7q,EYdhocfLcyqLDTmWSbhgWD" />
-          <Patch Id="VdQe0MgIXLHQcTbCKzEVXK" Name="SetAutoSize (Internal)">
-            <Pin Id="Q5EnOBjMIziQblJvpotdO8" MergeId="480417" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="Roj2NqRsECRPfPWd8pYSBj" Name="SetMargin (Internal)">
-            <Pin Id="JaH5womHhEqLiErJF0T3si" MergeId="489995" Name="Margin" Kind="InputPin" />
-          </Patch>
-          <Patch Id="Ku7XucMapybLwGDY0S6zBg" Name="SetWidgetSelfAlignement (Internal)">
-            <Pin Id="AKDsqC4ecMhOmAGz2czknk" MergeId="518720" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="V7J2u9MH1MiO7tUPX4Ewpo" Name="SetAlignmentWithinBounds (Internal)">
-            <Pin Id="OyInOxayOAfOlS3Gg1nyrl" MergeId="537872" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="ALlzbnkv4BEQbGCD28FLCk" MergeId="552324" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="A48wRXDsgz2NQIStX4CIOS" Ids="ALlzbnkv4BEQbGCD28FLCk,HSiiI3C3dmfQcD3bKC54vs" IsHidden="true" />
           <Link Id="OsDepp5itQQNuSb6J771fI" Ids="AKDsqC4ecMhOmAGz2czknk,QRsJo7UEeS3MNK9pOIEqjx" IsHidden="true" />
           <Link Id="VyUdtDsAxzLNInyIyG3e4N" Ids="JaH5womHhEqLiErJF0T3si,L6g7G6V3I9LQBee70oaNpO" IsHidden="true" />
@@ -248,18 +183,8 @@
           <Link Id="I8NQ27z7wx0LZzWNFEcPze" Ids="Rrx6nP3snsPOv8Zvc59PhE,VpEuqccs0Q3LtLqlcYsgKv" />
           <Link Id="DkEedAT8Er3QAi7iUnpHDP" Ids="Kf5xdJS1wivPENFVM6qBdR,S1yt90qbU1bMAOkYiDxqAm" />
           <Link Id="KSP5LymRPqLM81jvhOdwTY" Ids="BCObQulkY1jLAw4Dh5yxlE,MSlYkej93s1L9H239e0bIF" />
-          <Patch Id="AfeXnDShYD8MKQ1VVkkkzZ" Name="GetElementum (Internal)">
-            <Pin Id="OsUIgnM4A6gMzFcpYWTPu6" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IElementum" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="FSnsJjQ1YfzPwFikBKWkDT" Ids="NC7YUQW3AO5N1x8Hk3LXSm,OOnRg10tQV8MPo2Ofcqo9j" />
           <Link Id="Plgrr3lwGEMNe04TeIXCAJ" Ids="DGJuFV7pqvvM2GMneUWJoA,J50oEs4PsUxOZtz3gRKQov" IsHidden="true" />
-          <Patch Id="B4YSMTMXEjVMd9u1zrcNrq" Name="SetSlotSizes (Internal)">
-            <Pin Id="DGJuFV7pqvvM2GMneUWJoA" Name="Slot Sizes" Kind="InputPin" />
-          </Patch>
           <ProcessDefinition Id="A6zgTv6P8BYMScKFHKQrmA">
             <Fragment Id="LYFv184bxPAOAZNMChdfFU" Patch="BcutQ3NdtUzMkK4T8GHOOL" Enabled="true" />
             <Fragment Id="C01HvJF4N3ONaEFfhA5hKq" Patch="NATUZhblRJoMMMupOdRRlB" Enabled="true" />
@@ -285,6 +210,81 @@
           <Link Id="OMkarbH7hHhLHRe6POL9vQ" Ids="LYWasIW715XM0QjDozXk8o,RwoXmZ4wXQwMn2JBFOZOXp" />
           <Link Id="IBG5WImB5lOOH6jhzNvlLn" Ids="KE2XUeJKgsZQVOWSEUz9Bj,NE97d7XhftbLLCFtriQGtg" />
           <Link Id="Kns0QrX6VTXL3rM1tFQ2lB" Ids="ESe0ng402T4PQbkwkB5TKj,URPfoYTR8ZfMSwMw3HbNBc" />
+          <Patch Id="BcutQ3NdtUzMkK4T8GHOOL" Name="Create" ParticipatingElements="DmJqk7Ms53SOAUxOQpmbHX,I8NQ27z7wx0LZzWNFEcPze,DkEedAT8Er3QAi7iUnpHDP,KSP5LymRPqLM81jvhOdwTY,CT8lazQXRx5NFIRQDPujSQ" />
+          <Patch Id="ByDcrLf2QiqOcxVyNSm9Vr" Name="GetGraphVersion (Internal)">
+            <Pin Id="NxV2p4ZORfdNFHKdgbQ5vD" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="OMFOXsaUB95LIdrwGk1WcI" Name="GetLayoutVersion (Internal)">
+            <Pin Id="IsWkQBf4P1oMuaLXyZWXmx" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="DnhlG2pKeusP7vMFl4N4l9" Name="SetPositionSize (Internal)">
+            <Pin Id="JmxZIqwtjo5MvulHbOz3ho" MergeId="1025661" Name="Position" Kind="InputPin" />
+            <Pin Id="VxtvacdcdioML13nY4wIRV" MergeId="1025662" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="QqkZ61dvMipPnDgyb6i8Yf" MergeId="1025663" Name="Anchor" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="NATUZhblRJoMMMupOdRRlB" Name="SetInput (Internal)">
+            <Pin Id="Igy9o9jUJ8lNMnKVakWqor" MergeId="1540098" Name="Input" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="P8cAtkfsFcZLRI4Z3LcE3o" Name="SetPadding (Internal)">
+            <Pin Id="RsoYjVCZaSHLuI2fAVgigU" MergeId="1073130" Name="Padding" Kind="InputPin" />
+          </Patch>
+          <Patch Id="ESvJNrJ6EVAM4WTxN5ewcF" Name="SetClipElementaLayer (Internal)">
+            <Pin Id="VLsB44uQSlrNrxlNOXjQmY" MergeId="1422319" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="QZfNSFOUjEhMxg0y6CI8AR" Name="SetHelper (Internal)">
+            <Pin Id="T9IpVsGz3zQMMEYfHOqTHh" MergeId="1422316" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
+            <Pin Id="SuTEge6r8kQLwcACwSE7l3" MergeId="1422317" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="HxzeixObLbtO7FCbI3Ub9I" Name="SetExternalComponents (Internal)">
+            <Pin Id="KG1ZubPJbz8OqW8TmCBvv5" MergeId="1750791" Name="Components" Kind="InputPin" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="VdQe0MgIXLHQcTbCKzEVXK" Name="SetAutoSize (Internal)">
+            <Pin Id="Q5EnOBjMIziQblJvpotdO8" MergeId="480417" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="Roj2NqRsECRPfPWd8pYSBj" Name="SetMargin (Internal)">
+            <Pin Id="JaH5womHhEqLiErJF0T3si" MergeId="489995" Name="Margin" Kind="InputPin" />
+          </Patch>
+          <Patch Id="Ku7XucMapybLwGDY0S6zBg" Name="SetWidgetSelfAlignement (Internal)">
+            <Pin Id="AKDsqC4ecMhOmAGz2czknk" MergeId="518720" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="V7J2u9MH1MiO7tUPX4Ewpo" Name="SetAlignmentWithinBounds (Internal)">
+            <Pin Id="OyInOxayOAfOlS3Gg1nyrl" MergeId="537872" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="ALlzbnkv4BEQbGCD28FLCk" MergeId="552324" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="AfeXnDShYD8MKQ1VVkkkzZ" Name="GetElementum (Internal)">
+            <Pin Id="OsUIgnM4A6gMzFcpYWTPu6" Name="Output" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Layout.vl">
+                <Choice Kind="TypeFlag" Name="IElementum" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="B4YSMTMXEjVMd9u1zrcNrq" Name="SetSlotSizes (Internal)">
+            <Pin Id="DGJuFV7pqvvM2GMneUWJoA" Name="Slot Sizes" Kind="InputPin" />
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -293,13 +293,13 @@
 
 -->
       <Node Name="AllocateX" Bounds="537,286" Id="SdkMcjgRE2QLBGjDZJOouK">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="TNK2yvgGMsAOuaA9IMtqil">
           <Canvas Id="HfNvDJPAhPXODCEmlTOz88" CanvasType="Group">
             <Node Bounds="261,378,255,19" Id="HfgaJtCAWVWL7JUzb8YK8G">
-              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastSymbolSource="VL.Elementa.Layout.Allocate.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastDependency="VL.Elementa.Layout.Allocate.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="AllocateX (Spectral)" />
               </p:NodeReference>
@@ -341,42 +341,12 @@
             <ControlPoint Id="PWwbbj5n4hrN13kvzvU0eO" Bounds="543,356" />
             <ControlPoint Id="SLsRdIbnPkYNLDR1fjtEdO" Bounds="341,121" />
           </Canvas>
-          <Patch Id="N3rRdG7gZZtMRUVYVtRSl9" Name="Create" />
-          <Patch Id="C5y3DAYcA3RMKRGbGQMdLO" Name="GetGraphVersion (Internal)">
-            <Pin Id="IFDqZuqypEdMSv1ESGXIto" MergeId="319198" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="TL4q4EEYcgZLeLWTIyvMaE" Name="GetLayoutVersion (Internal)">
-            <Pin Id="JuOF3UtaJ7SMLnQ1V0zzpO" MergeId="319200" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="RDUZFpO1uf2OY0OJvZKn0n" Ids="CNsR8fOyk01LVjBmyEYj4f,IFDqZuqypEdMSv1ESGXIto" IsHidden="true" />
           <Link Id="JJCnmPl0IeWNyn6ZmIzFRJ" Ids="RBkt5ffGIncNpbJSUJWMVP,JuOF3UtaJ7SMLnQ1V0zzpO" IsHidden="true" />
           <Link Id="HhsKbJONsnGNmlKieYMq43" Ids="RCRqjXrBIjiNZs4EpWZpZD,CNsR8fOyk01LVjBmyEYj4f" />
           <Link Id="Ui4IL9TUQ3EOBlX4RAp8LV" Ids="VPQzHnKM5oONMggTtOGYDL,RBkt5ffGIncNpbJSUJWMVP" />
-          <Patch Id="FKknF2bJUrqMw7VGLdVSJZ" Name="GetElementum (Internal)">
-            <Pin Id="UHQ88imPxw0OsnV3FEaAms" MergeId="1467719" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IElementum" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="RrCj92HleOpMzLdVEMYTUq" Ids="Lg3ah7ELKFpOnatXn6jKt8,UHQ88imPxw0OsnV3FEaAms" IsHidden="true" />
           <Link Id="USliz6UfGu9LfTKkLf7VDo" Ids="IVqunBil4kSOhDyf3eCPTR,Lg3ah7ELKFpOnatXn6jKt8" />
-          <Patch Id="N7r7tYrH82PLPlBZHcardp" Name="SetPositionSize (Internal)">
-            <Pin Id="NFcf51PZa8OOtrWMYbfawv" MergeId="286086" Name="Position" Kind="InputPin" />
-            <Pin Id="Qx0gWdqokWoLmDf81Vfh2R" MergeId="286093" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Q7l8DsW6DrILxLzN4xZtdM" MergeId="286100" Name="Anchor" Kind="InputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="SyjfaigyAlbMkbJ7IrORQK" Name="SetInput (Internal)">
-            <Pin Id="AZvLGx1QvL1Mp7twuZLrU3" MergeId="286144" Name="Input" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="JmjlDEUFFeWOa22NbCvuzs" Ids="NFcf51PZa8OOtrWMYbfawv,RY6QbxTIRm6ODDQg7Exu50" IsHidden="true" />
           <Link Id="Ekq9WLFezvSL43hoG0Tunm" Ids="Qx0gWdqokWoLmDf81Vfh2R,U0ImbhszD7qOLjscel4yj4" IsHidden="true" />
           <Link Id="FyTU9qKJG9XNwci0KZB7Ft" Ids="Q7l8DsW6DrILxLzN4xZtdM,EHsTUtJ4iY4L7KhHQtqhLV" IsHidden="true" />
@@ -385,58 +355,16 @@
           <Link Id="MAlgFZC2aaGMFjgLh1I6cl" Ids="RY6QbxTIRm6ODDQg7Exu50,Cv4S54WwjXRMeBILxmtIIJ" />
           <Link Id="SfiejUTyyGzOJV3ZaDgv05" Ids="U0ImbhszD7qOLjscel4yj4,U2KSaAlxToDO0EB6pSODgO" />
           <Link Id="FJ7vOzc8lRVN4hF1lrm7iI" Ids="EHsTUtJ4iY4L7KhHQtqhLV,H01L5EpLwEXQBWwyMNgnZd" />
-          <Patch Id="RoK4HKiQkrpOEknyrz9fzY" Name="SetAutoSize (Internal)">
-            <Pin Id="Rk4sx2U5U55PiqTbe4cOtS" MergeId="1242334" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="KOFiEiJ6DXjQCfhQ051Yg7" Name="SetMargin (Internal)">
-            <Pin Id="LkiQ1mofk4lLBvgCR9QeQc" MergeId="1242332" Name="Margin" Kind="InputPin" />
-          </Patch>
           <Link Id="MiQgOIKCSo8PsYMFef6Qzb" Ids="LkiQ1mofk4lLBvgCR9QeQc,H6r5HFztAQDLxwdhh38L3T" IsHidden="true" />
           <Link Id="C5Tt6lR2TqMQa4L9ARClIq" Ids="Rk4sx2U5U55PiqTbe4cOtS,U3gg6yDirZuLmR5iGUiJ9m" IsHidden="true" />
           <Link Id="OXIPSXRqGeMOUKhvMCG8OT" Ids="U3gg6yDirZuLmR5iGUiJ9m,Cbpe2ZoUty2LFo9XldYlcm" />
           <Link Id="SlSDqjE687CP5VVr3jMymq" Ids="H6r5HFztAQDLxwdhh38L3T,UyPRzuxZPmTM4ApDNbjT5C" />
-          <Patch Id="R4K7mAHgoZmNnAd1suiEJ3" Name="SetWidgetSelfAlignement (Internal)">
-            <Pin Id="VJD5EHiQuqhP53GcvZWacW" MergeId="1242326" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="PyDiLd4BplOPANZZkfrz1k" Ids="VJD5EHiQuqhP53GcvZWacW,PiH07VXOKQYOCw61H3zT8D" IsHidden="true" />
           <Link Id="DLfcAXVH12gQU9Xj0iAlmE" Ids="PiH07VXOKQYOCw61H3zT8D,Qfsrj7LGrykMGLPiN5PfKN" />
-          <Patch Id="GGGw6OmhRgpM4qMBmZiies" Name="SetAlignmentWithinBounds (Internal)">
-            <Pin Id="LkIySyi6VJwQSkLIWCcYuT" MergeId="1242321" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="CVIgqfd350WLLEtbLprt0A" MergeId="1242322" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="Pz9UBCQLuQAOA5Bdkpnnr4" Ids="CVIgqfd350WLLEtbLprt0A,QODclUZOYALMJ7cxBTdZ7l" IsHidden="true" />
           <Link Id="MZwq4lNSIzuNssjVI7CCA3" Ids="LkIySyi6VJwQSkLIWCcYuT,QlQ9vDmlovvPiZr5e0UxNH" IsHidden="true" />
           <Link Id="KpEU6mqLbsxQTSxPw3d8Wg" Ids="QlQ9vDmlovvPiZr5e0UxNH,USRfwolqnEuQWLRlc1YwOG" />
           <Link Id="SKQvmRTm3fENYEcJmiK72x" Ids="QODclUZOYALMJ7cxBTdZ7l,AJEgA7cCaS3PFSKH9RXemG" />
-          <Patch Id="V6UKkmia9oUNW6Z8fiULBr" Name="SetPadding (Internal)">
-            <Pin Id="DPjOnkRAWjhOsGzie2arhE" MergeId="286165" Name="Padding" Kind="InputPin" />
-          </Patch>
-          <Patch Id="R887SjtjYS0L2AdaoLSuRJ" Name="SetClipElementaLayer (Internal)">
-            <Pin Id="NIp6FSSDeLgNjKW2N07lbB" MergeId="286201" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="Rej6TC5MBz5Qbud5yQXMJi" Name="SetHelper (Internal)">
-            <Pin Id="OsIbc2fAKrDP9zpLJBpJo9" MergeId="286212" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
-            <Pin Id="EtMDa1coV6IOtxc54k63AC" MergeId="286218" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="VaYoKUFz9fSQRDfDs6Myky" Name="SetExternalComponents (Internal)">
-            <Pin Id="Ienp4wa7nisQQqelK90Fn8" MergeId="286254" Name="Component" Kind="InputPin" Visibility="Optional" IsPinGroup="true">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="L0pI0dPtkoeNI3XAA40btJ" Ids="DPjOnkRAWjhOsGzie2arhE,LeMWbqIOyg0Obbaar6ics9" IsHidden="true" />
           <Link Id="ANi0ZJ9ulySNMjyhU8fsYT" Ids="NIp6FSSDeLgNjKW2N07lbB,G4mQEhrE0IYM91bwALfNGh" IsHidden="true" />
           <Link Id="So4ztyXQXWiQCA7vE5szXk" Ids="OsIbc2fAKrDP9zpLJBpJo9,AZRnUe6MtfOQS2Tc4Rfl3F" IsHidden="true" />
@@ -449,9 +377,6 @@
           <Link Id="QAZxdt5oleGMDF33FvvkKw" Ids="PWwbbj5n4hrN13kvzvU0eO,Cr0SU9K9fj7MvOSqhhzxZN" />
           <Link Id="KLhiilIRhgsOQcVeosuXDt" Ids="SLsRdIbnPkYNLDR1fjtEdO,GBgnI2X2KCiNye2k4mp9Eu" />
           <Link Id="VdQMCwT8voFM12DDKMo0hq" Ids="QseFMXeJQLtMlA5vNWQnKs,SLsRdIbnPkYNLDR1fjtEdO" IsHidden="true" />
-          <Patch Id="MKRxYqR91xzP54MOWd6LSW" Name="SetSlotSizes (Internal)">
-            <Pin Id="QseFMXeJQLtMlA5vNWQnKs" Name="Slot Sizes" Kind="InputPin" />
-          </Patch>
           <ProcessDefinition Id="Bo0wI3eXhSkLOA6YhDpJbD">
             <Fragment Id="Eh9hmu6VfvqOn9AyERpQoN" Patch="N3rRdG7gZZtMRUVYVtRSl9" Enabled="true" />
             <Fragment Id="RZa9VjG5s8XOCSQLJB6lww" Patch="SyjfaigyAlbMkbJ7IrORQK" Enabled="true" />
@@ -469,6 +394,81 @@
             <Fragment Id="Hz6gEvxabGLPOF1Qoi1DIm" Patch="C5y3DAYcA3RMKRGbGQMdLO" Enabled="true" />
             <Fragment Id="TcvBDeEbcgsOVt8jYfDDgL" Patch="TL4q4EEYcgZLeLWTIyvMaE" Enabled="true" />
           </ProcessDefinition>
+          <Patch Id="N3rRdG7gZZtMRUVYVtRSl9" Name="Create" />
+          <Patch Id="C5y3DAYcA3RMKRGbGQMdLO" Name="GetGraphVersion (Internal)">
+            <Pin Id="IFDqZuqypEdMSv1ESGXIto" MergeId="319198" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="TL4q4EEYcgZLeLWTIyvMaE" Name="GetLayoutVersion (Internal)">
+            <Pin Id="JuOF3UtaJ7SMLnQ1V0zzpO" MergeId="319200" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="FKknF2bJUrqMw7VGLdVSJZ" Name="GetElementum (Internal)">
+            <Pin Id="UHQ88imPxw0OsnV3FEaAms" MergeId="1467719" Name="Output" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Layout.vl">
+                <Choice Kind="TypeFlag" Name="IElementum" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="N7r7tYrH82PLPlBZHcardp" Name="SetPositionSize (Internal)">
+            <Pin Id="NFcf51PZa8OOtrWMYbfawv" MergeId="286086" Name="Position" Kind="InputPin" />
+            <Pin Id="Qx0gWdqokWoLmDf81Vfh2R" MergeId="286093" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Q7l8DsW6DrILxLzN4xZtdM" MergeId="286100" Name="Anchor" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="SyjfaigyAlbMkbJ7IrORQK" Name="SetInput (Internal)">
+            <Pin Id="AZvLGx1QvL1Mp7twuZLrU3" MergeId="286144" Name="Input" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="RoK4HKiQkrpOEknyrz9fzY" Name="SetAutoSize (Internal)">
+            <Pin Id="Rk4sx2U5U55PiqTbe4cOtS" MergeId="1242334" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="KOFiEiJ6DXjQCfhQ051Yg7" Name="SetMargin (Internal)">
+            <Pin Id="LkiQ1mofk4lLBvgCR9QeQc" MergeId="1242332" Name="Margin" Kind="InputPin" />
+          </Patch>
+          <Patch Id="R4K7mAHgoZmNnAd1suiEJ3" Name="SetWidgetSelfAlignement (Internal)">
+            <Pin Id="VJD5EHiQuqhP53GcvZWacW" MergeId="1242326" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="GGGw6OmhRgpM4qMBmZiies" Name="SetAlignmentWithinBounds (Internal)">
+            <Pin Id="LkIySyi6VJwQSkLIWCcYuT" MergeId="1242321" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="CVIgqfd350WLLEtbLprt0A" MergeId="1242322" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="V6UKkmia9oUNW6Z8fiULBr" Name="SetPadding (Internal)">
+            <Pin Id="DPjOnkRAWjhOsGzie2arhE" MergeId="286165" Name="Padding" Kind="InputPin" />
+          </Patch>
+          <Patch Id="R887SjtjYS0L2AdaoLSuRJ" Name="SetClipElementaLayer (Internal)">
+            <Pin Id="NIp6FSSDeLgNjKW2N07lbB" MergeId="286201" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="Rej6TC5MBz5Qbud5yQXMJi" Name="SetHelper (Internal)">
+            <Pin Id="OsIbc2fAKrDP9zpLJBpJo9" MergeId="286212" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
+            <Pin Id="EtMDa1coV6IOtxc54k63AC" MergeId="286218" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="VaYoKUFz9fSQRDfDs6Myky" Name="SetExternalComponents (Internal)">
+            <Pin Id="Ienp4wa7nisQQqelK90Fn8" MergeId="286254" Name="Component" Kind="InputPin" Visibility="Optional" IsPinGroup="true">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="MKRxYqR91xzP54MOWd6LSW" Name="SetSlotSizes (Internal)">
+            <Pin Id="QseFMXeJQLtMlA5vNWQnKs" Name="Slot Sizes" Kind="InputPin" />
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -484,7 +484,7 @@
         <Patch Id="CGQHXQ3k80oMkez2YspI41">
           <Canvas Id="NUnQd1Rm01bPtseJd2WVua" CanvasType="Group">
             <Node Bounds="91,593,773,19" Id="VqM0FGiff2QQBBmkX208jA">
-              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastSymbolSource="VL.Elementa.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastDependency="VL.Elementa.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Layout" />
               </p:NodeReference>
@@ -509,7 +509,7 @@
             <ControlPoint Id="D9ZXi6H51MlO0GqdI1sNFd" Bounds="477,678" />
             <ControlPoint Id="EzTkg5PgbxpLC5jLTTb9sk" Bounds="861,676" />
             <Node Bounds="439,394,145,19" Id="FDm7lp3apFuPqR6kTNP8Lf">
-              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="CommonLayoutTechnique_R" />
               </p:NodeReference>
@@ -517,7 +517,7 @@
               <Pin Id="VDwn1l5L3txPoufj7Q9iiD" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="58,506,58,19" Id="K7ChM6fJuG4O8uVo61nQd2">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Common.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Component.Common.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Taggable" />
                 <PinReference Kind="InputPin" Name="Tag" />
@@ -526,7 +526,7 @@
               <Pin Id="HQGtB6XJ9GxMBFieJix5w0" Name="Tag" Kind="InputPin" />
             </Node>
             <Pad Id="Gra0wDS9JiTMqYQpQl19b9" Comment="" Bounds="60,481,55,15" ShowValueBox="true" isIOBox="true" Value="AllocateY">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -540,7 +540,7 @@
             <ControlPoint Id="Go0nVAa3FOlOZ0MyQr3ffl" Bounds="782,562" />
             <ControlPoint Id="NpiwrXbzvCaOhuMD6g6rAD" Bounds="858,527" />
             <Node Bounds="58,540,39,19" Id="BTTaEuPnjLbLptnbE1Btqs">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Cons" />
                 <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -549,7 +549,7 @@
               <Pin Id="AqxSLEg1A4eNr0RtC2G20y" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="508,322,105,19" Id="Ec6xHSKjGCpM9jeMtpgSVp">
-              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout.Utils" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component.Layout.Utils" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="CommonLayoutTechnique_M_Editor" />
               </p:NodeReference>
@@ -579,24 +579,24 @@
             <ControlPoint Id="UA9BL968S8fPErtiUCK8vn" Bounds="690,230" />
             <ControlPoint Id="LyoAS6XfrUHPS78R99bmEM" Bounds="810,252" />
             <Pad Id="N9sFEH0M1xQNwKTlJnrbyo" Comment="Arrangement Mode" Bounds="568,121,73,15" ShowValueBox="true" isIOBox="true" Value="Allocate">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Component.Layout" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Component.Layout" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="TypeFlag" Name="LayoutMode" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="TbGbgGnp1z3P7ZWglHDKxC" Comment="Arrangement Orientation" Bounds="548,94,76,15" ShowValueBox="true" isIOBox="true" Value="Vertical">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="Orientation" />
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="Mu7L97HmNSXPas3GlnjTA8" Bounds="790,225" />
             <Pad Id="NgaEzRfZCSYNigptfqIOSS" Comment="Widget Horizontal Alignment" Bounds="588,146,61,15" ShowValueBox="true" isIOBox="true" Value="None">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Component.Layout" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Component.Layout" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="TypeFlag" Name="HorizontalAlignment" />
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="V0I0JnHTgGgOtWUkh4ehq5" Bounds="850,299" />
             <Pad Id="DQx02BjTYH4N1ByMwN1a80" Comment="Init Auto Size" Bounds="506,28,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:TypeAnnotation>
@@ -605,7 +605,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <Pad Id="OEjWN3kIRO8Lt4CLCW1Fch" Comment="Init Alignment Within Bounds Enabled" Bounds="630,173,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:TypeAnnotation>
@@ -614,96 +614,34 @@
               </p:ValueBoxSettings>
             </Pad>
           </Canvas>
-          <Patch Id="Q6Y4bDXXue6QBDo2TbfWG7" Name="Create" ParticipatingElements="AyIFMkSMM3GPxhenjy4Zfh,UL7SewwB05rLB8aT4gffoz,HyzfDcHmPU1N0duvp5NB9u,OBJYK9mfgOWLo2VpYeQNJC" />
           <Link Id="REGuECDZRssQCd4VqW6fBo" Ids="Ak0AwO0ooSLLk7yVqcsJIi,HiWCxi0pz3xNbQXcnqUDuv" />
           <Link Id="VdrUlerbNoNMKPoNDu1qu4" Ids="HiWCxi0pz3xNbQXcnqUDuv,A8LJOsDpdSMPQ8UeSoQL0u" IsHidden="true" />
           <Link Id="CjKhuJNJg7QOeWIQrD7TXV" Ids="D9ZXi6H51MlO0GqdI1sNFd,CYrQpWjxV0xOJSGERtS8YL" IsHidden="true" />
           <Link Id="H7NrTe29CukLUFJgg6SAG9" Ids="EzTkg5PgbxpLC5jLTTb9sk,R9rMPbgvLRQOS4utwmKQC0" IsHidden="true" />
           <Link Id="AyIFMkSMM3GPxhenjy4Zfh" Ids="VDwn1l5L3txPoufj7Q9iiD,PJYvjZGmUCoP5dnsjmgUFV" />
-          <Patch Id="QBhpm1dEr8KQRDBBEe8J1R" Name="GetGraphVersion (Internal)">
-            <Pin Id="CYrQpWjxV0xOJSGERtS8YL" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="AYNeq6miMzoN7g36ATQpLl" Name="GetLayoutVersion (Internal)">
-            <Pin Id="R9rMPbgvLRQOS4utwmKQC0" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="RroZk8K8fU2MJcGabplgXj" Ids="DZuqvkYwuFZNnkT82A8lA1,EzTkg5PgbxpLC5jLTTb9sk" />
           <Link Id="OgwCuUU60lVLovvIXKaNKo" Ids="Jm53EPqzwozQZe9xREiqKO,D9ZXi6H51MlO0GqdI1sNFd" />
           <Link Id="CKN3auidsMwPx5Ml5ebc0O" Ids="Gra0wDS9JiTMqYQpQl19b9,HQGtB6XJ9GxMBFieJix5w0" />
-          <Patch Id="QO5sTaOAeGDM4JwIGgj06V" Name="SetPositionSize (Internal)">
-            <Pin Id="VIjFINazMyXNZdQ9jXthkV" MergeId="1025661" Name="Position" Kind="InputPin" />
-            <Pin Id="U6KBOc8ZGkFPkZIdbYRgRl" MergeId="1025662" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="OdmY8HtfLI6LGlwODnpMSg" MergeId="1025663" Name="Anchor" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="OVe5cRW3r4BOeK4AHv42SC" Ids="VIjFINazMyXNZdQ9jXthkV,HwWKhOytDtjQBZ4ySjhuvL" IsHidden="true" />
           <Link Id="UzWr1OFV1T1LexK9UujH6q" Ids="U6KBOc8ZGkFPkZIdbYRgRl,MiAsQfORCsnQX761hMO6g0" IsHidden="true" />
           <Link Id="SAnHbJY9w9EMWspUuVWsVk" Ids="OdmY8HtfLI6LGlwODnpMSg,QGuHlmhLWNTNp6VW3rMEb9" IsHidden="true" />
           <Link Id="UxDzHSSPlMfNb2GJG3roDb" Ids="HwWKhOytDtjQBZ4ySjhuvL,L40b7B7MmJTOTHkOmzhI4Y" />
           <Link Id="NIU10aqG9GpLjblISC0wT5" Ids="MiAsQfORCsnQX761hMO6g0,EXyRsKKmSeFPVIhReylKGT" />
           <Link Id="KjBCTbelv7uOra69D6r2EH" Ids="QGuHlmhLWNTNp6VW3rMEb9,JdMtepHpHt5Osd3sERaY09" />
-          <Patch Id="SwpfpKDpUW8LqgSD5G05wy" Name="SetInput (Internal)">
-            <Pin Id="QQPNfp0OE64NozaXLcLzlW" MergeId="1540098" Name="Input" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="EzGF2s3sdVtMFT0B0Q4BTs" Ids="QQPNfp0OE64NozaXLcLzlW,K4UNc6PKdcxNAdZOakSJIz" IsHidden="true" />
           <Link Id="TsXueiR8OXGOqyX4R9yxaY" Ids="K4UNc6PKdcxNAdZOakSJIz,FORWOjCSIrKNfTSpfZjxHW" />
-          <Patch Id="HDvBDKEWZiaMuS1nEyJQyP" Name="SetPadding (Internal)">
-            <Pin Id="SvhSL7ZE68GPA7T7m5XKUB" MergeId="1073130" Name="Padding" Kind="InputPin" />
-          </Patch>
           <Link Id="V4CaxjO6VtkMrOFcS6W4cl" Ids="SvhSL7ZE68GPA7T7m5XKUB,KmdopNqjCpkMkT3svwxgWw" IsHidden="true" />
           <Link Id="VTrJsnWLktoPUucYvUHAGB" Ids="KmdopNqjCpkMkT3svwxgWw,Iwr0XUc3zJGLR2LLwWnDip" />
-          <Patch Id="EYcS1HTExIjN3eevGHYoyG" Name="SetClipElementaLayer (Internal)">
-            <Pin Id="KaPIkxzXmJqP3AB30Fwtdn" MergeId="1422319" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="UgpzqOywWAIMMolXwqwl2N" Name="SetHelper (Internal)">
-            <Pin Id="RawvO3YoObiMfDV8UHNJIO" MergeId="1422316" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
-            <Pin Id="PpSpYVdneaROtyGnkplrFh" MergeId="1422317" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="QWigDip8YXjN1CVqmBb4t8" Ids="KaPIkxzXmJqP3AB30Fwtdn,MJvwPoipmZKPfGt1Qybdfa" IsHidden="true" />
           <Link Id="ERq8684RNlfQNL8FTPzbaq" Ids="RawvO3YoObiMfDV8UHNJIO,GHzKLVTCPLkMZ62isqPV0J" IsHidden="true" />
           <Link Id="Tce0fKISo2fMjF8pVMHj9g" Ids="PpSpYVdneaROtyGnkplrFh,Go0nVAa3FOlOZ0MyQr3ffl" IsHidden="true" />
           <Link Id="OuNFLnXqeRqMtouiUUHmY9" Ids="MJvwPoipmZKPfGt1Qybdfa,QhjGI5l1SSZQIY2l1ih5vd" />
           <Link Id="BbXhO9EzT5gP2Mk9UbiXOJ" Ids="GHzKLVTCPLkMZ62isqPV0J,AZ9fTwdqNiZOaod9FoosUB" />
           <Link Id="Hc64IpGIdHcNDuuYRfWCES" Ids="Go0nVAa3FOlOZ0MyQr3ffl,QHkUo6FJmL4MLZp0ejAtDE" />
-          <Patch Id="T2MULYBy5ElPhTXnq2JihW" Name="SetExternalComponents (Internal)">
-            <Pin Id="QdaTXbQP111MoJp3dCP0c0" MergeId="1750791" Name="Components" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="JvZooigOHoxLFNG20E8azA" Ids="QdaTXbQP111MoJp3dCP0c0,NpiwrXbzvCaOhuMD6g6rAD" IsHidden="true" />
           <Link Id="GQF5PnMTtQlMdLpSx7ydim" Ids="R64n9rfc9caNNiwNT85Jgd,P3HLrhqswdoQbmL7G3NvSY" />
           <Link Id="B9u2QtdKy4SLM78sQPmBiF" Ids="AqxSLEg1A4eNr0RtC2G20y,OkyYiM3AqZeNp1i37wDuMU" />
           <Link Id="V3eEtGBSvjNOlOHFVzsWvp" Ids="NpiwrXbzvCaOhuMD6g6rAD,CcSzCvTAXCjOSw6gjjBn5M" />
-          <Patch Id="TQyWPHVs5KtNwW5mcxGsqG" Name="SetAutoSize (Internal)">
-            <Pin Id="GLlHQ5C4vHdMwPCd5fqHez" MergeId="480417" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="CaSoxd9IwJlO6BngM1Hs1X" Name="SetMargin (Internal)">
-            <Pin Id="Un8U0kW62inPfLOGg8CpGt" MergeId="489995" Name="Margin" Kind="InputPin" />
-          </Patch>
-          <Patch Id="QZ9a9rwgZEPO43EygNuiul" Name="SetAlignmentWithinBounds (Internal)">
-            <Pin Id="AHZhN86LBHHOwNod33W0vQ" MergeId="537872" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Rls2OjdSKTfO3Qx4wxO0Xm" MergeId="552324" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="VJDXcAAWyTcPGnKshDyXT9" Ids="Rls2OjdSKTfO3Qx4wxO0Xm,QSDagCLxl02OiQEg3Aqsyi" IsHidden="true" />
           <Link Id="FkxvO1AwRuAQQeaCzrGhna" Ids="Un8U0kW62inPfLOGg8CpGt,EKd8jXSuP7rOkPbUTPgYZ2" IsHidden="true" />
           <Link Id="IWqwgZBDNmJOJ2buGH3rr5" Ids="GLlHQ5C4vHdMwPCd5fqHez,UA9BL968S8fPErtiUCK8vn" IsHidden="true" />
@@ -711,23 +649,10 @@
           <Link Id="KhvIXQEuwlJLl4nj3xDW2H" Ids="Nr0W1YuRCLFOvWH7ByFlS8,Rg2zRr1EupOPYDo0rxfHXw" />
           <Link Id="UL7SewwB05rLB8aT4gffoz" Ids="N9sFEH0M1xQNwKTlJnrbyo,OzCFjLFWodfPZA4x9425lJ" />
           <Link Id="HyzfDcHmPU1N0duvp5NB9u" Ids="TbGbgGnp1z3P7ZWglHDKxC,C6j2yzDEvFiNSt70zNZrXE" />
-          <Patch Id="GerhHchTjjMQNAQj1fTYG3" Name="GetElementum (Internal)">
-            <Pin Id="A8LJOsDpdSMPQ8UeSoQL0u" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IElementum" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="VMCqOos6UWsLgAkGbd6y5u" Ids="FczvFMmiSrENoJB6KDOXji,QiaY20R3bKbLKUn4qaaOdV" />
-          <Patch Id="SG8Tg2s5yLkNvoMne4GoTR" Name="SetWidgetSelfAlignement (Internal)">
-            <Pin Id="U3HsWF28maBLXRNjFIYUq3" MergeId="971337" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="TvRT9gxtsAzOU27rptvpCw" Ids="U3HsWF28maBLXRNjFIYUq3,Mu7L97HmNSXPas3GlnjTA8" IsHidden="true" />
           <Link Id="OBJYK9mfgOWLo2VpYeQNJC" Ids="NgaEzRfZCSYNigptfqIOSS,Mt5p8gJzCLbLxJ347koHoq" />
           <Link Id="MXBzJ2MXgb2OGGOfkthvZ1" Ids="NCqjD9WagrmOTbWntMupzW,V0I0JnHTgGgOtWUkh4ehq5" IsHidden="true" />
-          <Patch Id="L9UpdKcBe8NQMOW5F99tmH" Name="SetSlotSizes (Internal)">
-            <Pin Id="NCqjD9WagrmOTbWntMupzW" Name="Slot Sizes" Kind="InputPin" />
-          </Patch>
           <ProcessDefinition Id="PdAnybmkBSBPRppOFdRjWM">
             <Fragment Id="ESx4voqh8ELOy2FCUuhTGf" Patch="Q6Y4bDXXue6QBDo2TbfWG7" Enabled="true" />
             <Fragment Id="CgD0mdHK3zMPZAPHINO1A5" Patch="SwpfpKDpUW8LqgSD5G05wy" Enabled="true" />
@@ -753,6 +678,81 @@
           <Link Id="T7eM28oLm39N4IxXm1clh7" Ids="UA9BL968S8fPErtiUCK8vn,LjFXOGWJGDYOMUrgakXBNo" />
           <Link Id="T27tCTkJzccQPnPrtByaFd" Ids="DQx02BjTYH4N1ByMwN1a80,QGDst50emRjPVYNPQTClkh" />
           <Link Id="Mm9W3xQG1ABPGJM4r5BQLy" Ids="OEjWN3kIRO8Lt4CLCW1Fch,MUSKIrbGHhSMOz0F8GyaAB" />
+          <Patch Id="Q6Y4bDXXue6QBDo2TbfWG7" Name="Create" ParticipatingElements="AyIFMkSMM3GPxhenjy4Zfh,UL7SewwB05rLB8aT4gffoz,HyzfDcHmPU1N0duvp5NB9u,OBJYK9mfgOWLo2VpYeQNJC" />
+          <Patch Id="QBhpm1dEr8KQRDBBEe8J1R" Name="GetGraphVersion (Internal)">
+            <Pin Id="CYrQpWjxV0xOJSGERtS8YL" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="AYNeq6miMzoN7g36ATQpLl" Name="GetLayoutVersion (Internal)">
+            <Pin Id="R9rMPbgvLRQOS4utwmKQC0" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="QO5sTaOAeGDM4JwIGgj06V" Name="SetPositionSize (Internal)">
+            <Pin Id="VIjFINazMyXNZdQ9jXthkV" MergeId="1025661" Name="Position" Kind="InputPin" />
+            <Pin Id="U6KBOc8ZGkFPkZIdbYRgRl" MergeId="1025662" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="OdmY8HtfLI6LGlwODnpMSg" MergeId="1025663" Name="Anchor" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="SwpfpKDpUW8LqgSD5G05wy" Name="SetInput (Internal)">
+            <Pin Id="QQPNfp0OE64NozaXLcLzlW" MergeId="1540098" Name="Input" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="HDvBDKEWZiaMuS1nEyJQyP" Name="SetPadding (Internal)">
+            <Pin Id="SvhSL7ZE68GPA7T7m5XKUB" MergeId="1073130" Name="Padding" Kind="InputPin" />
+          </Patch>
+          <Patch Id="EYcS1HTExIjN3eevGHYoyG" Name="SetClipElementaLayer (Internal)">
+            <Pin Id="KaPIkxzXmJqP3AB30Fwtdn" MergeId="1422319" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="UgpzqOywWAIMMolXwqwl2N" Name="SetHelper (Internal)">
+            <Pin Id="RawvO3YoObiMfDV8UHNJIO" MergeId="1422316" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
+            <Pin Id="PpSpYVdneaROtyGnkplrFh" MergeId="1422317" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="T2MULYBy5ElPhTXnq2JihW" Name="SetExternalComponents (Internal)">
+            <Pin Id="QdaTXbQP111MoJp3dCP0c0" MergeId="1750791" Name="Components" Kind="InputPin" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="TQyWPHVs5KtNwW5mcxGsqG" Name="SetAutoSize (Internal)">
+            <Pin Id="GLlHQ5C4vHdMwPCd5fqHez" MergeId="480417" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="CaSoxd9IwJlO6BngM1Hs1X" Name="SetMargin (Internal)">
+            <Pin Id="Un8U0kW62inPfLOGg8CpGt" MergeId="489995" Name="Margin" Kind="InputPin" />
+          </Patch>
+          <Patch Id="QZ9a9rwgZEPO43EygNuiul" Name="SetAlignmentWithinBounds (Internal)">
+            <Pin Id="AHZhN86LBHHOwNod33W0vQ" MergeId="537872" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Rls2OjdSKTfO3Qx4wxO0Xm" MergeId="552324" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="GerhHchTjjMQNAQj1fTYG3" Name="GetElementum (Internal)">
+            <Pin Id="A8LJOsDpdSMPQ8UeSoQL0u" Name="Output" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Layout.vl">
+                <Choice Kind="TypeFlag" Name="IElementum" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="SG8Tg2s5yLkNvoMne4GoTR" Name="SetWidgetSelfAlignement (Internal)">
+            <Pin Id="U3HsWF28maBLXRNjFIYUq3" MergeId="971337" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="L9UpdKcBe8NQMOW5F99tmH" Name="SetSlotSizes (Internal)">
+            <Pin Id="NCqjD9WagrmOTbWntMupzW" Name="Slot Sizes" Kind="InputPin" />
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -761,13 +761,13 @@
 
 -->
       <Node Name="AllocateY" Bounds="537,385" Id="GW7zggW1cnmPbuks2uIDId">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="VGQykNl3RxnNYE7TlTqY5a">
           <Canvas Id="RtYvhxjwd70OHF3QGzdQbV" CanvasType="Group">
             <Node Bounds="261,378,255,19" Id="QZWGoox4UCxNQYeIH2HV4P">
-              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastSymbolSource="VL.Elementa.Layout.Allocate.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Layout" LastDependency="VL.Elementa.Layout.Allocate.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="AllocateY (Spectral)" />
               </p:NodeReference>
@@ -809,42 +809,12 @@
             <ControlPoint Id="ONvKrqO2TRwLd0l4D0lb9D" Bounds="405,186" />
             <ControlPoint Id="O7X5AMPS7UiNepLbHghQJY" Bounds="340,127" />
           </Canvas>
-          <Patch Id="NcC9P2TGYzHP0HR1fmwvbh" Name="Create" />
-          <Patch Id="R416TYsRCNjQWQ9vGTnnG5" Name="GetGraphVersion (Internal)">
-            <Pin Id="E7Vh5vcCsUsOP4MU0R9eti" MergeId="319198" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="JyPtggTCO3ZLmmDJuakxg2" Name="GetLayoutVersion (Internal)">
-            <Pin Id="NnCorlvlbUYQA9MllUIxIW" MergeId="319200" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="GIFw1Oe4XNfOoL67PmVyz5" Ids="F94sYHOTcm6MhMPU9shxlr,E7Vh5vcCsUsOP4MU0R9eti" IsHidden="true" />
           <Link Id="Litjs3MkRX4MJoH7ZeRkHj" Ids="RIMGTLdlSxYOKRQkEyOe5a,NnCorlvlbUYQA9MllUIxIW" IsHidden="true" />
           <Link Id="AJMz614NSvmODcY1fDhJ2u" Ids="La2U25QwQuBNcYlhzhX7tw,F94sYHOTcm6MhMPU9shxlr" />
           <Link Id="LHJRit3ubrWOTkx0bAXSEW" Ids="D3UsNxRtlYjPcqX92owRiz,RIMGTLdlSxYOKRQkEyOe5a" />
-          <Patch Id="CQUQ1EuzZkcOHmtfb8Axkk" Name="GetElementum (Internal)">
-            <Pin Id="KKiFvNlBQ2JMypzCA00a4I" MergeId="1467719" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IElementum" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="AbzhqbnwMnXL3zQFLwbETk" Ids="D4vSWkVUMabPfNpvv9LSKg,KKiFvNlBQ2JMypzCA00a4I" IsHidden="true" />
           <Link Id="SGIl7DbgrhTOaScd6nLq2Y" Ids="JTQyaXMvrsFPg5evutpqhg,D4vSWkVUMabPfNpvv9LSKg" />
-          <Patch Id="N5DxCyxCt9VOiloj9oyjFx" Name="SetPositionSize (Internal)">
-            <Pin Id="Kg7KbFhCZoWQCRGC9e5pze" MergeId="286086" Name="Position" Kind="InputPin" />
-            <Pin Id="BMDXHtpg5A6LwCUBqUmTPG" MergeId="286093" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="RBOuHeFEla4QOj876EfmvK" MergeId="286100" Name="Anchor" Kind="InputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="JxmVTXtK3OgO5P4uWTFwAG" Name="SetInput (Internal)">
-            <Pin Id="RyWKt1ZOVh9NJBEMGHhgdX" MergeId="286144" Name="Input" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="UmrtCgb1e5BL0YT6mMc0PL" Ids="Kg7KbFhCZoWQCRGC9e5pze,KZ6GDZTl247MaGFMQQxpB0" IsHidden="true" />
           <Link Id="VoYdWjwQbDIQVBwve70QQ9" Ids="BMDXHtpg5A6LwCUBqUmTPG,S6Ql2I6HsdrPfmJcPuwqvK" IsHidden="true" />
           <Link Id="UbwxDLhp7bvMArtODQhra5" Ids="RBOuHeFEla4QOj876EfmvK,GBBKujB3kykL0cINJGp9LZ" IsHidden="true" />
@@ -853,53 +823,14 @@
           <Link Id="CbNZiOqciLdO3WfxFi9rZg" Ids="KZ6GDZTl247MaGFMQQxpB0,KJFF4SOQXaALxQzWwEH0gr" />
           <Link Id="OAmJxs0Vl09NO83RUnXE63" Ids="S6Ql2I6HsdrPfmJcPuwqvK,E4fDpfWrlDKNvdFwCZNXKz" />
           <Link Id="FqDz2p7gx1cOJ2k2LD8cFW" Ids="GBBKujB3kykL0cINJGp9LZ,OKgf3sTb7d3Mta4CLkaIa4" />
-          <Patch Id="F1QVyH7yAxwNBsvC2tvBrs" Name="SetAutoSize (Internal)">
-            <Pin Id="CTZEJbJFm3PQduwuF72drb" MergeId="1242334" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="Cj872qwFamWLOXdVXt79Ew" Name="SetMargin (Internal)">
-            <Pin Id="C7IBicSnT4LLtD2Kn8cNfb" MergeId="1242332" Name="Margin" Kind="InputPin" />
-          </Patch>
           <Link Id="PsBjtFwSDCwLop2oKMGeKC" Ids="C7IBicSnT4LLtD2Kn8cNfb,Agdx3PXvv2mOztQNvQ0Bvp" IsHidden="true" />
           <Link Id="Q3F09xytUp2L8hroM3jF6H" Ids="CTZEJbJFm3PQduwuF72drb,FbCHLXVbTAeOdmsV2nFhNH" IsHidden="true" />
           <Link Id="SZ4k78VsSLfOjz8z9BCHg4" Ids="FbCHLXVbTAeOdmsV2nFhNH,G5VfW6jjYtlPPsKmQSsFQ6" />
           <Link Id="NrhNBqL4O4NOOF4vHutBr4" Ids="Agdx3PXvv2mOztQNvQ0Bvp,CYgJVEPLhtCLhSOn27DnzU" />
-          <Patch Id="LeI0NzaqqKFL5JSAFPqHvK" Name="SetAlignmentWithinBounds (Internal)">
-            <Pin Id="SduxwP2VP8wQSiyzwhLB8U" MergeId="1242321" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="AGsPIePnhZ2MjMNDG3og3l" MergeId="1242322" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="DeLtOWdiuzxOvhQsdadpdX" Ids="AGsPIePnhZ2MjMNDG3og3l,CuvOXRNXJ7eMKgh5UcYDNj" IsHidden="true" />
           <Link Id="EA2x5G41bc1OAmvZFG7e2d" Ids="SduxwP2VP8wQSiyzwhLB8U,FymCLP5A0Y8OAvIwtTurJ5" IsHidden="true" />
           <Link Id="HpfvkDG0qDBM56lZ6AOT36" Ids="FymCLP5A0Y8OAvIwtTurJ5,I5TTmiDG8nkMFlqWDhLQqE" />
           <Link Id="Kixhk1yJu9QQNfqMs6iSc4" Ids="CuvOXRNXJ7eMKgh5UcYDNj,O3JBtBsorznNMUXjbqywzS" />
-          <Patch Id="QaeQzs3kGjlPp61uZeUpxo" Name="SetPadding (Internal)">
-            <Pin Id="KPYEfZtNWgoNc2ZcHkOAtA" MergeId="286165" Name="Padding" Kind="InputPin" />
-          </Patch>
-          <Patch Id="SRSyBFgV7WMLdf4acbKxZm" Name="SetClipElementaLayer (Internal)">
-            <Pin Id="RT2Q4hnfaKXPO7wvuizWP1" MergeId="286201" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="KzDbA6g0EfYPm1KmLHLMGn" Name="SetHelper (Internal)">
-            <Pin Id="PTFNtnDfkPELkZ9lSNLaTQ" MergeId="286212" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
-            <Pin Id="T7Xfpcq6bTrQTD4cdvuv8I" MergeId="286218" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="QjlvJ4t5PJPQQI7PdQmXVp" Name="SetExternalComponents (Internal)">
-            <Pin Id="FBOJLnwNLhnLyZ1fa3jr0s" MergeId="286254" Name="Component" Kind="InputPin" Visibility="Optional" IsPinGroup="true">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="HQmWcmAhhS3OROidrFiyTP" Ids="KPYEfZtNWgoNc2ZcHkOAtA,Abq4JCH0Jy0LzzeJ3QXajM" IsHidden="true" />
           <Link Id="C7XJKMS467yPhz3UBiRL8D" Ids="RT2Q4hnfaKXPO7wvuizWP1,ECTRjigsdA3QKj6p74PMk1" IsHidden="true" />
           <Link Id="EqgYbE9ixvhLHJohtSMcwf" Ids="PTFNtnDfkPELkZ9lSNLaTQ,SAH39lmNagEP7loL5JSYW5" IsHidden="true" />
@@ -910,16 +841,10 @@
           <Link Id="SOmVr6gVL9FOPbIJPu7jH0" Ids="SAH39lmNagEP7loL5JSYW5,DXrHzBIvWX0PtcINVBl7OY" />
           <Link Id="UGUnQwpfovnPxSGFfMuaIB" Ids="DN0xWfnq22WQTRQ3JXfWww,QXuhRhktfNoNRwVPFE7wkd" />
           <Link Id="VeMjjhmP0BsOfyTPWtJS3d" Ids="VyU0OpJjhYcMp0RnZrBv2N,UDWC83Y0rO7MnE4sl7ivbh" />
-          <Patch Id="V0V4cmCma0SMhvSOKUy3s0" Name="SetWidgetSelfAlignement (Internal)">
-            <Pin Id="FlvuEZs3IFQOi3Qma4qOWm" MergeId="3205057" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
-          </Patch>
           <Link Id="RKu1ZcTrHEdNqiVOBWS8RX" Ids="FlvuEZs3IFQOi3Qma4qOWm,ONvKrqO2TRwLd0l4D0lb9D" IsHidden="true" />
           <Link Id="AZve7yJEXIQOw7hTKzVKxp" Ids="ONvKrqO2TRwLd0l4D0lb9D,IAepgigIOhNMdObOIuzkK3" />
           <Link Id="DV6BQKhVcNDOY0917ybCcl" Ids="O7X5AMPS7UiNepLbHghQJY,SK4nql8kxW0QWbx7ql6DpL" />
           <Link Id="MWce50NGWGhMDjd0dhhF11" Ids="HeAeltJ84pqOqHEJwpC2qO,O7X5AMPS7UiNepLbHghQJY" IsHidden="true" />
-          <Patch Id="CrQFiRcye0lOU9zfYLgF4u" Name="SetSlotSizes (Internal)">
-            <Pin Id="HeAeltJ84pqOqHEJwpC2qO" Name="Slot Sizes" Kind="InputPin" />
-          </Patch>
           <ProcessDefinition Id="NAFzTaDaYSlNZzpAescp5j">
             <Fragment Id="Q7kfAsq4KudL7Ob94kJTMx" Patch="NcC9P2TGYzHP0HR1fmwvbh" Enabled="true" />
             <Fragment Id="UEqFS6af5xlOP4S6gWXgPh" Patch="JxmVTXtK3OgO5P4uWTFwAG" Enabled="true" />
@@ -937,6 +862,81 @@
             <Fragment Id="T5AdQZCPvjKP3cEYFeYskB" Patch="R416TYsRCNjQWQ9vGTnnG5" Enabled="true" />
             <Fragment Id="HCAG5u3POnmNoCvMZgvMaY" Patch="JyPtggTCO3ZLmmDJuakxg2" Enabled="true" />
           </ProcessDefinition>
+          <Patch Id="NcC9P2TGYzHP0HR1fmwvbh" Name="Create" />
+          <Patch Id="R416TYsRCNjQWQ9vGTnnG5" Name="GetGraphVersion (Internal)">
+            <Pin Id="E7Vh5vcCsUsOP4MU0R9eti" MergeId="319198" Name="Graph Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="JyPtggTCO3ZLmmDJuakxg2" Name="GetLayoutVersion (Internal)">
+            <Pin Id="NnCorlvlbUYQA9MllUIxIW" MergeId="319200" Name="Layout Version" Kind="OutputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="CQUQ1EuzZkcOHmtfb8Axkk" Name="GetElementum (Internal)">
+            <Pin Id="KKiFvNlBQ2JMypzCA00a4I" MergeId="1467719" Name="Output" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Layout.vl">
+                <Choice Kind="TypeFlag" Name="IElementum" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="N5DxCyxCt9VOiloj9oyjFx" Name="SetPositionSize (Internal)">
+            <Pin Id="Kg7KbFhCZoWQCRGC9e5pze" MergeId="286086" Name="Position" Kind="InputPin" />
+            <Pin Id="BMDXHtpg5A6LwCUBqUmTPG" MergeId="286093" Name="Size" Kind="InputPin" DefaultValue="1, 1" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="RBOuHeFEla4QOj876EfmvK" MergeId="286100" Name="Anchor" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="JxmVTXtK3OgO5P4uWTFwAG" Name="SetInput (Internal)">
+            <Pin Id="RyWKt1ZOVh9NJBEMGHhgdX" MergeId="286144" Name="Input" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="F1QVyH7yAxwNBsvC2tvBrs" Name="SetAutoSize (Internal)">
+            <Pin Id="CTZEJbJFm3PQduwuF72drb" MergeId="1242334" Name="Auto Size" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="Cj872qwFamWLOXdVXt79Ew" Name="SetMargin (Internal)">
+            <Pin Id="C7IBicSnT4LLtD2Kn8cNfb" MergeId="1242332" Name="Margin" Kind="InputPin" />
+          </Patch>
+          <Patch Id="LeI0NzaqqKFL5JSAFPqHvK" Name="SetAlignmentWithinBounds (Internal)">
+            <Pin Id="SduxwP2VP8wQSiyzwhLB8U" MergeId="1242321" Name="Alignment Within Bounds Enabled" Kind="InputPin" DefaultValue="True" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="AGsPIePnhZ2MjMNDG3og3l" MergeId="1242322" Name="Alignment Within Bounds" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="QaeQzs3kGjlPp61uZeUpxo" Name="SetPadding (Internal)">
+            <Pin Id="KPYEfZtNWgoNc2ZcHkOAtA" MergeId="286165" Name="Padding" Kind="InputPin" />
+          </Patch>
+          <Patch Id="SRSyBFgV7WMLdf4acbKxZm" Name="SetClipElementaLayer (Internal)">
+            <Pin Id="RT2Q4hnfaKXPO7wvuizWP1" MergeId="286201" Name="Clip Elementa Layer" Kind="InputPin" Visibility="Optional">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="KzDbA6g0EfYPm1KmLHLMGn" Name="SetHelper (Internal)">
+            <Pin Id="PTFNtnDfkPELkZ9lSNLaTQ" MergeId="286212" Name="Enable Helper" Kind="InputPin" Visibility="Optional" />
+            <Pin Id="T7Xfpcq6bTrQTD4cdvuv8I" MergeId="286218" Name="Helper Color" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="QjlvJ4t5PJPQQI7PdQmXVp" Name="SetExternalComponents (Internal)">
+            <Pin Id="FBOJLnwNLhnLyZ1fa3jr0s" MergeId="286254" Name="Component" Kind="InputPin" Visibility="Optional" IsPinGroup="true">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="V0V4cmCma0SMhvSOKUy3s0" Name="SetWidgetSelfAlignement (Internal)">
+            <Pin Id="FlvuEZs3IFQOi3Qma4qOWm" MergeId="3205057" Name="Widget Self Alignment" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="CrQFiRcye0lOU9zfYLgF4u" Name="SetSlotSizes (Internal)">
+            <Pin Id="HeAeltJ84pqOqHEJwpC2qO" Name="Slot Sizes" Kind="InputPin" />
+          </Patch>
         </Patch>
       </Node>
     </Canvas>
@@ -961,6 +961,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="BbWhESOglSwQaJengdU6CW" Location="VL.Skia" Version="2021.4.0-0365-g698d9b47a2" />
+  <NugetDependency Id="BbWhESOglSwQaJengdU6CW" Location="VL.Skia" Version="2023.5.1" />
   <DocumentDependency Id="J7PpVMRRQJOMYP3GlBBmue" Location="./VL.Elementa.Layout.vl" />
 </Document>

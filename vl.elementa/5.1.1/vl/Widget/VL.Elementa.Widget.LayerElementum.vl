@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HmafHoaZSoxL3t6dzzAHRG" LanguageVersion="2021.4.0.365" Version="0.128">
-  <NugetDependency Id="UyEMuXTVd4eNwveXr1VWLZ" Location="VL.CoreLib" Version="2021.4.0-0365-g698d9b47a2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="HmafHoaZSoxL3t6dzzAHRG" LanguageVersion="2023.5.1" Version="0.128">
+  <NugetDependency Id="UyEMuXTVd4eNwveXr1VWLZ" Location="VL.CoreLib" Version="2023.5.1" />
   <Patch Id="HyGSxfYJxD3O1jxUcqHiVS">
     <Canvas Id="BlS3Syv4nHPO1g09p91sa5" DefaultCategory="Elementa.Widget" CanvasType="FullCategory">
       <!--
@@ -14,7 +14,7 @@
           <FullNameCategoryReference ID="Primitive" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Elementa.Core" LastSymbolSource="Elementa.Core.vl">
+          <TypeReference LastCategoryFullName="Elementa.Core" LastDependency="Elementa.Core.vl">
             <Choice Kind="InterfaceTypeFlag" Name="IElementum" />
           </TypeReference>
         </p:Interfaces>
@@ -23,7 +23,7 @@
             <ControlPoint Id="GB2rKJciVq2PhB68GRsJZS" Bounds="1113,380" />
             <ControlPoint Id="PVXmwtbwnlfMnMl2MTEmyp" Bounds="1245,506" />
             <Node Bounds="1085,218,43,19" Id="RcPRVlFix2VOQr84YzMFR3">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Component.Layout.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayoutableLeaf" />
               </p:NodeReference>
@@ -42,7 +42,7 @@
             <ControlPoint Id="P077iQRrBGTOFKw6xmfLQV" Bounds="1140,412" />
             <ControlPoint Id="LvMijFjJWghOUlPP8Oc56e" Bounds="1192,539" />
             <Node Bounds="1193,218,57,19" Id="KXLf7nGfFioN2OmqcJfu1g">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Style.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Component.Style.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Styleable" />
               </p:NodeReference>
@@ -55,7 +55,7 @@
             <Pad Id="ET8qHuU2j2QO6EjeQUylhc" SlotId="CPYSRrVEGyEQJRNLcragBG" Bounds="653,357" />
             <ControlPoint Id="V5pY5UDYl78OZyc6zut4KK" Bounds="653,415" />
             <Node Bounds="683,305,79,19" Id="LABCRnxdf61QR7g1aX6TGU">
-              <p:NodeReference LastCategoryFullName="Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" />
                 <Choice Kind="OperationCallFlag" Name="CreateDefault" />
@@ -63,7 +63,7 @@
               <Pin Id="JzJ9BLkrZ8ONkprKd6HOWB" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="1085,254,303,19" Id="MKNvOV9fT40PVy9crJhZ6H">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Cons" />
                 <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -75,7 +75,7 @@
               <Pin Id="PtjdlSexuXoNmGOsY2T4vE" Name="Input 4" Kind="InputPin" />
             </Node>
             <Node Bounds="1288,218,62,19" Id="Cgc1HanZ0oZMkrezm3bh5r">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Hoverable.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Component.Hoverable.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Hoverable" />
               </p:NodeReference>
@@ -85,7 +85,7 @@
               <Pin Id="FeLDjnqjDNsM258Ygo5rkP" Name="Hovered" Kind="OutputPin" />
             </Node>
             <Node Bounds="1391,220,59,19" Id="VT7s6N1Ncx5Ou6vhP6yKjD">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Component.Drawer.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Component.Drawer.vl">
                 <Choice Kind="ProcessAppFlag" Name="Drawable" />
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               </p:NodeReference>
@@ -96,7 +96,7 @@
             <ControlPoint Id="V7xz0KfRpcvLyQ292GLhO5" Bounds="1393,188" />
             <ControlPoint Id="ScNYB0ydOMqNu4LnWeVSZF" Bounds="1447,188" />
             <Pad Id="ElIyUD0tLPFNhcGfpPdfFf" Comment="" Bounds="1290,172,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pad>
@@ -104,7 +104,7 @@
             <ControlPoint Id="Ow4acYkBjrcMLx3UXJic1o" Bounds="1141,141" />
             <ControlPoint Id="AbS1Zra3YTINmqWa1wUIyy" Bounds="1170,158" />
             <Node Bounds="547,306,79,19" Id="Ea5zHhFRINcPdeB4rmIjfV">
-              <p:NodeReference LastCategoryFullName="Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" />
                 <Choice Kind="OperationCallFlag" Name="CreateDefault" />
@@ -115,7 +115,7 @@
             <Pad Id="Hxd9kcM9o09PJ5ZPaeUkal" SlotId="MXg5wQMvltHN5jAMoKISWi" Bounds="248,355" />
             <ControlPoint Id="V0kk20IIUPQP8lhEXshAkz" Bounds="248,304" />
             <Node Bounds="1084,450,164,19" Id="O0JgZBvm5fAPqyOAM1OiNs">
-              <p:NodeReference LastCategoryFullName="Elementa.Component" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ElementumComponentsManager" />
               </p:NodeReference>
@@ -132,7 +132,7 @@
               <Pin Id="RMYMFapNwaTNgV6kb8r2C9" Name="Components" Kind="OutputPin" />
             </Node>
             <Node Bounds="1033,179,61,19" Id="SrKHbg1mzZPQLAeVQzbIlI">
-              <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="2D.Rectangle" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Rectangle (Join)" />
               </p:NodeReference>
@@ -142,7 +142,7 @@
               <Pin Id="VUkKp1TWMpCLbf46vbvJ8E" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Pad Id="IeuNPoeBMQnNGeXfhX6wG2" Comment="" Bounds="1042,132,35,28" ShowValueBox="true" isIOBox="true" Value="1, 1">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pad>
@@ -277,14 +277,14 @@
           </Patch>
           <Patch Id="TTnf6yMTRdOLSsPFQBdi6u" Name="GetNodeContext (Internal)">
             <Pin Id="TgUbO4ZtDZJM5edYsvbDzl" MergeId="279475" Name="Node Context" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="System.Reflection" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="NodeContext" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="Vsecua2tfGjLjeV0Y7FEYH" Name="SetExternalComponents (Internal)">
             <Pin Id="LDscykKYm9MLrQu0J0wcBq" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
@@ -296,7 +296,7 @@
           </Patch>
           <Patch Id="AhyVHamX0kdM082HBPbmKC" Name="GetComponentsManager">
             <Pin Id="SpDyar4faqMNFI8tOXqFRM" MergeId="786190" Name="Components Manager" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Component" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="ElementumComponentsManager" />
               </p:TypeAnnotation>
             </Pin>
@@ -309,28 +309,28 @@
 
 -->
       <Node Name="LayerElementum" Bounds="162,245" Id="U9BAoK4g7dbQK5fGtoPVCb">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="M19GuKKKeNYP2kygbLRx9K" IsGeneric="true">
           <Canvas Id="I15B8h7zP8PO9fsWZ4nZOH" CanvasType="Group">
             <Node Bounds="149,262,369,19" Id="AnSECZwEj3vQHUTt1Yt54b">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <PinReference Kind="InputPin" Name="Update">
-                  <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive.Delegates" LastSymbolSource="CoreLibBasics.vl">
+                  <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive.Delegates" LastDependency="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Delegate (2 -&gt; 1)" />
                     <p:TypeArguments>
                       <TypeParameterReference />
-                      <TypeReference LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+                      <TypeReference LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                         <Choice Kind="TypeFlag" Name="IElementum" />
                       </TypeReference>
-                      <TypeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <TypeReference LastCategoryFullName="Primitive" LastDependency="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Tuple (2 Items)" />
                         <p:TypeArguments>
                           <TypeParameterReference />
-                          <TypeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                          <TypeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                             <Choice Kind="TypeFlag" Name="Layer" />
                           </TypeReference>
                         </p:TypeArguments>
@@ -339,7 +339,7 @@
                   </p:DataTypeReference>
                 </PinReference>
                 <PinReference Kind="InputPin" Name="Create">
-                  <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive.Delegates" LastSymbolSource="CoreLibBasics.vl">
+                  <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive.Delegates" LastDependency="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Delegate (0 -&gt; 1)" />
                     <p:TypeArguments>
                       <TypeParameterReference />
@@ -347,7 +347,7 @@
                   </p:DataTypeReference>
                 </PinReference>
                 <PinReference Kind="OutputPin" Name="Output">
-                  <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+                  <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="VL.Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                     <Choice Kind="TypeFlag" Name="LayerElementum (Spectral)" />
                     <p:TypeArguments>
                       <TypeParameterReference />
@@ -373,13 +373,6 @@
             <ControlPoint Id="P11YAI7LC1SMu5ZrwIfxX0" Bounds="333,179" />
             <ControlPoint Id="Cz4BYnMF7daM1QSvti1upf" Bounds="515,230" />
           </Canvas>
-          <Patch Id="KBkq2pWmyQMOeng7sgjmfx" Name="Create">
-            <Pin Id="JGMyfJTrBYANQnRfKzlsSI" Name="Element" Kind="InputPin" Bounds="159,94" />
-          </Patch>
-          <Patch Id="RkpOWzSjOYfO4b02mJWWdv" Name="Update">
-            <Pin Id="BcAIcVVeBGULceuhhkkxzZ" Name="Create" Kind="InputPin" Bounds="386,95" />
-            <Pin Id="BEPir5kbzB2P5zHfvRrj0M" Name="Update" Kind="InputPin" Bounds="443,94" />
-          </Patch>
           <ProcessDefinition Id="OzaUyd8N4NPMAlT9EC7ML1">
             <Fragment Id="LoyYjKk0EQ9QYOY9WuLohc" Patch="KBkq2pWmyQMOeng7sgjmfx" Enabled="true" />
             <Fragment Id="LWqWz1S5eiYMHBr6Pq1kbE" Patch="RkpOWzSjOYfO4b02mJWWdv" Enabled="true" />
@@ -403,6 +396,13 @@
           <Link Id="QhlU1zDYi3dLtlKveFfXjd" Ids="AaQNbImgEjbOUJd4Uvb3MV,P11YAI7LC1SMu5ZrwIfxX0" IsHidden="true" />
           <Link Id="KCLeC5XCwX4QcBa7uHHBkx" Ids="Cz4BYnMF7daM1QSvti1upf,OEOxHm6silHPgGnoUWt61H" />
           <Link Id="KMMR7YjnCIYQYR1Z0GOAs1" Ids="TOrP2RRRVz0NHzwh2stxe0,Cz4BYnMF7daM1QSvti1upf" IsHidden="true" />
+          <Patch Id="KBkq2pWmyQMOeng7sgjmfx" Name="Create">
+            <Pin Id="JGMyfJTrBYANQnRfKzlsSI" Name="Element" Kind="InputPin" Bounds="159,94" />
+          </Patch>
+          <Patch Id="RkpOWzSjOYfO4b02mJWWdv" Name="Update">
+            <Pin Id="BcAIcVVeBGULceuhhkkxzZ" Name="Create" Kind="InputPin" Bounds="386,95" />
+            <Pin Id="BEPir5kbzB2P5zHfvRrj0M" Name="Update" Kind="InputPin" Bounds="443,94" />
+          </Patch>
           <Patch Id="ILbaTECoNH6QcXI5qjjc44" Name="SetPositionSize (Internal)">
             <Pin Id="Nl2Y0amXvRENELlCfNQBBl" Name="Position" Kind="InputPin" />
             <Pin Id="IPHK4Z2Tw9VLWVeTSNqWBE" Name="Size" Kind="InputPin" />
@@ -410,14 +410,14 @@
           </Patch>
           <Patch Id="IogTz55aZUrPm3NtV1QtiC" Name="SetExternalComponent (Internal)">
             <Pin Id="TOrP2RRRVz0NHzwh2stxe0" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="EbQHwP6I9ieOFGpHR2JrvD" Name="GetWidget (Internal)">
             <Pin Id="Opb61soEv7ePMbXhb4pL0e" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -430,19 +430,19 @@
 
 -->
       <Node Name="Rectangle (Spectral Advanced)" Bounds="213,371" Id="Fiv6dV4KpT1PzJSxitE1vx" Summary="Draws a rectangle that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="FHh3aUXq59FLeqLVv0SkI5">
           <Canvas Id="JQa6gyB63nBL1XbuXqQ9W8" CanvasType="Group">
             <Pad Id="BgHQORWS1iLPenNgipHtVE" Comment="" Bounds="177,55,62,17" ShowValueBox="true" isIOBox="true" Value="Rectangle">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="RFNydHkCx5iMZCxZ0XqZD4" Bounds="177,508" />
             <Node Bounds="175,106,455,372" Id="BawThZ80ixeM4dXkuZhuvW">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -456,7 +456,7 @@
                 <ControlPoint Id="HwFGk5F62EbPg6WelxHKRg" Bounds="233,469" />
                 <ControlPoint Id="J4jFk6vZVCMOjPSomZAmwm" Bounds="234,131" />
                 <Node Bounds="231,256,94,19" Id="QvwDpiL3yhJOQ1jyddzoSg">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -466,7 +466,7 @@
                   <Pin Id="Iqc0i5naUQROYf2pJO5NrB" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="362,342,109,19" Id="LZ94iK9BQYxOTtNZ5Oeg4t">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -479,14 +479,14 @@
                   <Pin Id="F9Oy3met1pIN1tbdWzVjg2" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="362,129,132,19" Id="Ag6XHsWvFKeNyC1jlcGhDV">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="KU7EqGrVd54MmlEyFpW2ls" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="362,256,89,19" Id="Nzctm7O4VydMVLnEMCb4Dt">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -496,14 +496,14 @@
                   <Pin Id="SyHePxY64txLjq7OWpU9z7" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="446,159,128,19" Id="Q45zyPYStnUPFdMIC0iPw4">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ForegroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="V5Z3Y1KBcBhN1hAIbu16aH" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="382,302,89,26" Id="Quisnv57dVmMRQ3vMb72CS">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -513,7 +513,7 @@
                   <Pin Id="Mjc5ASXOZ8iMU8tEhgw0tD" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="219,381,160,76" Id="Bunr4yoL3YsQNXG1N9KbPw">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -528,7 +528,7 @@
                     <Patch Id="EoVAR4RCHYaProGSgAn05P" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="D21DgxGx1mIO3KzpqBjhTL" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="231,406,113,19" Id="TL2oUCgRorDLsC0JsTkCs5">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ForegroundRectangle" />
                       </p:NodeReference>
@@ -544,7 +544,7 @@
                   <Pin Id="VtxEN5cWKUUNhPJHDoEZmV" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <Node Bounds="446,216,48,19" Id="B3CaiBd0hRaLDfi4omuy14">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -554,7 +554,7 @@
                   <Pin Id="GTD7DwF1ooLMAyNn5sbVNk" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="489,188,129,19" Id="JC8FVPGCxeTPZPvisWVH2t">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
@@ -567,7 +567,6 @@
             <ControlPoint Id="FOHZqXXBGr9MuEutmIBe00" Bounds="514,54" />
             <ControlPoint Id="I3rernymEq3OnH7pYKtwUY" Bounds="627,54" />
           </Canvas>
-          <Patch Id="Kap6KmzpcJIPDxXmxFwGBZ" Name="Create" />
           <Link Id="NaGCWLqWfPdNfIy0gWwS2a" Ids="RFNydHkCx5iMZCxZ0XqZD4,LcbYds3P3LMOEfFXaXX6As" IsHidden="true" />
           <Link Id="KEpMsTIA7ZzQLI3JIrjW8z" Ids="HwFGk5F62EbPg6WelxHKRg,VtxEN5cWKUUNhPJHDoEZmV" IsHidden="true" />
           <Link Id="T0R9Pv4tVOYPvtzat3QSVN" Ids="C0uEM8D8PNZL77U7ue3mtO,J4jFk6vZVCMOjPSomZAmwm" IsHidden="true" />
@@ -587,15 +586,6 @@
           <Link Id="K0Sf4fnus9qP35RNjxBX77" Ids="V5Z3Y1KBcBhN1hAIbu16aH,CRDKR4gwPBJOiNRmLb5x28" />
           <Link Id="Ip4jXXOAxZxPwuWIFYJkx4" Ids="GTD7DwF1ooLMAyNn5sbVNk,UeVEXLp83R2ORY26xlRalE" />
           <Link Id="KI1PpyaJaIQNClFJaHNW6m" Ids="FBc3cSbJp1hOHPxDbRwTzg,OSDxf0XS8f2OAgHthrc5Lt" />
-          <Patch Id="F3E5YHzmGSsPgd8VN1ltOO" Name="SetPositionSize (Internal)">
-            <Pin Id="O9dXrfwWUykLCiWqjj10k9" MergeId="307830" Name="Position" Kind="InputPin" />
-            <Pin Id="P5uLaQjTqxxMeX1K787M9d" MergeId="307838" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="OtdcNrOY4SINti2VWNvEww" MergeId="307852" Name="Anchor" Kind="InputPin" />
-          </Patch>
           <Link Id="EjC4I69qQ9JMaw0UoAI5r9" Ids="O9dXrfwWUykLCiWqjj10k9,V6VnHdqfgCKMqChbOKAqpa" IsHidden="true" />
           <Link Id="J3jFodv272tMXX3slLQxHr" Ids="P5uLaQjTqxxMeX1K787M9d,FdMbyrmuK8ENzlmBYSesoR" IsHidden="true" />
           <Link Id="HAP8d0hTcTMLIfHJqM12y8" Ids="OtdcNrOY4SINti2VWNvEww,FOHZqXXBGr9MuEutmIBe00" IsHidden="true" />
@@ -608,18 +598,28 @@
             <Fragment Id="URHxEyexcFDMoeLidRSUGr" Patch="BqwRD6RaLHrLpFltIC4gDY" Enabled="true" />
             <Fragment Id="RhglIx0AGz9LZG7WglXQq0" Patch="AZ5dK2LdSYjLAQE25aPRBl" Enabled="true" />
           </ProcessDefinition>
+          <Link Id="Dyc8DgaUxX0Mtp8SyJe9K8" Ids="T0VGybGuSckPzSvj4H3mGU,I3rernymEq3OnH7pYKtwUY" IsHidden="true" />
+          <Link Id="G70eEpLvXwsPcPQW43KMHd" Ids="I3rernymEq3OnH7pYKtwUY,QoGOHtvY06VQHcZWpqR8XO" />
+          <Patch Id="Kap6KmzpcJIPDxXmxFwGBZ" Name="Create" />
+          <Patch Id="F3E5YHzmGSsPgd8VN1ltOO" Name="SetPositionSize (Internal)">
+            <Pin Id="O9dXrfwWUykLCiWqjj10k9" MergeId="307830" Name="Position" Kind="InputPin" />
+            <Pin Id="P5uLaQjTqxxMeX1K787M9d" MergeId="307838" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="OtdcNrOY4SINti2VWNvEww" MergeId="307852" Name="Anchor" Kind="InputPin" />
+          </Patch>
           <Patch Id="BqwRD6RaLHrLpFltIC4gDY" Name="SetExternalComponents (Internal)">
             <Pin Id="T0VGybGuSckPzSvj4H3mGU" MergeId="307626" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <Link Id="Dyc8DgaUxX0Mtp8SyJe9K8" Ids="T0VGybGuSckPzSvj4H3mGU,I3rernymEq3OnH7pYKtwUY" IsHidden="true" />
-          <Link Id="G70eEpLvXwsPcPQW43KMHd" Ids="I3rernymEq3OnH7pYKtwUY,QoGOHtvY06VQHcZWpqR8XO" />
           <Patch Id="AZ5dK2LdSYjLAQE25aPRBl" Name="Update">
             <Pin Id="LcbYds3P3LMOEfFXaXX6As" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -632,13 +632,13 @@
 
 -->
       <Node Name="RoundRectangle (Spectral Advanced)" Bounds="213,431" Id="Fi3rmvrKtttPI8UrIjTU32" Summary="Draws a round rectangle that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="FnKqe9kJMZwMFTOjbQqldT">
           <Canvas Id="PxQyig5JromNiHhoVTLi3H" CanvasType="Group">
             <Pad Id="HolVpI5mmW7PwDTy1lzCZb" Comment="" Bounds="165,64,85,17" ShowValueBox="true" isIOBox="true" Value="RoundRectangle">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -648,7 +648,7 @@
             <ControlPoint Id="FrSD72oRuVAPOISlUdSECf" Bounds="385,59" />
             <ControlPoint Id="Cz2Jij0WwRyNOcLA1e7DSx" Bounds="441,59" />
             <Node Bounds="162,120,472,581" Id="Mxpjhdhts9DQWCUv14WAit">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -662,7 +662,7 @@
                 <ControlPoint Id="T4p0Od4NP6NOaUmLxahOrt" Bounds="235,694" />
                 <ControlPoint Id="QC8ui2Y1LWpNNPGjskVq3y" Bounds="236,156" />
                 <Node Bounds="234,270,94,19" Id="OQBTcBrQJjZM6iCpqiLkqs">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -672,7 +672,7 @@
                   <Pin Id="FvWwlNbkM1KNdDpHjlIObs" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="365,356,109,19" Id="O3MDgOEu6kZNdFN8qRehuP">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -685,14 +685,14 @@
                   <Pin Id="Mbl7YR5pZFAOXHDl66MVoS" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="366,143,132,19" Id="UEhHQNrdPvGLSiluM9J3GG">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="JYMawqMKxR5MMnRF43IWCA" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="366,273,89,19" Id="JkQ7LpvzcWHNR7EFPTK0Mt">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -702,14 +702,14 @@
                   <Pin Id="SsMkgtigN8HLWsRmIh74vx" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="450,182,128,19" Id="FZt570FjdDbP938DSf7Acy">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ForegroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="E20eJozkPHNNiFROmSnshD" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="385,309,89,26" Id="Rb78BDxobAsMiN6qgxnzip">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -719,7 +719,7 @@
                   <Pin Id="ACLGvH57eA8O4y4ULF1Igp" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="221,402,370,268" Id="FLDC9DiZrOBMVas6y8KdKt">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -735,7 +735,7 @@
                     <Patch Id="CLPq2x40jrNP8OIMZ5rQht" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="EqHabE7tUBrNNpd5Q16twf" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="345,478,125,19" Id="AjeevCwg3xHOmMccDtQcX9">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetForegroundStyle" />
                       </p:NodeReference>
@@ -749,7 +749,7 @@
                       <Pin Id="RbtuMIQdU9ZNOyw4w8oF9y" Name="Found" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="233,573,90,19" Id="Nlj5K9hsxSSP0eONesGig4">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="RoundRectangle (Bounds)" />
                       </p:NodeReference>
@@ -760,7 +760,7 @@
                       <Pin Id="Vb9OSV5jW4ONLzmw4fqtQX" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="361,580,90,19" Id="N2dqSybSuhvPjub3gFuunW">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="RoundRectangle (Bounds)" />
                       </p:NodeReference>
@@ -771,18 +771,20 @@
                       <Pin Id="FEQXXr1LexSLvWc3nTKS1W" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="233,626,261,19" Id="P3ziKf1g23uL6TMfPWROMx">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Group" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="FMrnfVDVmGOQMHGEOphJw5" Name="Input" Kind="InputPin" />
                       <Pin Id="Fdwn5jBRfkqNqBmdHA35Ae" Name="Input 2" Kind="InputPin" />
-                      <Pin Id="H5mu9Go02hPOWFQS27zlIt" Name="Output" Kind="OutputPin" />
                       <Pin Id="CB9QAxtrMXzN9Y5z5uwiEp" Name="Input 3" Kind="InputPin" />
+                      <Pin Id="S2bJxTjKnSJMmYWrIohiCd" Name="Debug" Kind="InputPin" />
+                      <Pin Id="VQXLzd2sTiZNGJZ8UkkkX0" Name="Enabled" Kind="InputPin" />
+                      <Pin Id="H5mu9Go02hPOWFQS27zlIt" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="233,518,79,19" Id="D1Q68nVKQDqOJSOqYcGkTi">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -791,7 +793,7 @@
                       <Pin Id="PQBD3HJZXwkNJ5jig0Exxu" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="472,537,107,19" Id="JxAdJ9vFYczNhDNcrR2YUc">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetBackgroundStyle" />
                       </p:NodeReference>
@@ -803,7 +805,7 @@
                       <Pin Id="HGhcdwQrX53QPv1TmUuXWN" Name="Background_Stroke_Enable" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="489,578,90,19" Id="JSZNZLnk8CzMZwbvzCkCZL">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="RoundRectangle (Bounds)" />
                       </p:NodeReference>
@@ -821,14 +823,14 @@
                   <Pin Id="ILyYaWcaPicNrEEeQzrlEj" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <Node Bounds="493,208,129,19" Id="S2Usje0MZxfLibpIUd0VhA">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="TN0w5NWBcP6OZEC0jRoXaq" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="450,238,48,19" Id="DUYoqezzC9jLINBQL6Tcwj">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="RecordType" Name="Spread" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
@@ -842,12 +844,11 @@
             <ControlPoint Id="CysOBEu6fMROYTgyYsyiN2" Bounds="555,26" />
             <Pad Id="OZrgYw0BlCBOuOdaz2GpqF" Bounds="555,87" />
             <Pad Id="JPAqNuTrITwL2X4hAGx8mX" Comment="" Bounds="572,46,35,28" ShowValueBox="true" isIOBox="true" Value="0.05, 0.05">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pad>
           </Canvas>
-          <Patch Id="STV4r8ED7xVO2q7gYSuesh" Name="Create (Internal)" ParticipatingElements="Vf2GOeXkrS3MCQ5kWbY2Hh" />
           <ProcessDefinition Id="VLym2p2Nh3dLlJJItTB8Yi">
             <Fragment Id="QWdcerKQ22gMLNfNg4MnZ9" Patch="STV4r8ED7xVO2q7gYSuesh" Enabled="true" />
             <Fragment Id="BB58XE9C57dMZTdFDtIreE" Patch="RyfzNrNjsCFNXbAJ5ukGOk" Enabled="true" />
@@ -901,10 +902,13 @@
           <Link Id="TC4fE0Hg6tFLT31ftbDZZe" Ids="CKKMw45q2yaMgXdFftygjB,CB9QAxtrMXzN9Y5z5uwiEp" />
           <Link Id="T4sZrd65LCkLppy5TUrdza" Ids="Vb9OSV5jW4ONLzmw4fqtQX,FMrnfVDVmGOQMHGEOphJw5" />
           <Link Id="JEwQGrcApHRL0j5t9MASl7" Ids="FEQXXr1LexSLvWc3nTKS1W,Fdwn5jBRfkqNqBmdHA35Ae" />
+          <Link Id="IIpO9H3AhtNOCWYe8fGYiF" Ids="OZrgYw0BlCBOuOdaz2GpqF,C5vStkpv9exMzXWmDSJNBP" />
+          <Link Id="Vf2GOeXkrS3MCQ5kWbY2Hh" Ids="JPAqNuTrITwL2X4hAGx8mX,OZrgYw0BlCBOuOdaz2GpqF" />
+          <Patch Id="STV4r8ED7xVO2q7gYSuesh" Name="Create (Internal)" ParticipatingElements="Vf2GOeXkrS3MCQ5kWbY2Hh" />
           <Patch Id="RyfzNrNjsCFNXbAJ5ukGOk" Name="SetPositionSize (Internal)" ParticipatingElements="Rbf86r7pLbJQQkVfi0OnIg,OGBh5FU3wxJOkXkezANHCV">
             <Pin Id="GRNiEDAZ04JMpjHfEZPKsZ" Name="Position" Kind="InputPin" />
             <Pin Id="Ggz3VRNe49iNw5QcSznkrs" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -912,27 +916,25 @@
           </Patch>
           <Patch Id="SRPFm8ZLMFrOJu66bMuKTs" Name="SetRadius (Internal)">
             <Pin Id="AdTtoXW9LtjOVKjPkLYZp0" Name="Radius" Kind="InputPin" DefaultValue="0.05, 0.05">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="GDgezsedvqhQCdc1TvS1p5" Name="SetExternalComponents (Internal)">
             <Pin Id="AD40MryZUlPLnrXqXRamCa" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="NkuIh8zTYfTLyyBXIXz9nM" Name="Update (Internal)">
             <Pin Id="BHS6prTiiTkMmvJAVBpcxO" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <Link Id="IIpO9H3AhtNOCWYe8fGYiF" Ids="OZrgYw0BlCBOuOdaz2GpqF,C5vStkpv9exMzXWmDSJNBP" />
-          <Link Id="Vf2GOeXkrS3MCQ5kWbY2Hh" Ids="JPAqNuTrITwL2X4hAGx8mX,OZrgYw0BlCBOuOdaz2GpqF" />
         </Patch>
       </Node>
       <!--
@@ -941,13 +943,13 @@
 
 -->
       <Node Name="Circle (Spectral Advanced)" Bounds="213,491" Id="NVTUxUsgzMRQWK82JedPsd" Summary="Draws a circle that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="RJ9kO7VNTUWQX6KaCfl011">
           <Canvas Id="SzaFV4reBobPaPxrEqU6np" CanvasType="Group">
             <Pad Id="IpXmDDMrGmzL9IqijpHlI6" Comment="" Bounds="144,42,40,17" ShowValueBox="true" isIOBox="true" Value="Circle">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -957,7 +959,7 @@
             <ControlPoint Id="CBwPwJVQMQMLt79rnZJNev" Bounds="380,39" />
             <ControlPoint Id="JAJsgiu9DrXOWtvFZ962TY" Bounds="483,46" />
             <Node Bounds="149,117,459,606" Id="U7YNf3iPif5OktfWprlqpw">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -971,7 +973,7 @@
                 <ControlPoint Id="Os2BJVkIuF0OcP0I3hrlS8" Bounds="207,716" />
                 <ControlPoint Id="A9c6IsBV97mQSCWC5ISrVK" Bounds="210,153" />
                 <Node Bounds="208,207,94,19" Id="Dcn4NVGlEN9MA47D7G1qwK">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -981,7 +983,7 @@
                   <Pin Id="F1o9GIyVTGJLlXmVJD9ukz" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="339,368,109,19" Id="OBsRP6wKNWRMOKvmJqjr3j">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -994,14 +996,14 @@
                   <Pin Id="H98rveUMvuJOyUZjNeQDHN" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="340,140,132,19" Id="KS4wahFnA9RPMa7bxHmuM4">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="PHuuor3f2icML8IguPi1LK" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="340,255,89,19" Id="NahA87BdVNFPeUpS6HE4cP">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -1011,14 +1013,14 @@
                   <Pin Id="O37BHsxzifHNdLk7yFPiSD" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="424,167,128,19" Id="E5i4tmvwmHVPlfDwCsoFns">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ForegroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="QrbtG6rzZpbLhrNA1Q1yAA" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="359,324,89,26" Id="OtbAFjVqnYBOJFYBL2zjkn">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -1028,7 +1030,7 @@
                   <Pin Id="BhVESQR2iDtNEJfn4eZUzy" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="193,410,337,289" Id="UeHg3yM0S3MQHMMh7oRbL2">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -1043,7 +1045,7 @@
                     <Patch Id="JezwSL0m2eDPZFHv92md3S" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="DadNfNGRcODNRLZr15qpTz" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="292,443,125,19" Id="VIOOSGv0dPgQNoLsOmJtug">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetForegroundStyle" />
                       </p:NodeReference>
@@ -1057,7 +1059,7 @@
                       <Pin Id="TVbkQ9lY3e4OGK7gGqfJe0" Name="Found" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="208,574,61,19" Id="EX53XepQPOXOe6PpRmLwnj">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Circle (Bounds)" />
                       </p:NodeReference>
@@ -1067,7 +1069,7 @@
                       <Pin Id="Fs5R8UHlMshOiaBWACv37a" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="337,572,61,19" Id="JJb9QbZvCQgOljme1BtaMP">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Circle (Bounds)" />
                       </p:NodeReference>
@@ -1077,18 +1079,20 @@
                       <Pin Id="PZsYSUtyBIOMlNB1h3N7Dx" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="205,639,45,19" Id="Q65reeE4eMoLYo9ws4SWJt">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Group" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="KPVprrzbxurLkPoZPrGCBF" Name="Input" Kind="InputPin" />
                       <Pin Id="QSiyov2uXcYPGAqiZt4p69" Name="Input 2" Kind="InputPin" />
-                      <Pin Id="Tuia01k9ihJNVK82HxO7b5" Name="Output" Kind="OutputPin" />
                       <Pin Id="QqnCwMMs04EM9PCnaD3lwt" Name="Input 3" Kind="InputPin" />
+                      <Pin Id="No6S06qYVaPM5DLT02qzOy" Name="Debug" Kind="InputPin" />
+                      <Pin Id="Ga5q2xALiC5OyVyI5XugN1" Name="Enabled" Kind="InputPin" />
+                      <Pin Id="Tuia01k9ihJNVK82HxO7b5" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="209,510,79,19" Id="JlSU7rDBLnpNHJ11ZIpyZv">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -1097,7 +1101,7 @@
                       <Pin Id="Morhe24UUHiPtoQ3ZEdwEP" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="409,569,61,19" Id="EJgaftnFwRCOntiSzOJ37j">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Circle (Bounds)" />
                       </p:NodeReference>
@@ -1107,7 +1111,7 @@
                       <Pin Id="PylmJZkwT6RLkRqstnRDes" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="411,489,107,19" Id="DmjoiBt5nRtOTIXIiY1Np3">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetBackgroundStyle" />
                       </p:NodeReference>
@@ -1126,7 +1130,7 @@
                   <Pin Id="PLXuDqoUIb8LJphjmlHYjq" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <Node Bounds="424,225,48,19" Id="VDbiVTBuiVqOEwlXDyozLE">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -1136,7 +1140,7 @@
                   <Pin Id="TYcsfNt7LYyOhgPgh7zek3" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="467,196,129,19" Id="P430k2uRcNXNVAoFOLm1GC">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
@@ -1145,7 +1149,6 @@
               </Patch>
             </Node>
           </Canvas>
-          <Patch Id="QtiejRbTMN6O0JkoJszpDB" Name="Create (Internal)" />
           <ProcessDefinition Id="MDhRRxPskrkMxL1lTNEG76">
             <Fragment Id="U0f0KdUu4LVMYCt9XocKIF" Patch="QtiejRbTMN6O0JkoJszpDB" Enabled="true" />
             <Fragment Id="DIxCDX5i8xfMTSJrMS9a6F" Patch="AfXe6ldShKwOYnxFFNRL3r" Enabled="true" />
@@ -1192,10 +1195,12 @@
           <Link Id="K1ilcIFCntNL7nEoZtlOIC" Ids="Fs5R8UHlMshOiaBWACv37a,KPVprrzbxurLkPoZPrGCBF" />
           <Link Id="LeYSlCLT2BgPTDhqoR8fwr" Ids="PZsYSUtyBIOMlNB1h3N7Dx,QSiyov2uXcYPGAqiZt4p69" />
           <Link Id="DeODVzpvnyRPdHEnTWxb32" Ids="Morhe24UUHiPtoQ3ZEdwEP,ICseo5v5PYuN7KXyEpgder" />
+          <Link Id="FfmGxZqrf7SP0GX7C20OKL" Ids="Muj0lfKXHkwORwJvRSsgcG,Os2BJVkIuF0OcP0I3hrlS8" />
+          <Patch Id="QtiejRbTMN6O0JkoJszpDB" Name="Create (Internal)" />
           <Patch Id="AfXe6ldShKwOYnxFFNRL3r" Name="SetPositionSize (Internal)" ParticipatingElements="PPlO2cKxfTbNlCG02AUoe3,FXBJDcCwcvZPuI9pA18Lqq">
             <Pin Id="FWF5uOSierdOjcL2fMsqbc" Name="Position" Kind="InputPin" />
             <Pin Id="KJiYsAFiVoEMAxUD2UWZ2y" Name="Size" Kind="InputPin" DefaultValue="0.5, 0.5">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -1203,15 +1208,14 @@
           </Patch>
           <Patch Id="Uz3wFhUSPVlNUB8CI8j65R" Name="SetExternalComponents (Internal)">
             <Pin Id="J5j3Pen1EQTNoNj3BAGkrF" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <Link Id="FfmGxZqrf7SP0GX7C20OKL" Ids="Muj0lfKXHkwORwJvRSsgcG,Os2BJVkIuF0OcP0I3hrlS8" />
           <Patch Id="Fh8dHRS0zkcN9JywP9vlDJ" Name="Update (Internal)">
             <Pin Id="I7Pp2n9gjgKLkWbUHT6tpJ" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -1224,13 +1228,13 @@
 
 -->
       <Node Name="Oval (Spectral Advanced)" Bounds="213,551" Id="DUXoBh7RZXCOVrxd446Ff0" Summary="Draws an oval that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="Teybe2Z3kK2QWgzwA4SBw7">
           <Canvas Id="IAnVkml6XoANKzRk3WibN2" CanvasType="Group">
             <Pad Id="L6tE55D3IjYO4xWQiqzaON" Comment="" Bounds="152,109,40,17" ShowValueBox="true" isIOBox="true" Value="Oval">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -1240,7 +1244,7 @@
             <ControlPoint Id="OU3rMbw7uJcQPLIvkWh8YV" Bounds="387,103" />
             <ControlPoint Id="S3HFw2De43XQEah7yKZdk5" Bounds="505,108" />
             <Node Bounds="170,145,456,563" Id="NkiLswl1WHbOE9FN7Ah3Es">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -1254,7 +1258,7 @@
                 <ControlPoint Id="SiXMptF2brxLqIs6SWUopW" Bounds="228,701" />
                 <ControlPoint Id="F7OJ6t3zf4LNKYpR46SIP7" Bounds="228,181" />
                 <Node Bounds="226,325,94,19" Id="LWOH8HQOwFnLLWwOnF3VkM">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -1264,7 +1268,7 @@
                   <Pin Id="SCMlmUuevEiODPOpnQ8gPm" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="357,366,109,19" Id="Ui2J1agyaDuOngKEmfqjYn">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -1277,14 +1281,14 @@
                   <Pin Id="Uj3wIvb0UPiPS9ImyLqEEZ" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="358,168,132,19" Id="Gd3O5rHujHvOUFahWrsLEo">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="Fd9VSENvg5dOmsGFJkopC8" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="358,283,89,19" Id="Em8dWNha4oSNPV2YAMbP5c">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -1294,14 +1298,14 @@
                   <Pin Id="GZGzY3uzvsDLt3BDqeYtML" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="442,193,128,19" Id="VXmdHQm6SVaOJ3F2fk7Uqb">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ForegroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="VCFYaQdELQFNZ2M24NzUc5" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="377,324,89,26" Id="DpJrKsMGNETLJzirKeZvw3">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -1311,7 +1315,7 @@
                   <Pin Id="EqEHm19anJbNerwhHOXNoK" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="214,442,398,232" Id="H2duXyn5WwlQSNwf9RfVKm">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -1326,7 +1330,7 @@
                     <Patch Id="LH7AOvp9evkNtSpM1XWMGJ" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="NowMTRutra2PZtfAqBdq89" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="358,475,125,19" Id="F4cZnL3C0A7OgN74XY0poV">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetForegroundStyle" />
                       </p:NodeReference>
@@ -1340,7 +1344,7 @@
                       <Pin Id="F2GbeXexuQ0O57HhfWVJPc" Name="Found" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="226,567,61,19" Id="SLjm1rBJw5UOzknqrdFZfd">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Oval (Bounds)" />
                       </p:NodeReference>
@@ -1350,7 +1354,7 @@
                       <Pin Id="HjtkocidfZKLIZsDFfncfU" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="330,567,61,19" Id="GpgZnF3Zd8ENQtxj58AQuy">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Oval (Bounds)" />
                       </p:NodeReference>
@@ -1360,18 +1364,20 @@
                       <Pin Id="GDZ4XG5jNnoOBaiPA8Bg1G" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="226,623,45,19" Id="TJ1kn52bfCqP1THzL5mALU">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Group" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="NerA74BhM7KL1NF93IdceQ" Name="Input" Kind="InputPin" />
                       <Pin Id="A0xdLBH1iDXP59itnAAlh0" Name="Input 2" Kind="InputPin" />
-                      <Pin Id="Uh62YUE2SMFPY4wWYS4YXb" Name="Output" Kind="OutputPin" />
                       <Pin Id="Lgqb5qKB0q5PQWEDJZL5Bf" Name="Input 3" Kind="InputPin" />
+                      <Pin Id="R5ILwNuK4IEMsHzi5GZcn8" Name="Debug" Kind="InputPin" />
+                      <Pin Id="UY1TCP84rOYPddPAHgBXRO" Name="Enabled" Kind="InputPin" />
+                      <Pin Id="Uh62YUE2SMFPY4wWYS4YXb" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="226,527,79,19" Id="GyontWG7whGLPtFmgm40Uk">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -1380,7 +1386,7 @@
                       <Pin Id="TcTv4i8oCGSLJ5e5gBYko2" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="493,477,107,19" Id="CUg4xaxIjDrNoUYfcqKm6w">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetBackgroundStyle" />
                       </p:NodeReference>
@@ -1392,7 +1398,7 @@
                       <Pin Id="ImHWhl1pGa1PGc5GPgsAGJ" Name="Background_Stroke_Enable" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="414,564,61,19" Id="IaKOMFohxLDNnwQzZcux21">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Oval (Bounds)" />
                       </p:NodeReference>
@@ -1409,7 +1415,7 @@
                   <Pin Id="Kxtgg4zWB0yLqAnCUeZNjU" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <Node Bounds="442,254,48,19" Id="CUFv5f16LsZMlBq6ve69aK">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -1419,7 +1425,7 @@
                   <Pin Id="DMXC4k4AFNTOfrdtA6Fyyq" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="485,220,129,19" Id="OT1HqKSzH9cQNzt1tPq25i">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
@@ -1428,7 +1434,6 @@
               </Patch>
             </Node>
           </Canvas>
-          <Patch Id="NcRpfhqrD9PLWgwxNA0D0F" Name="Create (Internal)" />
           <Link Id="Ikvn0dQWVsaLai8o3uoHC2" Ids="Ku3UaRNaOC3LR3nChZ6RBi,G1PbhfkPl12Mey9xgK8giE" IsHidden="true" />
           <Link Id="KaW0staa7AvNFY1d40cjLR" Ids="DT7k9ztJpd4OBtr1GpOX6v,NjFz6vIWEJgQV2G8rYUE3L" IsHidden="true" />
           <Link Id="A9HrvHWciglL3bncPo1jD6" Ids="H1RPPWd8MLALlKxfAw8B4G,TGZC6qCX7f0O24vIx0cGgn" IsHidden="true" />
@@ -1470,10 +1475,17 @@
           <Link Id="THsgY1l0QIKLS9j5RcDlHW" Ids="BH5SWexYsfIOZStIazVZea,Lgqb5qKB0q5PQWEDJZL5Bf" />
           <Link Id="ADQ5eI3M6iYNRbeijTPYbE" Ids="HjtkocidfZKLIZsDFfncfU,NerA74BhM7KL1NF93IdceQ" />
           <Link Id="A5vblj5ti2pMZZlo5cpGC4" Ids="GDZ4XG5jNnoOBaiPA8Bg1G,A0xdLBH1iDXP59itnAAlh0" />
+          <ProcessDefinition Id="TO0QxnG20iqPcr9Z73SwQD">
+            <Fragment Id="KxPmxVMTLmhNhYe1NDFtzg" Patch="NcRpfhqrD9PLWgwxNA0D0F" Enabled="true" />
+            <Fragment Id="U3sx3Wog67OO3aiNUMpKKv" Patch="It5ObwJcZBuPgnGR0o6C1i" Enabled="true" />
+            <Fragment Id="FW5YYt3nKjVNuvrAVRod0d" Patch="PCljRoMhDoZPxVw914qHmH" Enabled="true" />
+            <Fragment Id="DNiagAl0iZBMNwv1VQEcWi" Patch="RZaz1tXU9eeLcIwCQAwIJP" Enabled="true" />
+          </ProcessDefinition>
+          <Patch Id="NcRpfhqrD9PLWgwxNA0D0F" Name="Create (Internal)" />
           <Patch Id="It5ObwJcZBuPgnGR0o6C1i" Name="SetPositionSize (Internal)" ParticipatingElements="MrcBh5hqsqMObh8t0jZNYH,C8t2WD3Wz4NOnFTajOnHpW,AQNxzei1fLiMNlorKQuEjR">
             <Pin Id="H1RPPWd8MLALlKxfAw8B4G" Name="Position" Kind="InputPin" />
             <Pin Id="LuJko19QSeFPNrX3IPnvjc" Name="Size" Kind="InputPin" DefaultValue="1, 0.5">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -1481,20 +1493,14 @@
           </Patch>
           <Patch Id="PCljRoMhDoZPxVw914qHmH" Name="SetExternalComponents (Internal)">
             <Pin Id="DT7k9ztJpd4OBtr1GpOX6v" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <ProcessDefinition Id="TO0QxnG20iqPcr9Z73SwQD">
-            <Fragment Id="KxPmxVMTLmhNhYe1NDFtzg" Patch="NcRpfhqrD9PLWgwxNA0D0F" Enabled="true" />
-            <Fragment Id="U3sx3Wog67OO3aiNUMpKKv" Patch="It5ObwJcZBuPgnGR0o6C1i" Enabled="true" />
-            <Fragment Id="FW5YYt3nKjVNuvrAVRod0d" Patch="PCljRoMhDoZPxVw914qHmH" Enabled="true" />
-            <Fragment Id="DNiagAl0iZBMNwv1VQEcWi" Patch="RZaz1tXU9eeLcIwCQAwIJP" Enabled="true" />
-          </ProcessDefinition>
           <Patch Id="RZaz1tXU9eeLcIwCQAwIJP" Name="Update (Internal)">
             <Pin Id="G1PbhfkPl12Mey9xgK8giE" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -1507,13 +1513,13 @@
 
 -->
       <Node Name="Segment (Spectral Advanced)" Bounds="213,611" Id="CjBetcm2EkTMBdvvBAg3ON" Summary="Draws a segment that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="RzjrejdyK2mOb8MesQ4nkD">
           <Canvas Id="TxjR7guYOXiPJBWEw9yKQq" CanvasType="Group">
             <Pad Id="TXkpu6j5pGOLdoY2QgBhFh" Comment="" Bounds="161,103,59,17" ShowValueBox="true" isIOBox="true" Value="Segment">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -1523,7 +1529,7 @@
             <ControlPoint Id="BoaYYwdiGapNOw150tbEV9" Bounds="489,95" />
             <ControlPoint Id="E0YDuOBvWEnNsgQejtstCu" Bounds="654,81" />
             <Node Bounds="159,141,662,678" Id="SkryFvXloISOjEpAUtdDfp">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -1537,7 +1543,7 @@
                 <ControlPoint Id="HFgXK7RbftGLK6y1m68i6Z" Bounds="200,812" />
                 <ControlPoint Id="DP35X1LF7l4PTWYeoxwePY" Bounds="219,262" />
                 <Node Bounds="215,342,94,19" Id="APZhuAefFiKMorKHbi6VIz">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -1547,7 +1553,7 @@
                   <Pin Id="I0WCdhqcpXyNxg8xJfAoce" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="551,362,109,19" Id="OKtkYj56vdnPd56FosJjWt">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -1560,14 +1566,14 @@
                   <Pin Id="Pd9WRD3vFaRO3uyJ3s1Rim" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="552,164,132,19" Id="Jqf4batfWCfOezhbJDW9lt">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="AI8NQPy2QtZNwVQiuITGgZ" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="552,279,89,19" Id="MBowM6FR7orQSnx6il8cRv">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -1577,14 +1583,14 @@
                   <Pin Id="IngAtQ9T39sLTa1GSvrBSA" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="636,193,128,19" Id="VRB6i1sDUF7NjzeMwFytOD">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ForegroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="Mcedky8qwkdN0cQfNo0MIo" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="644,311,89,26" Id="QD7ulRcLWmvOP5ObVA4x3R">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -1594,7 +1600,7 @@
                   <Pin Id="F25oiCXzz3YLkZeDBumyCU" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="203,396,606,383" Id="PlCDxBV8IEeMhpKjtYbcge">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -1613,7 +1619,7 @@
                     <Patch Id="TLQBwHKPV6fLT5qhkWbxjx" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="DnNznpI3e5fQcA2JGZzAvI" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="551,432,125,19" Id="GaKaLZCiWFRMBaHY7iYzYg">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetForegroundStyle" />
                       </p:NodeReference>
@@ -1627,18 +1633,20 @@
                       <Pin Id="CSGGt6QtLnMP3gHSmo8Z1C" Name="Found" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="227,668,389,19" Id="DzuAkmQQUE7Maf04O1P9xE">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Group" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="O1ZrRu2lEpWQdk8i51aJ2T" Name="Input" Kind="InputPin" />
                       <Pin Id="BXnGbOAjZMMMCdneMJLOgr" Name="Input 2" Kind="InputPin" />
-                      <Pin Id="RfzVpKqyGjkN01e8gX1auO" Name="Output" Kind="OutputPin" />
                       <Pin Id="LPRywCK7ZN9NePyoh7QA0U" Name="Input 3" Kind="InputPin" />
+                      <Pin Id="KrtEr1RBxzCO31PAc0y7tj" Name="Debug" Kind="InputPin" />
+                      <Pin Id="A0mRAlkTxMaMQJz8AM0sYh" Name="Enabled" Kind="InputPin" />
+                      <Pin Id="RfzVpKqyGjkN01e8gX1auO" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="227,563,125,19" Id="BABOhxMGMzQObQgOMMNsIj">
-                      <p:NodeReference LastCategoryFullName="VL.Elementa.Utils.Skia" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Utils.Skia" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Segment (Bounds)" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true">
@@ -1657,7 +1665,7 @@
                       <Pin Id="DY4YMamTnVIOpMHNwK5FKZ" Name="Path" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="420,563,125,19" Id="TYMqgbfRlXdNUgfEpzHoUy">
-                      <p:NodeReference LastCategoryFullName="VL.Elementa.Utils.Skia" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Utils.Skia" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Segment (Bounds)" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true">
@@ -1676,7 +1684,7 @@
                       <Pin Id="UuGaPuv58uQQcO3yyuchF1" Name="Path" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="215,481,79,19" Id="BdjmCAImQd4P1LvwLFZjka">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -1685,7 +1693,7 @@
                       <Pin Id="FXy1BcPTtQYLYsJfWK9XJM" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="612,562,125,19" Id="PVSaqp4NDXzMPyqGzQc1hC">
-                      <p:NodeReference LastCategoryFullName="VL.Elementa.Utils.Skia" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="VL.Elementa.Utils.Skia" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Segment (Bounds)" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true">
@@ -1704,7 +1712,7 @@
                       <Pin Id="OkgP240HFdiNPYkQX89Wk9" Name="Path" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="690,432,107,19" Id="TMTXUKAsvn4Pzyp6rVRAhq">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetBackgroundStyle" />
                       </p:NodeReference>
@@ -1723,7 +1731,7 @@
                   <Pin Id="UuRQcwaNgGXMES3CsZ0Sh9" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <Node Bounds="636,248,48,19" Id="NOpg1wcaFtiMYL4j3YIGtD">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -1733,7 +1741,7 @@
                   <Pin Id="ONu0mSOMRiOPMN07mr4zQZ" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="679,218,129,19" Id="Szy2PdTfWbMNe0kJBiUbzN">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
@@ -1750,17 +1758,17 @@
             <Pad Id="Ol7eXho2vhjLaR80rxe3mq" Bounds="798,27" />
             <Pad Id="AfxioeUZxLoMgBU57qSaZ1" Bounds="858,74" />
             <Pad Id="Ehxr7mQQ83MPZbGnH6bs4x" Comment="" Bounds="876,48,35,15" ShowValueBox="true" isIOBox="true" Value="9">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="VsMiMxtFUWiLMZggo6D44A" Comment="" Bounds="746,-16,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
             <Pad Id="Ji9848dzzkGQSqdJ5ouipU" Comment="" Bounds="818,-5,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
@@ -1844,7 +1852,7 @@
           <Patch Id="A8nePooWgd0QYsskJreaJr" Name="SetPositionSize (Internal)">
             <Pin Id="CrLuRpU2skuMV0B7jHCJCd" Name="Position" Kind="InputPin" />
             <Pin Id="B4KslpmTNl7OjI5UkOplS7" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.75">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -1853,31 +1861,31 @@
           <Patch Id="LnEqjWBLASxNQbDKpeIitJ" Name="SetSegmentAttributes (Internal)">
             <Pin Id="M4arAoaTKCePs9xLoXcHN1" Name="Phase" Kind="InputPin" />
             <Pin Id="L3GbHlW2ii2PSg8VTKznM4" Name="Factor" Kind="InputPin" DefaultValue="1">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="GWs32E1NeivNu0z8tmvdeq" Name="Inner Radius" Kind="InputPin" DefaultValue="0.3">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="IFXSBNJO64LObOj2gpd7g0" Name="Resolution" Kind="InputPin" DefaultValue="9">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="ODx2uytw0cdP5fBJq8Ly5d" Name="SetExternalComponents (Internal)">
             <Pin Id="VDhVLETTEDhP8HqajbTtTE" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="TYEGAG69BiMOFcafJOT8Go" Name="Update (Internal)">
             <Pin Id="GnvHH9z6HdtLZubABu6lZ6" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -1890,7 +1898,7 @@
 
 -->
       <Node Name="Text (Spectral Advanced)" Bounds="213,731" Id="SFpuWOUcTcSPuVRRakQQye" Summary="Draws a text that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="TzP89dY5XS0NRIZDvx0f6h">
@@ -1898,7 +1906,7 @@
             <ControlPoint Id="SojFBcsIwHTLzAuCr7Ri2n" Bounds="540,31" />
             <ControlPoint Id="K5ZZdlNUAlAPnaDK4mLDCM" Bounds="563,57" />
             <Pad Id="LaAQe1SKOJwLU6BJNCxUbX" Comment="" Bounds="169,104,40,17" ShowValueBox="true" isIOBox="true" Value="Text">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -1908,7 +1916,7 @@
             <ControlPoint Id="PcR1w5bXXfTMwbUI3kBbBT" Bounds="364,49" />
             <ControlPoint Id="NjtIMtMV61VQOukSYhrKWi" Bounds="420,49" />
             <Node Bounds="186,151,379,562" Id="QjOx0x622IuN0VVmpELMNv">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -1922,7 +1930,7 @@
                 <ControlPoint Id="MtfuZ16AinPMllo1FG6KHg" Bounds="244,706" />
                 <ControlPoint Id="N4FYXDBF4p5LXVY3USzoSV" Bounds="242,187" />
                 <Node Bounds="240,241,94,19" Id="EIVgIb9vco1MWcRflYeIIJ">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -1932,7 +1940,7 @@
                   <Pin Id="VpCW9htGwDPOQxPzTAirSa" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="371,327,109,19" Id="IzRqwX8MOCULPlJ6L4w9Wc">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -1945,14 +1953,14 @@
                   <Pin Id="HWnJC7TQPXvPWQILekVech" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="372,174,132,19" Id="JUF5H6yng9VNnDIERLkeA7">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="NmrTTd6SOBlLg7n7aijJxF" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="372,244,89,19" Id="MLCORs5hVsGQC1XlQAUipX">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -1962,7 +1970,7 @@
                   <Pin Id="MD1WkMIX4M4PljykZorMby" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="464,276,89,26" Id="Ez5oEMNEAMrLo469mXgGWW">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -1972,7 +1980,7 @@
                   <Pin Id="DjYJkZPTMzMMP776k71xLM" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="230,370,184,306" Id="SYuWXJGGVhoQbTJbgoX2s5">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -1988,7 +1996,7 @@
                     <Patch Id="ACY8dU8ukn5NoG7MvWeo4V" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="REBhRmiOKBxNwRzEqLxhna" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="328,418,74,19" Id="ThiS9k6d59eOacZCxSHnGB">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetTextStyle" />
                       </p:NodeReference>
@@ -1998,7 +2006,7 @@
                       <Pin Id="MAtsYi8d0DhQRBTP5PYSda" Name="Padding" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="244,523,119,19" Id="FOfKAB8XbpEP9gvmNXbfBF">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers.Text" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers.Text" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Text (Bounds)" />
                       </p:NodeReference>
@@ -2010,7 +2018,7 @@
                       <Pin Id="TYq4oTz1g8QOAy7gBfXqFU" Name="Baseline Position" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="244,478,79,19" Id="Ns3zpmaPhfWPm0KG8JPjsS">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -2019,7 +2027,7 @@
                       <Pin Id="Gr2iUfVo5mDQbzCAL6zry9" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="252,584,65,19" Id="JUk03N5rdOSPBhx42d0cch">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ClipRect" />
                       </p:NodeReference>
@@ -2032,7 +2040,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="398,206,96,19" Id="Q4FXf5hs0CpQE2spYJDQYv">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="TextPropertyKeys" />
                   </p:NodeReference>
@@ -2048,7 +2056,6 @@
             <Pad Id="MplE6H3LrglOBNqoEo19DM" Bounds="514,72" />
             <Pad Id="IUWkpm0g8bINX6kGjSRMBw" Bounds="550,88" />
           </Canvas>
-          <Patch Id="Pxi4MmSi1diLjDc9fFulRc" Name="Create" />
           <ProcessDefinition Id="IQtqNjDaIciOOKBcLaaIDw">
             <Fragment Id="C1JkTp2zzU8Pr62ACgHHsf" Patch="Pxi4MmSi1diLjDc9fFulRc" Enabled="true" />
             <Fragment Id="Db8LlU1MgjlOxM3LOUfS7o" Patch="ShgrhdKbtCwMbn6ZSdonle" Enabled="true" />
@@ -2092,10 +2099,13 @@
           <Link Id="KYhDnfOFrGMPM7XaHjm1gM" Ids="SojFBcsIwHTLzAuCr7Ri2n,MplE6H3LrglOBNqoEo19DM" />
           <Link Id="VbEdH8pdcarNMKt8PnJyt3" Ids="MTWohNaFse9PG16Z8HvzGV,DQsJpP33XuqOLX7wnCpNCs" />
           <Link Id="GCnKjD6KfyFQCh6akm1DZF" Ids="EFnPbqBkZYoOjIDIaSIdto,TMmXEhP7VvcOqivKy4wMSy" />
+          <Link Id="LCJy6A6b4AcQFNfPwoVYBV" Ids="MplE6H3LrglOBNqoEo19DM,MTWohNaFse9PG16Z8HvzGV" />
+          <Link Id="Mx1d1Hbk61hOxzK1gVPAWL" Ids="IUWkpm0g8bINX6kGjSRMBw,RxnpAWW7y2mPhHzVsXQxz0" />
+          <Patch Id="Pxi4MmSi1diLjDc9fFulRc" Name="Create" />
           <Patch Id="ShgrhdKbtCwMbn6ZSdonle" Name="SetPositionSize (Internal)" ParticipatingElements="FApAJmi363qPcmXBPIHWQ8,IYsfSMYHwXuLYj46hDNkNw">
             <Pin Id="EhdzxdC7MPILXa8iQJkakN" Name="Position" Kind="InputPin" />
             <Pin Id="Qq24Kk15gmONPdxnKF7JS2" Name="Size" Kind="InputPin" DefaultValue="1, 0.5">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -2107,16 +2117,14 @@
           </Patch>
           <Patch Id="SuOmeU3F5dZLllEswdfsjY" Name="SetExternalComponents (Internal)">
             <Pin Id="RKxDAZlFXmqNXJAyYNUEbz" Name="Components" Kind="InputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <Link Id="LCJy6A6b4AcQFNfPwoVYBV" Ids="MplE6H3LrglOBNqoEo19DM,MTWohNaFse9PG16Z8HvzGV" />
-          <Link Id="Mx1d1Hbk61hOxzK1gVPAWL" Ids="IUWkpm0g8bINX6kGjSRMBw,RxnpAWW7y2mPhHzVsXQxz0" />
           <Patch Id="Piw8XrWRUTpNSnm3YSyZlJ" Name="Update (Internal)">
             <Pin Id="LWSfV4sb249OKeJGtQczWj" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -2129,7 +2137,7 @@
 
 -->
       <Node Name="TextWithBackground (Spectral Advanced)" Bounds="213,791" Id="A83tx0OECmKPWtdKpEqu1c" Summary="Draws a text with background that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="O53OVQxkUPkLhVF2nD2j0j">
@@ -2137,14 +2145,14 @@
             <ControlPoint Id="QXiQ7Gehhs8MuN0caDvmQp" Bounds="688,343" />
             <ControlPoint Id="Btt54YhdqMRPn9nRq9KPdf" Bounds="711,369" />
             <Pad Id="FKjASXJ2gRkMGVoicy4arK" Comment="" Bounds="133,128,114,20" ShowValueBox="true" isIOBox="true" Value="TextWithBackground">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="MNDtZDHpdBHOBWxidhSro4" Bounds="153,812" />
             <ControlPoint Id="BlyXgQ1XS9gQXzQ2BD4HM0" Bounds="569,136" />
             <Node Bounds="145,175,423,597" Id="Jo73mA95eDLN8vjAMMrJXf">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -2158,7 +2166,7 @@
                 <ControlPoint Id="B3iYAzpv4wQOyxuEWH9JMq" Bounds="202,765" />
                 <ControlPoint Id="AojCwtyzBaMPOoZCBgywKp" Bounds="206,211" />
                 <Node Bounds="204,325,94,19" Id="SNfG3HKN5RzNW58HURFVNu">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -2168,7 +2176,7 @@
                   <Pin Id="UWeRXPVQAplMx5fSOOtVro" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="335,411,109,19" Id="OHzOBywOutgOAXZTSw0pmp">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -2181,14 +2189,14 @@
                   <Pin Id="PP7W4jiUfG2OCsFYaB9e7r" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="336,198,132,19" Id="IjaciwMJPZIQCLoGdrUiVU">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="LWha8X2959LMsdb8QEmmFe" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="336,328,89,19" Id="I23tvjunIjtL2eK4Fc8Hi9">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -2198,7 +2206,7 @@
                   <Pin Id="EZujmf9wGLbOoytPX4tt7Q" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="428,360,89,26" Id="IJQHXN2RwMiN7TBnhRgqhX">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -2208,7 +2216,7 @@
                   <Pin Id="LaG6BYoMgahLSbF2FfKBDz" Name="Components" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="189,461,367,274" Id="GMa9AMpssmvMu5sBNUj68u">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -2225,7 +2233,7 @@
                     <Patch Id="UspnKYnDn7ROuzJYF3LZCe" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="JHIZeZGqBqoPMZs0X6vlzd" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="470,506,74,19" Id="Ur9dZq7fu29PSYhndnokil">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetTextStyle" />
                       </p:NodeReference>
@@ -2235,7 +2243,7 @@
                       <Pin Id="O6BauFv3W9SN1aTBeMJvwj" Name="Padding" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="383,608,119,19" Id="IMtkUaeDF8jPlk4zq7mRKV">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers.Text" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers.Text" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Text (Bounds)" />
                       </p:NodeReference>
@@ -2247,7 +2255,7 @@
                       <Pin Id="SXVrGjYKFBtQV4S4dHP9Sn" Name="Baseline Position" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="383,563,79,19" Id="IgXAZG5BwCLO7UHvoaRqdo">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -2256,7 +2264,7 @@
                       <Pin Id="KeDroGPiTR9OsiIiyXdocK" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="384,649,65,19" Id="EQ1Dv2gdFfTOwXHlg4qgRL">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ClipRect" />
                       </p:NodeReference>
@@ -2267,7 +2275,7 @@
                       <Pin Id="JipqQnKAcEdNrUdESHebRJ" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="269,506,107,19" Id="Hdoeb8ErjKrLmEWYojwD27">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetBackgroundStyle" />
                       </p:NodeReference>
@@ -2279,7 +2287,7 @@
                       <Pin Id="CijFCk7C86rLacYjHImJ3m" Name="Background_Stroke_Enable" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="201,614,61,19" Id="EOm0rU2wtKDLHvtGU86gHE">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Rectangle (Bounds)" />
                       </p:NodeReference>
@@ -2289,7 +2297,7 @@
                       <Pin Id="DQ8OTeIqTXyMEnOhYxouGn" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="290,614,61,19" Id="Bed3ZIBoVFwLXCalIFfluK">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="Rectangle (Bounds)" />
                       </p:NodeReference>
@@ -2299,7 +2307,7 @@
                       <Pin Id="IFwrSYdpw1qNNkWElZL4R5" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="201,562,79,19" Id="QyTrXqZMApoO3donH7fgTw">
-                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastSymbolSource="VL.Elementa.Utils.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Utils" LastDependency="VL.Elementa.Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ApplyPadding (Rectangle)" />
                       </p:NodeReference>
@@ -2308,7 +2316,7 @@
                       <Pin Id="NkSNhguKO86LHxGIv7lfm6" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="204,685,183,19" Id="JSb4fr81zYwNq8SlVgjqzp">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Group" />
                         <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -2316,26 +2324,28 @@
                       <Pin Id="RTXDUOLDdKXPRFffdF1ZyV" Name="Input" Kind="InputPin" />
                       <Pin Id="HG0uOBaqCfGOCgvrLhN0Ej" Name="Input 2" Kind="InputPin" />
                       <Pin Id="IGadYTwsvshMaTxfo7Rj09" Name="Input 3" Kind="InputPin" />
+                      <Pin Id="L4bTaKQeH3EM4jM6ZIqglk" Name="Debug" Kind="InputPin" />
+                      <Pin Id="S8oAFxgIQM4PTWRRMSvuiN" Name="Enabled" Kind="InputPin" />
                       <Pin Id="FwjlcnuKlvhLiEFaMMR6hR" Name="Output" Kind="OutputPin" />
                     </Node>
                   </Patch>
                 </Node>
                 <Node Bounds="377,230,96,19" Id="RbYJRfqbjEWNVi1u2KLzFO">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="TextPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="RtKyDNCZoI9L7fyDqiolrh" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="419,261,129,19" Id="DeEwm0H0IeYLagFYULjmhp">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="RdORHzgsKXRMXYxOe9kAPS" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="379,297" Id="Bst0Q22JoiRMn3hMl1mduo">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -2357,7 +2367,6 @@
             <Pad Id="IAAQd9lBrPNP6nFbYHIGpj" Bounds="652,364" />
             <Pad Id="CI9GQOXRjvxOWfS1os1mUW" Bounds="676,388" />
           </Canvas>
-          <Patch Id="AND2Z6j9PsWLNKEPwHwmgW" Name="Create" />
           <Link Id="DRSFYy8Sph7OGTwRvjiNa4" Ids="KWuRn4fl3SAMh1xIGOUOvK,QXiQ7Gehhs8MuN0caDvmQp" IsHidden="true" />
           <Link Id="CMIZzP5E5jSP0l8gZWv3Vh" Ids="Mzy2NaPZa8oP0no9qRSAC3,Btt54YhdqMRPn9nRq9KPdf" IsHidden="true" />
           <Link Id="SIfDCk1Y5WBQMe3nUjT9tH" Ids="MNDtZDHpdBHOBWxidhSro4,AXHKstWF2spOzyAKUXtWrV" IsHidden="true" />
@@ -2403,33 +2412,12 @@
           <Link Id="SASAcn8OSndQN4ZNI9SR8k" Ids="OqT4FtxtUftP64TntRxeHg,OCyGgSROa3tMO9SEId9gCN" />
           <Link Id="KLRqbrevUyRQW2sEDkDBcQ" Ids="Btt54YhdqMRPn9nRq9KPdf,CI9GQOXRjvxOWfS1os1mUW" />
           <Link Id="TtblgI3XTLgMEfBK0Ct4xi" Ids="QXEEkczFg2rOqJ3GDQQ2BU,N0TLH000UvxOBXVI5IJpHn" />
-          <Patch Id="TaURHsa6kyONK0QWG9tIfw" Name="SetExternalComponents">
-            <Pin Id="KGcuudBaNpNQYLMS253H5z" Name="Component" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="BBdVoLp2tjWPUZGFx862ni" Name="SetPositionSize">
-            <Pin Id="IOEpTzP3Y5JOvILOQ3BqPo" MergeId="1579277" Name="Position" Kind="InputPin" />
-            <Pin Id="HtRvZh0nbROPYhZ9Vjd2Rr" MergeId="1579278" Name="Size" Kind="InputPin" DefaultValue="1, 0.5">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="B4htpQImtGWNyDCrJvexuK" MergeId="1579279" Name="Anchor" Kind="InputPin" />
-          </Patch>
           <Link Id="M8rrH0vR0NiQWjsTNCC816" Ids="IOEpTzP3Y5JOvILOQ3BqPo,BZ8hmK4NzPIOoARkyaSNvQ" IsHidden="true" />
           <Link Id="L8b2XmE3fBBMSMty7Oirzg" Ids="HtRvZh0nbROPYhZ9Vjd2Rr,Hdsr67w7i1jPDnwVqL3s5h" IsHidden="true" />
           <Link Id="LjrB6ueKTVWLOg4vMCuQwY" Ids="B4htpQImtGWNyDCrJvexuK,L37OMYy5zt8L6LzhdTWbXP" IsHidden="true" />
           <Link Id="PePaWP0M0tSLEqsw0qnkmM" Ids="BZ8hmK4NzPIOoARkyaSNvQ,QwWuNzzijPgLaCu7E4Yu9o" />
           <Link Id="TtiUZhqjDv5LxrIOhUqn9h" Ids="Hdsr67w7i1jPDnwVqL3s5h,SiWpRvfHrUpLftnSyzGWmT" />
           <Link Id="Sn9j3CDNitKMivAo6lMzt5" Ids="L37OMYy5zt8L6LzhdTWbXP,LNClKp0kzSaOaAWJXEXcN4" />
-          <Patch Id="JM9QozGxNbVNIyAg0UfivA" Name="Update (Internal)" />
-          <Patch Id="PWLHCF1lmE0LS39z3YPQNY" Name="SetTextAttributes" ParticipatingElements="KJXWs8E6twEOWnTTqxsatA,KLRqbrevUyRQW2sEDkDBcQ">
-            <Pin Id="KWuRn4fl3SAMh1xIGOUOvK" Name="Text" Kind="InputPin" />
-            <Pin Id="Mzy2NaPZa8oP0no9qRSAC3" Name="Clip Text" Kind="InputPin" />
-          </Patch>
           <ProcessDefinition Id="J0FoS9PmRq3PU3azoEZnyN">
             <Fragment Id="Folli5M0osCMfH6K5YSaeH" Patch="AND2Z6j9PsWLNKEPwHwmgW" Enabled="true" />
             <Fragment Id="JgF6PPsA5scPKG0zVFIsVB" Patch="BBdVoLp2tjWPUZGFx862ni" Enabled="true" />
@@ -2440,9 +2428,31 @@
           </ProcessDefinition>
           <Link Id="MDnCkmNx0pAMEGgEg80hQP" Ids="IAAQd9lBrPNP6nFbYHIGpj,OqT4FtxtUftP64TntRxeHg" />
           <Link Id="MQre9RLc8F1OYrsp7XGyFC" Ids="CI9GQOXRjvxOWfS1os1mUW,QXEEkczFg2rOqJ3GDQQ2BU" />
+          <Patch Id="AND2Z6j9PsWLNKEPwHwmgW" Name="Create" />
+          <Patch Id="TaURHsa6kyONK0QWG9tIfw" Name="SetExternalComponents">
+            <Pin Id="KGcuudBaNpNQYLMS253H5z" Name="Component" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="BBdVoLp2tjWPUZGFx862ni" Name="SetPositionSize">
+            <Pin Id="IOEpTzP3Y5JOvILOQ3BqPo" MergeId="1579277" Name="Position" Kind="InputPin" />
+            <Pin Id="HtRvZh0nbROPYhZ9Vjd2Rr" MergeId="1579278" Name="Size" Kind="InputPin" DefaultValue="1, 0.5">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="B4htpQImtGWNyDCrJvexuK" MergeId="1579279" Name="Anchor" Kind="InputPin" />
+          </Patch>
+          <Patch Id="JM9QozGxNbVNIyAg0UfivA" Name="Update (Internal)" />
+          <Patch Id="PWLHCF1lmE0LS39z3YPQNY" Name="SetTextAttributes" ParticipatingElements="KJXWs8E6twEOWnTTqxsatA,KLRqbrevUyRQW2sEDkDBcQ">
+            <Pin Id="KWuRn4fl3SAMh1xIGOUOvK" Name="Text" Kind="InputPin" />
+            <Pin Id="Mzy2NaPZa8oP0no9qRSAC3" Name="Clip Text" Kind="InputPin" />
+          </Patch>
           <Patch Id="EvmZUZEvjGZMIm0rMn2bVf" Name="GetOutput (Internal)">
             <Pin Id="AXHKstWF2spOzyAKUXtWrV" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -2455,7 +2465,7 @@
 
 -->
       <Node Name="Image (Spectral Advanced)" Bounds="213,671" Id="SHMEWS14eIMPrAhnEiqQI7" Summary="Draws a segment that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="KSVdLpMuhJtMVlw48oyTP1">
@@ -2466,14 +2476,14 @@
             <ControlPoint Id="LUvKxL7ydLoLzBhZiR3vU1" Bounds="394,172" />
             <ControlPoint Id="FTkgIz0kp5WMfZDPW4Qkzn" Bounds="450,172" />
             <Pad Id="VzGSLB5VNCKNvWxziJvVzD" Comment="" Bounds="218,244,46,17" ShowValueBox="true" isIOBox="true" Value="Image">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="LWH6sV5JVZ8P4zkjRiTo6J" Bounds="594,172" />
             <ControlPoint Id="Fb53XA7ffT7PEGIrHusL92" Bounds="614,208" />
             <Node Bounds="216,289,507,599" Id="Dn4DzDyM6PlQSxRXXvT19b">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="LayerElementum (Spectral)" />
               </p:NodeReference>
@@ -2487,7 +2497,7 @@
                 <ControlPoint Id="NOh9YlygSc6OlsLO3W5tKN" Bounds="279,881" />
                 <ControlPoint Id="OFoafBfIkSRMZ87sBaQWVx" Bounds="316,326" />
                 <Node Bounds="260,573,451,286" Id="IQWM8Qb8msxMgTTcOZ0Hly">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -2504,7 +2514,7 @@
                     <Patch Id="TLj3P72MRdWNQZfmYTu9oB" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="RN4B8fhbKyvLSxsIJjW8nW" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="452,610,125,19" Id="UssTXv5gXISQKyGNQcGZ5u">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetForegroundStyle" />
                       </p:NodeReference>
@@ -2518,7 +2528,7 @@
                       <Pin Id="BulRwb9Ogd8MXQZFlwmlyy" Name="Found" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="272,674,199,19" Id="S6TFN9rHbFTLqfkojVmUcN">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="DrawImage" />
                       </p:NodeReference>
@@ -2527,7 +2537,7 @@
                       <Pin Id="ATYqml2XvUuOZ4GCUgQiYP" Name="Size" Kind="InputPin" />
                       <Pin Id="I7OAD6BmDYJMZPU0ebwcUa" Name="Size Mode" Kind="InputPin" />
                       <Pin Id="C0BgJJ4o6lMNCzwSWQ6UOr" Name="Anchor" Kind="InputPin" DefaultValue="TopLeft">
-                        <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+                        <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                           <Choice Kind="TypeFlag" Name="RectangleAnchor" />
                         </p:TypeAnnotation>
                       </Pin>
@@ -2537,7 +2547,7 @@
                       <Pin Id="JbOBaedISuPNVefuRX0cNw" Name="Actual Bounds" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="306,605,51,26" Id="JmR2oXcYKY1MRLzzfBldPV">
-                      <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="2D.Rectangle" LastDependency="VL.CoreLib.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="Category" Name="Rectangle" />
                         <Choice Kind="OperationCallFlag" Name="Split" />
@@ -2548,16 +2558,18 @@
                       <Pin Id="UO62fWiajagMlabFIgGLyp" Name="Size" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="334,761,44,19" Id="PwcnBiNXi6gOXouKenKGt7">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Group" />
                       </p:NodeReference>
                       <Pin Id="UVpTlIcOOQeNOBt9tX5CYA" Name="Input" Kind="InputPin" />
                       <Pin Id="J54q5iESygROgcW9kFl27l" Name="Input 2" Kind="InputPin" />
+                      <Pin Id="QUCYhmj6L2pQYQ80uVsa2o" Name="Debug" Kind="InputPin" />
+                      <Pin Id="SiI7Ko2bWSJNz6V5bo9CW9" Name="Enabled" Kind="InputPin" />
                       <Pin Id="F58dWHhAcK0QIMUxfUFbLD" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="496,686,61,19" Id="JWdT4FeplA3OR6yn2dZAzO">
-                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+                      <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Rectangle (Bounds)" />
                       </p:NodeReference>
@@ -2567,7 +2579,7 @@
                       <Pin Id="GEasTkHPJgyNBYWJR8yIlm" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="592,611,107,19" Id="GItZiYsXrKtN3wkiC3zmgv">
-                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                      <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="GetBackgroundStyle" />
                       </p:NodeReference>
@@ -2581,7 +2593,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="270,477,67,26" Id="HQkpfRYCvxYPRBrXPfCOkp">
-                  <p:NodeReference LastCategoryFullName="Graphics.Skia.Imaging" LastSymbolSource="VL.Skia.vl">
+                  <p:NodeReference LastCategoryFullName="Graphics.Skia.Imaging" LastDependency="VL.Skia.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="FromImage" />
                     <CategoryReference Kind="Category" Name="Imaging" NeedsToBeDirectParent="true">
@@ -2593,7 +2605,7 @@
                   <Pin Id="K9RXAunB7AvQNY0HYJ5Um7" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="307,520,94,19" Id="BPi8b22xtToQYkXSwbKK9L">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastSymbolSource="VL.Elementa.Component.Layout.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Layoutable" LastDependency="VL.Elementa.Component.Layout.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetGlobalBounds (IElementum)" />
                     <PinReference Kind="InputPin" Name="Node Context" />
@@ -2603,7 +2615,7 @@
                   <Pin Id="Q7aSVoy1TynPVOwxnTxvTz" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="452,525,109,19" Id="F9bzwSjnVDGMJnsrqKKTVD">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="GetWidgetProperties" />
                     <PinReference Kind="InputPin" Name="Components" />
@@ -2616,14 +2628,14 @@
                   <Pin Id="LRUp5ueltkcO6FDFmaTGjj" Name="Styleable" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="453,312,132,19" Id="LiuXCCqPc5cM3W9yuYIfct">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetStyleFactoryProperties" />
                   </p:NodeReference>
                   <Pin Id="Qr3ysFcm67sNA3GzeBwqAN" Name="Properties" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="453,442,89,19" Id="Go1oBsWYeisMaavXfIkhsz">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SelectProperties" />
                   </p:NodeReference>
@@ -2633,14 +2645,14 @@
                   <Pin Id="LbzOMHL0KxXNwIIGBFK4wn" Name="Found" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="537,336,128,19" Id="Tainx9rM4IGPUHCofD30aV">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ForegroundPropertyKeys" />
                   </p:NodeReference>
                   <Pin Id="BVVCKVh29VCPfzh6sCtKqV" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="545,474,89,26" Id="DdIyFfXIVFxNPBz9yfQCi3">
-                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastSymbolSource="VL.Elementa.Core.vl">
+                  <p:NodeReference LastCategoryFullName="VL.Elementa.Core.IElementum" LastDependency="VL.Elementa.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetComponents" />
                     <CategoryReference Kind="InterfaceTypeFlag" Name="IElementum" NeedsToBeDirectParent="true" />
@@ -2655,7 +2667,7 @@
                   <Pin Id="SbQCuh8lBqcLN0yo3Z1cUc" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <Node Bounds="537,405,48,19" Id="H0cEv9Apk9hNAcbVUFilzV">
-                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Concat" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -2665,7 +2677,7 @@
                   <Pin Id="M6hlHyKo6IWLHO1EIAp92W" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="581,374,129,19" Id="Sjt3xQZEyiPQT8dgezZPE8">
-                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastSymbolSource="VL.Elementa.Component.Style.vl">
+                  <p:NodeReference LastCategoryFullName="Elementa.Component.Utils" LastDependency="VL.Elementa.Component.Style.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BackgroundPropertyKeys" />
                   </p:NodeReference>
@@ -2722,11 +2734,13 @@
           <Link Id="FFj8wqHegGXPyhEPtf9V82" Ids="M6hlHyKo6IWLHO1EIAp92W,TxLeCj5z4ulL31gTVWDwvz" />
           <Link Id="O92v3Ig20ksNRgS8DUjgsl" Ids="QSdbN7bDQx2OpJrESrSKrO,CJuMRoO1l2jM5TlwixaW6H" />
           <Link Id="PtQQHO57lYmPNIvI0fIUXn" Ids="GEasTkHPJgyNBYWJR8yIlm,J54q5iESygROgcW9kFl27l" />
+          <Link Id="KWju5hMCHBjMsoUi0O7ECn" Ids="LWH6sV5JVZ8P4zkjRiTo6J,HQ4njdCDKm9OYr4crNHZjd" />
+          <Link Id="EOAzkK3YEqYQR3tMqUQPcX" Ids="Fb53XA7ffT7PEGIrHusL92,OoleP5xpph2OJhBNPv5bA5" />
           <Patch Id="Ouqpsm7rrGILgflufgwoIS" Name="Create" />
           <Patch Id="El6zoEKwgr3QGwzOyTsFuO" Name="SetPositionSize (Internal)">
             <Pin Id="DaVlMkz8EclL33UdXDNlgi" Name="Position" Kind="InputPin" />
             <Pin Id="CRZ9Z9bEtgoLM4IqHCEeR8" Name="Size" Kind="InputPin" DefaultValue="1, 0.75">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -2735,27 +2749,25 @@
           <Patch Id="M2pOTPdzVHtPQ5BVTK0aX5" Name="SetImage (Internal)">
             <Pin Id="DpeoVwSqhf5PISeuj7tmd2" Name="Image" Kind="InputPin" />
             <Pin Id="RnZwFxvvRJ7L5Na3Ab0x7o" Name="Size Mode" Kind="InputPin" DefaultValue="Size">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="SizeMode" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="SIMFAIWzhzpOFqcW5cAW5w" Name="SetExternalComponents (Internal)">
             <Pin Id="MEmBHBgmgYMNiEcv0jTUkU" Name="Components" Kind="InputPin" Visibility="Optional">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="LdayelsrbKrMRvw08ynflQ" Name="Update (Internal)">
             <Pin Id="VQLBKSJmcC3NHRMEIEHr3I" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <Link Id="KWju5hMCHBjMsoUi0O7ECn" Ids="LWH6sV5JVZ8P4zkjRiTo6J,HQ4njdCDKm9OYr4crNHZjd" />
-          <Link Id="EOAzkK3YEqYQR3tMqUQPcX" Ids="Fb53XA7ffT7PEGIrHusL92,OoleP5xpph2OJhBNPv5bA5" />
         </Patch>
       </Node>
       <!--
@@ -2764,14 +2776,14 @@
 
 -->
       <Node Name="Rectangle" Bounds="614,372" Id="DwyY6SJOmNpLASU5zE4kZM" Summary="Draws a rectangle that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="IAsgDApGbwfPn9oNv7gdMw">
           <Canvas Id="KX2NLkIAWTRMyxOFtKU8oK" CanvasType="Group">
             <ControlPoint Id="UewMMkd3POTNsA11ycQ4o0" Bounds="347,384" />
             <Node Bounds="345,338,65,19" Id="Hh3olsmDFRKOQXcRSnXOld">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Rectangle (Spectral)" />
               </p:NodeReference>
@@ -2786,25 +2798,8 @@
             <ControlPoint Id="Rs9MEeeH8m6LQFElm2X6cn" Bounds="386,286" />
             <ControlPoint Id="CrNnv5rDiUoPurlYMoHYhP" Bounds="409,304" />
           </Canvas>
-          <Patch Id="ApLhJR8s83NQaYtlNTXeiH" Name="Create (Internal)" />
           <Link Id="B5Rkk4V2nxyOnQeIgUTKLR" Ids="UewMMkd3POTNsA11ycQ4o0,EfikWY4g8u4OyKRMWhWX8q" IsHidden="true" />
           <Link Id="UoKCYBFbgF9LZEKfZsutGd" Ids="LTJ6w9Z1X0LPqqOsd0tPt2,UewMMkd3POTNsA11ycQ4o0" />
-          <Patch Id="BQX6vidC3uHMx4vCjgAVnK" Name="SetPositionSize">
-            <Pin Id="N3sRPTfkSJaO9kYnq6M84z" MergeId="705156" Name="Position" Kind="InputPin" />
-            <Pin Id="FOqBNwv5p8xPEmNRLTTwwM" MergeId="705157" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Arwl8iIxv3CP5w3QP9rD3W" MergeId="705158" Name="Anchor" Kind="InputPin" Visibility="Optional" />
-          </Patch>
-          <Patch Id="PbpfEvImur6NWOePrM8gaP" Name="SetExternalComponents">
-            <Pin Id="Ah3ymapNY3nQFfWsUde08Y" MergeId="734620" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="BYyUiLF4iAQQMpJi9mYi01" Ids="N3sRPTfkSJaO9kYnq6M84z,J4zbsNtwFMgLYrqCZMACAP" IsHidden="true" />
           <Link Id="A3SnIQxaASuQSu0tlhowDL" Ids="FOqBNwv5p8xPEmNRLTTwwM,UVWA01zkcvBMwqJDEhSBy2" IsHidden="true" />
           <Link Id="Jt1X9ydSF7oOg0HL7g6gsw" Ids="Arwl8iIxv3CP5w3QP9rD3W,Rs9MEeeH8m6LQFElm2X6cn" IsHidden="true" />
@@ -2819,6 +2814,23 @@
             <Fragment Id="Ob4fYoWb1KEMHJtFGN2kru" Patch="PbpfEvImur6NWOePrM8gaP" Enabled="true" />
             <Fragment Id="MNSAWldGGG3NRKBY9nYC1v" Patch="EVWVcH55eWYPQY7uPVfq4a" Enabled="true" />
           </ProcessDefinition>
+          <Patch Id="ApLhJR8s83NQaYtlNTXeiH" Name="Create (Internal)" />
+          <Patch Id="BQX6vidC3uHMx4vCjgAVnK" Name="SetPositionSize">
+            <Pin Id="N3sRPTfkSJaO9kYnq6M84z" MergeId="705156" Name="Position" Kind="InputPin" />
+            <Pin Id="FOqBNwv5p8xPEmNRLTTwwM" MergeId="705157" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="Arwl8iIxv3CP5w3QP9rD3W" MergeId="705158" Name="Anchor" Kind="InputPin" Visibility="Optional" />
+          </Patch>
+          <Patch Id="PbpfEvImur6NWOePrM8gaP" Name="SetExternalComponents">
+            <Pin Id="Ah3ymapNY3nQFfWsUde08Y" MergeId="734620" Name="Component" Kind="InputPin" IsPinGroup="true">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
           <Patch Id="EVWVcH55eWYPQY7uPVfq4a" Name="GetWidget (Internal)">
             <Pin Id="EfikWY4g8u4OyKRMWhWX8q" Name="Output" Kind="OutputPin" />
           </Patch>
@@ -2830,7 +2842,7 @@
 
 -->
       <Node Name="RoundRectangle" Bounds="614,432" Id="FQNXXzR0OPWOIkQrnkmgge" Summary="Draws a round rectangle that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="K1LadzMrZnjLj5uxMt5IEJ">
@@ -2842,7 +2854,7 @@
             <ControlPoint Id="DQ5zKs9m6JMOLGk3I3NB7Y" Bounds="415,332" />
             <ControlPoint Id="VfSZd79juKFM5CD3Ptxq9R" Bounds="437,357" />
             <Node Bounds="391,433,90,19" Id="Mm5mg4acE7nNmjUrC80SoE">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="RoundRectangle (Spectral)" />
               </p:NodeReference>
@@ -2854,7 +2866,6 @@
               <Pin Id="RozYkXoiFffOWkcYKrMuS0" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
-          <Patch Id="B5fxIvZ1txvMzCYu2knltu" Name="Create" />
           <Link Id="Ub5MUqsG611OhkmLcFPnpm" Ids="FKzG1OA8VBSLgTdb2LyOrV,AVbtQcERSypMlJijHiH2HD" IsHidden="true" />
           <Link Id="Lg4FIkHBZnKMkb8RFokFEk" Ids="FgMzHCaXIyoL5veJubEfHC,T7NBKAgneIdNqnIv8TFPOS" IsHidden="true" />
           <Link Id="EBGBVAwYJuFOYeZtmPeZf2" Ids="GTrlIoW5gwQOarEFJUS5bh,JaKjFvzKAGUQDS6JLfomP5" IsHidden="true" />
@@ -2867,16 +2878,24 @@
           <Link Id="MdlNmCOqVfgNvMyim3bBtF" Ids="VfSZd79juKFM5CD3Ptxq9R,KSLffxQKxLRPXYBlCzMmMQ" />
           <Link Id="UA3ca700lD8PrQGUTxCxBM" Ids="JaKjFvzKAGUQDS6JLfomP5,H8dMm2RSMHhP3NEUz0y2XH" />
           <Link Id="TIY8Nr49WapQZ4mtXimWIO" Ids="T7NBKAgneIdNqnIv8TFPOS,UGXYLSBck97QWggR5xiORs" />
+          <ProcessDefinition Id="FfAsGsYv7mlP5gqEsm5ijk">
+            <Fragment Id="PifqfiOJPYiNTQuUIVyTlU" Patch="B5fxIvZ1txvMzCYu2knltu" Enabled="true" />
+            <Fragment Id="JvqSDBFD0rzOPkZWo9NlxA" Patch="GS6nrLcJXjVLE5afmcjKq7" Enabled="true" />
+            <Fragment Id="JGNyEYu18MyLRHqnNMB47q" Patch="CqGtAQjYdP7LRHxT504d6T" Enabled="true" />
+            <Fragment Id="S6bXi75E0ikO1cPQFaRXMx" Patch="HDBxefwdrBpMgaPhICDTdV" Enabled="true" />
+            <Fragment Id="B5SPena43zWPjdgucXhpaz" Patch="E06nhhMTZVIPi7MhBDFqFP" Enabled="true" />
+          </ProcessDefinition>
+          <Patch Id="B5fxIvZ1txvMzCYu2knltu" Name="Create" />
           <Patch Id="E06nhhMTZVIPi7MhBDFqFP" Name="GetWidget (Internal)">
             <Pin Id="AVbtQcERSypMlJijHiH2HD" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="HDBxefwdrBpMgaPhICDTdV" Name="SetExternalComponents (Internal)">
             <Pin Id="FgMzHCaXIyoL5veJubEfHC" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
@@ -2887,19 +2906,12 @@
           <Patch Id="GS6nrLcJXjVLE5afmcjKq7" Name="SetPositionSize (Internal)" ParticipatingElements="MFBSMq2ECuWQZYbemk3o1Q,Qw2voV09weNOBJ5pJEj6HH">
             <Pin Id="OTRGQ5IMnr9OgdWtziekoh" Name="Position" Kind="InputPin" />
             <Pin Id="P2vyLLoqEbeL010HkHlqpc" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="DGxdL9b8ZiwNuZrE7U5Tk3" Name="Anchor" Kind="InputPin" Visibility="Optional" />
           </Patch>
-          <ProcessDefinition Id="FfAsGsYv7mlP5gqEsm5ijk">
-            <Fragment Id="PifqfiOJPYiNTQuUIVyTlU" Patch="B5fxIvZ1txvMzCYu2knltu" Enabled="true" />
-            <Fragment Id="JvqSDBFD0rzOPkZWo9NlxA" Patch="GS6nrLcJXjVLE5afmcjKq7" Enabled="true" />
-            <Fragment Id="JGNyEYu18MyLRHqnNMB47q" Patch="CqGtAQjYdP7LRHxT504d6T" Enabled="true" />
-            <Fragment Id="S6bXi75E0ikO1cPQFaRXMx" Patch="HDBxefwdrBpMgaPhICDTdV" Enabled="true" />
-            <Fragment Id="B5SPena43zWPjdgucXhpaz" Patch="E06nhhMTZVIPi7MhBDFqFP" Enabled="true" />
-          </ProcessDefinition>
         </Patch>
       </Node>
       <!--
@@ -2908,7 +2920,7 @@
 
 -->
       <Node Name="Circle" Bounds="614,492" Id="EdJKM2rosgnMChW7tsh5Hm" Summary="Draws a circle that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="CtKmhx7an0MQdNLnzj6smY">
@@ -2919,7 +2931,7 @@
             <ControlPoint Id="BOOqKmROwhvPiDmJXzWICW" Bounds="531,339" />
             <ControlPoint Id="DqrItxMILOaLEiNUamNkyT" Bounds="551,365" />
             <Node Bounds="509,410,65,19" Id="RAvILT6tP3jOh0T8jgRi9D">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Circle (Spectral)" />
               </p:NodeReference>
@@ -2930,7 +2942,6 @@
               <Pin Id="EekQAeLW8dNNLDAT8m8B2m" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
-          <Patch Id="Chomrki77kVLNEYyOvuTVZ" Name="Create (Internal)" />
           <ProcessDefinition Id="M8CiO8PFQFQNWGbXnwdRbW">
             <Fragment Id="Sad6QSJTaApQPimRVZmRHd" Patch="Chomrki77kVLNEYyOvuTVZ" Enabled="true" />
             <Fragment Id="UCH2or0gOh0LwFk6TZFN8h" Patch="BOtZjKWAIscMx01ivPKg4b" Enabled="true" />
@@ -2947,10 +2958,11 @@
           <Link Id="LycUhLAofuBNTH3mI79GNY" Ids="BOOqKmROwhvPiDmJXzWICW,B2j4hWnP21kL0aMo2ixOIO" />
           <Link Id="Tu9sN77IjzXLLMlpcwiLPw" Ids="DqrItxMILOaLEiNUamNkyT,BuHLWOhSFzSM3roOo228dE" />
           <Link Id="DBsReaWTS70N9TT8wsq7jr" Ids="TtGtE6F61n7PPrfxRUpDhc,E4nfFlbjl5sOZMs53pbiHK" />
+          <Patch Id="Chomrki77kVLNEYyOvuTVZ" Name="Create (Internal)" />
           <Patch Id="BOtZjKWAIscMx01ivPKg4b" Name="SetPositionSize (Internal)" ParticipatingElements="LYYRUflQHPUNCL5vOsxs46,LycUhLAofuBNTH3mI79GNY,Tu9sN77IjzXLLMlpcwiLPw">
             <Pin Id="Gx9DEaXzqfJLC8tKdJs75L" Name="Position" Kind="InputPin" />
             <Pin Id="RsnCMSAzHtYQFpjADfuD2M" Name="Size" Kind="InputPin" DefaultValue="1, 1">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -2958,14 +2970,14 @@
           </Patch>
           <Patch Id="TDmabjxK2FYMSBZcALT7lw" Name="SetExternalComponents (Internal)">
             <Pin Id="KY76ie8MRktM8xJOfF9a9O" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="JzSCo1F9GivLvoRBv5n68Z" Name="GetWidget (Internal)">
             <Pin Id="IB8FBlJJaCCNR3HfMb9mWT" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -2978,7 +2990,7 @@
 
 -->
       <Node Name="Oval" Bounds="614,552" Id="UXgi14fhLg5Op5jjwmQHxr" Summary="Draws an oval that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="IE1d31qOgQbLzZjwrWBiey">
@@ -2989,7 +3001,7 @@
             <ControlPoint Id="PLgPMQamrwIOW2PyGKpDPh" Bounds="500,312" />
             <ControlPoint Id="OY8cr8R93pdQdvbMHNvAlW" Bounds="521,337" />
             <Node Bounds="478,398,65,19" Id="MezIUPElQLgPnpSnH6crzi">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Oval (Spectral)" />
               </p:NodeReference>
@@ -3000,7 +3012,6 @@
               <Pin Id="K6Nlsk8UEhbLAkBaTMK8u4" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
-          <Patch Id="DAwrjqmgHkVOAi59Yq173X" Name="Create (Internal)" />
           <Link Id="COOgRT5LboNO4atljW3GLW" Ids="N5a079ObAptOd34S0ciwVs,HnqWlG9dpdvPWOVMFDjIbx" IsHidden="true" />
           <Link Id="Fc3mHc2jQjNOP0dRyWXemN" Ids="VSeXssBGSRFQIVNhE86VFy,IuE4TZjrJnyMtzRvEzZ11g" IsHidden="true" />
           <Link Id="LH98qgQDnA9NaUem21hyVd" Ids="QBnuxcBh2K6NK1W8VujdRm,Rgva1dd0QVgMtIgb10JUIz" IsHidden="true" />
@@ -3011,9 +3022,16 @@
           <Link Id="V6bljpXgv5wL8fZrdQRv4S" Ids="PLgPMQamrwIOW2PyGKpDPh,ElJyCCzgjBVPttnCqrRW8t" />
           <Link Id="UDVEBAfkgboPj8zvJ7ZuoX" Ids="OY8cr8R93pdQdvbMHNvAlW,Ou68PA7UwwaPfcxGnCfGO0" />
           <Link Id="SkoHAXd6WFgPTsFY8FZkvt" Ids="IuE4TZjrJnyMtzRvEzZ11g,FpcOW9eEzcYM7zr9MAceul" />
+          <ProcessDefinition Id="HKiW65dBVocNtA1bO5DQhM">
+            <Fragment Id="UhklNOJD29tMBfejhSVitc" Patch="DAwrjqmgHkVOAi59Yq173X" Enabled="true" />
+            <Fragment Id="Bo8elGaujMhOV2BewxBZLR" Patch="Jx9IsEUJmNRO9sP9y5Pfxv" Enabled="true" />
+            <Fragment Id="Is54sScmoaOM38RSAmvJDQ" Patch="C0YO8s3piIlNpqWSyBmbnX" Enabled="true" />
+            <Fragment Id="TDehPjTLa6WNrZJ8LnEhiI" Patch="NCeAqeMD3hFPhG4XuIATRS" Enabled="true" />
+          </ProcessDefinition>
+          <Patch Id="DAwrjqmgHkVOAi59Yq173X" Name="Create (Internal)" />
           <Patch Id="C0YO8s3piIlNpqWSyBmbnX" Name="SetExternalComponents (Internal)">
             <Pin Id="VSeXssBGSRFQIVNhE86VFy" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
@@ -3021,7 +3039,7 @@
           <Patch Id="Jx9IsEUJmNRO9sP9y5Pfxv" Name="SetPositionSize (Internal)" ParticipatingElements="V6bljpXgv5wL8fZrdQRv4S,UDVEBAfkgboPj8zvJ7ZuoX">
             <Pin Id="QBnuxcBh2K6NK1W8VujdRm" Name="Position" Kind="InputPin" />
             <Pin Id="ReLHWyZXEK3MVmCfnPBL9V" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -3029,17 +3047,11 @@
           </Patch>
           <Patch Id="NCeAqeMD3hFPhG4XuIATRS" Name="GetWidget (Internal)">
             <Pin Id="HnqWlG9dpdvPWOVMFDjIbx" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
-          <ProcessDefinition Id="HKiW65dBVocNtA1bO5DQhM">
-            <Fragment Id="UhklNOJD29tMBfejhSVitc" Patch="DAwrjqmgHkVOAi59Yq173X" Enabled="true" />
-            <Fragment Id="Bo8elGaujMhOV2BewxBZLR" Patch="Jx9IsEUJmNRO9sP9y5Pfxv" Enabled="true" />
-            <Fragment Id="Is54sScmoaOM38RSAmvJDQ" Patch="C0YO8s3piIlNpqWSyBmbnX" Enabled="true" />
-            <Fragment Id="TDehPjTLa6WNrZJ8LnEhiI" Patch="NCeAqeMD3hFPhG4XuIATRS" Enabled="true" />
-          </ProcessDefinition>
         </Patch>
       </Node>
       <!--
@@ -3048,7 +3060,7 @@
 
 -->
       <Node Name="Segment" Bounds="614,612" Id="Kz4sBtSRnWhQTqAXLtfS0n" Summary="Draws a segment that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="LYB3kxmD78uLlm38G5AJU9">
@@ -3062,7 +3074,7 @@
             <ControlPoint Id="A2vHhCBDZafNZGWlf1oCLd" Bounds="222,209" />
             <ControlPoint Id="IBlF08LeNJlMY25Zu4TCp4" Bounds="291,265" />
             <Node Bounds="174,326,145,19" Id="IBFake7TMf6LK9mYq0S6xT">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Segment (Spectral)" />
               </p:NodeReference>
@@ -3078,7 +3090,6 @@
             </Node>
             <ControlPoint Id="Ux7lM1CjmkOO0kciwK0Vgp" Bounds="313,285" />
           </Canvas>
-          <Patch Id="L86oJkeMTf4Mh3XK3ZWH9A" Name="Create" />
           <ProcessDefinition Id="DYhY2T9LhAnLHfOMid4QGY">
             <Fragment Id="BLypSOnh1LnNnXwGOCNZ81" Patch="L86oJkeMTf4Mh3XK3ZWH9A" Enabled="true" />
             <Fragment Id="ObHLtRg2HVmPJRHLObNnb5" Patch="FkOVqIz6qqPLKQAiuIFeML" Enabled="true" />
@@ -3104,10 +3115,11 @@
           <Link Id="KoejDzmbFsrL9Wx0NyMEFS" Ids="Ux7lM1CjmkOO0kciwK0Vgp,OrQ83i1X1vBLePsCxG1Evp" />
           <Link Id="Ud6x3ID0rHTPwlYspb9NtZ" Ids="RR5BJXaEDoqN7ES9WyLyHQ,Ux7lM1CjmkOO0kciwK0Vgp" IsHidden="true" />
           <Link Id="LMPPgwJiwe8MMF55UkNHzU" Ids="BtRBnF33hKFMZcS2nUakHh,CHbniJEQ6b6NzWyDYQiMlW" />
+          <Patch Id="L86oJkeMTf4Mh3XK3ZWH9A" Name="Create" />
           <Patch Id="FkOVqIz6qqPLKQAiuIFeML" Name="SetPositionSize (Internal)" ParticipatingElements="OCZAKWgEmldPwptlHqYjDs,GinQdVMyGaYNtZJAtkkJij,KwFDR1KYJI6MLfCNop1Gj4">
             <Pin Id="SPzG9sWt38wMLZiRrrJ4NJ" Name="Position" Kind="InputPin" />
             <Pin Id="AEWbFVJo0hIOmzUBxQXGql" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.75">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -3121,14 +3133,14 @@
           </Patch>
           <Patch Id="GVDGlDkDePnPMx1k4RCjYo" Name="SetExternalComponents (Internal)">
             <Pin Id="KMwpxQpQgIOOPMZO5aOQQm" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="Gv7ppFFefy2NgKPP4VmmPl" Name="GetWidget (Internal)">
             <Pin Id="RikrGIYtzmtLReCvXIyYek" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -3141,7 +3153,7 @@
 
 -->
       <Node Name="Text" Bounds="614,732" Id="UNYsS3dTHuoMNQLdalx4Y4" Summary="Draws a text that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="CssSkHZ1NdHQXNUMW1uT9T">
@@ -3154,7 +3166,7 @@
             <ControlPoint Id="URUs8fUavUrMmwmQkzhL23" Bounds="365,253" />
             <ControlPoint Id="GXZDpB3TTbBNfpGVhElDRg" Bounds="405,305" />
             <Node Bounds="322,369,105,19" Id="AQLLZLm3EqLLPdDbS3wcX4">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Text (Spectral)" />
               </p:NodeReference>
@@ -3167,7 +3179,6 @@
               <Pin Id="B0gX0H3p935MUvnaSYrmt3" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
-          <Patch Id="EVxZg6WPGZALo13CvoWXRs" Name="Create" />
           <ProcessDefinition Id="IC20aNYgaa6OdUrfJNreXl">
             <Fragment Id="IdhQq5jvV9cOZyx1gtuWgy" Patch="EVxZg6WPGZALo13CvoWXRs" Enabled="true" />
             <Fragment Id="S1feoJ5arILMH4cZhv6YpA" Patch="AgCMBdmIpDuNxyYhetnYFd" Enabled="true" />
@@ -3189,10 +3200,11 @@
           <Link Id="HpYLwz6G0DzPKva5YsP4kx" Ids="GXZDpB3TTbBNfpGVhElDRg,OCg3vYnPseVML0wKT7w66r" />
           <Link Id="Rtxcz4xI3YEPLOmiXQm6dQ" Ids="IoNSnRgsQX0LStHi76b76Z,VCtkCc5DoI6OXJSdbhmoQI" />
           <Link Id="C4fXiNCvHp1NllB7sQFggo" Ids="B0gX0H3p935MUvnaSYrmt3,SehzmCYbvuFQXgqTEzHsYm" />
+          <Patch Id="EVxZg6WPGZALo13CvoWXRs" Name="Create" />
           <Patch Id="AgCMBdmIpDuNxyYhetnYFd" Name="SetPositionSize (Internal)" ParticipatingElements="J5vRj5qbRQ3N60zi7Qw8ev,QYdgwAZ0OyLNaF1Qa6TXpk,S7KR8ctmucjOJU4EbkmcXR">
             <Pin Id="KO3LsqIwZXXQATSlcYsiRh" Name="Position" Kind="InputPin" />
             <Pin Id="Txf9nBb7HZgPyhlXKwVa6y" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.3">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -3204,14 +3216,14 @@
           </Patch>
           <Patch Id="TGtxOZJulbtObWXMyjg8Vr" Name="SetExternalComponents (Internal)">
             <Pin Id="CdAY2TnbfdOLAewMnCHijv" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
           </Patch>
           <Patch Id="JWnaXTH8YpIPlGD1Qjha4h" Name="GetWidget (Internal)">
             <Pin Id="NGbaSku5IUyLfbN4UvoScd" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -3224,7 +3236,7 @@
 
 -->
       <Node Name="TextWithBackground" Bounds="614,792" Id="N3XUKJI3tOCNP1rygdoeRl" Summary="Draws a text with background that can be styled and layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="L3YdmEeDKkkPBiuy6jPrIV">
@@ -3232,7 +3244,7 @@
             <ControlPoint Id="S2W9JwByrN8LzSOIKnHvvu" Bounds="234,156" />
             <ControlPoint Id="GFbTTq6YRAmPhwSYD08KKm" Bounds="253,184" />
             <Node Bounds="164,280,110,19" Id="Dhw5G5iU7lCN3afKL9wrWs">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="TextWithBackground (Spectral)" />
               </p:NodeReference>
@@ -3251,7 +3263,7 @@
             <ControlPoint Id="IvEXBlNK5oZMHxGDpUsost" Bounds="207,128" />
             <ControlPoint Id="LQgT476dy0TNpaKbje7Hd6" Bounds="166,331" />
             <Pad Id="Hbf81HXa8ihL2RTdTmjZmL" Comment="Update" Bounds="300,247,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:TypeAnnotation>
@@ -3260,27 +3272,10 @@
               </p:ValueBoxSettings>
             </Pad>
           </Canvas>
-          <Patch Id="UfW7OuhsVETP9I6tXE2qeM" Name="Create (Internal)" />
           <Link Id="UUhSWoG3JxcMWrQ2KoLzoF" Ids="Tsl6hTOpAw0Oc07ADco6Bc,S2W9JwByrN8LzSOIKnHvvu" IsHidden="true" />
           <Link Id="D2T2udFCMYuNoUDfdhE44l" Ids="K1EAUyPQJYgO0FNyfyrbIs,GFbTTq6YRAmPhwSYD08KKm" IsHidden="true" />
           <Link Id="HgsuKCfnhkYNdrbVYQ7m5K" Ids="S2W9JwByrN8LzSOIKnHvvu,H666bDrwEbhLvYeSENvG4l" />
           <Link Id="M49obGBL5n3MEhQ300JWTJ" Ids="GFbTTq6YRAmPhwSYD08KKm,QoGQINuBlnJOtTMjBxCj5e" />
-          <Patch Id="EReJzAdyTvVOqytqfeAnYS" Name="SetExternalComponents">
-            <Pin Id="Qm6i1oOWEPjMbo8lW0XMI7" MergeId="1469560" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
-          <Patch Id="OTt8DSIvbR4PEHlDzmloHO" Name="SetPositionSize">
-            <Pin Id="SOzITPnelFeOWSVGHapPA1" MergeId="1691663" Name="Position" Kind="InputPin" />
-            <Pin Id="PzcNHkXYLj4MmEsi5eWtE0" MergeId="1691664" Name="Size" Kind="InputPin" DefaultValue="1, 0.5">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="JufgBM35eBrPjhYdeNgkKC" MergeId="1691665" Name="Anchor" Kind="InputPin" />
-          </Patch>
           <Link Id="EPLphbbdNICNC28ANaI2bv" Ids="Qm6i1oOWEPjMbo8lW0XMI7,RVXkRYuihsJPJEx69FlSZJ" IsHidden="true" />
           <Link Id="K5zErnh5RQDNa4lGzfhm12" Ids="SOzITPnelFeOWSVGHapPA1,Ph1rWcUb6OSMkNs6dmG66M" IsHidden="true" />
           <Link Id="VXm9lJGuuQgLHh22nbCgCE" Ids="PzcNHkXYLj4MmEsi5eWtE0,CpPVZs3eXl8LrN3TA9giWI" IsHidden="true" />
@@ -3289,19 +3284,8 @@
           <Link Id="Kz8RyBgTsmUQNDp7h1FWBu" Ids="CpPVZs3eXl8LrN3TA9giWI,CM6idpGYs9VNqH19w8cqHh" />
           <Link Id="NzuFQyrehXzL9ziX0HILcu" Ids="IvEXBlNK5oZMHxGDpUsost,EHXZlhXeKpXPBD2oPzFLD2" />
           <Link Id="JOGaw30d7QEPFjsEiKqBA1" Ids="RVXkRYuihsJPJEx69FlSZJ,E7gCYr9jFL5PlZqOwgpScp" />
-          <Patch Id="SYZVBb5bs3pQbUPwJDXJ1h" Name="GetElementum">
-            <Pin Id="E4fv0wQRmsPNau0d8x8TQT" MergeId="830113" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IElementum" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
           <Link Id="OWH9jlj3y7dLMCz6k85SHW" Ids="LQgT476dy0TNpaKbje7Hd6,E4fv0wQRmsPNau0d8x8TQT" IsHidden="true" />
           <Link Id="Mhx2TV4ILf2PXwMSRERgsg" Ids="TVHXJGUjojFLSnXokJBxfW,LQgT476dy0TNpaKbje7Hd6" />
-          <Patch Id="CbrKWDehNpmOjI6grFYQWj" Name="SetTextAttributes (Internal)">
-            <Pin Id="Tsl6hTOpAw0Oc07ADco6Bc" Name="Text" Kind="InputPin" />
-            <Pin Id="K1EAUyPQJYgO0FNyfyrbIs" Name="Clip Text" Kind="InputPin" />
-          </Patch>
           <ProcessDefinition Id="CrQs2lU6kvLNf6hTuJmjgC">
             <Fragment Id="SSOf6WdhyCBPvemah4U4YU" Patch="UfW7OuhsVETP9I6tXE2qeM" Enabled="true" />
             <Fragment Id="Bmh7CM0EA0QQSchdwgKJSw" Patch="OTt8DSIvbR4PEHlDzmloHO" Enabled="true" />
@@ -3311,6 +3295,34 @@
             <Fragment Id="Ufxx40wf6JvLLSL50aHZAf" Patch="CXevMTT9XOdQNrp7riu4Wu" Enabled="true" />
           </ProcessDefinition>
           <Link Id="F0UwYA3DI05LmLDgQIXX0J" Ids="Hbf81HXa8ihL2RTdTmjZmL,JCJzcMyJCm0P1kjLdOKaOw" />
+          <Patch Id="UfW7OuhsVETP9I6tXE2qeM" Name="Create (Internal)" />
+          <Patch Id="EReJzAdyTvVOqytqfeAnYS" Name="SetExternalComponents">
+            <Pin Id="Qm6i1oOWEPjMbo8lW0XMI7" MergeId="1469560" Name="Component" Kind="InputPin" IsPinGroup="true">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="OTt8DSIvbR4PEHlDzmloHO" Name="SetPositionSize">
+            <Pin Id="SOzITPnelFeOWSVGHapPA1" MergeId="1691663" Name="Position" Kind="InputPin" />
+            <Pin Id="PzcNHkXYLj4MmEsi5eWtE0" MergeId="1691664" Name="Size" Kind="InputPin" DefaultValue="1, 0.5">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="JufgBM35eBrPjhYdeNgkKC" MergeId="1691665" Name="Anchor" Kind="InputPin" />
+          </Patch>
+          <Patch Id="SYZVBb5bs3pQbUPwJDXJ1h" Name="GetElementum">
+            <Pin Id="E4fv0wQRmsPNau0d8x8TQT" MergeId="830113" Name="Output" Kind="OutputPin">
+              <p:TypeAnnotation LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
+                <Choice Kind="TypeFlag" Name="IElementum" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
+          <Patch Id="CbrKWDehNpmOjI6grFYQWj" Name="SetTextAttributes (Internal)">
+            <Pin Id="Tsl6hTOpAw0Oc07ADco6Bc" Name="Text" Kind="InputPin" />
+            <Pin Id="K1EAUyPQJYgO0FNyfyrbIs" Name="Clip Text" Kind="InputPin" />
+          </Patch>
           <Patch Id="CXevMTT9XOdQNrp7riu4Wu" Name="Update" ParticipatingElements="F0UwYA3DI05LmLDgQIXX0J" />
         </Patch>
       </Node>
@@ -3320,7 +3332,7 @@
 
 -->
       <Node Name="Image" Bounds="614,672" Id="DKr3qkRmju4OOtqvvJ1G6o" Summary="Draws an image that can be layouted" Tags="ui">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="VjYiV1crgXwPdzd0jneFaj">
@@ -3333,7 +3345,7 @@
             <ControlPoint Id="GsBKQM1qYzHLVDQSzCvxZI" Bounds="219,159" />
             <ControlPoint Id="MpSmQTJFqS5MHiSkNZ7Jmo" Bounds="245,187" />
             <Node Bounds="135,251,105,19" Id="Dv0kwhRQ85TNaOXb2d3Z4n">
-              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <p:NodeReference LastCategoryFullName="Elementa.Widget" LastDependency="VL.Elementa.Widget.LayerElementum.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Image (Spectral)" />
               </p:NodeReference>
@@ -3370,7 +3382,7 @@
           <Patch Id="CErNu4woP3APYQeXPRGNoA" Name="Create" />
           <Patch Id="MSvYVAQCb0PNqSGn7bv7An" Name="SetExternalComponents (Internal)">
             <Pin Id="HnbNI31sq6ENDjZfBNuT2N" Name="Component" Kind="InputPin" IsPinGroup="true">
-              <p:TypeAnnotation>
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
               </p:TypeAnnotation>
             </Pin>
@@ -3378,7 +3390,7 @@
           <Patch Id="VZ1OHvMI1hTNTm0E1U4lLZ" Name="SetImage (Internal)">
             <Pin Id="OF2cJoIk9XhOOhWUumkNhn" Name="Image" Kind="InputPin" />
             <Pin Id="DDh0VBwguWVNFXYeFmunVX" Name="Size Mode" Kind="InputPin" DefaultValue="Size">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="SizeMode" />
               </p:TypeAnnotation>
             </Pin>
@@ -3386,7 +3398,7 @@
           <Patch Id="FHNdrOwTDN0LlJNJWIeOf5" Name="SetPositionSize (Internal)">
             <Pin Id="R1Uc3YkwpRLM9aQWbCerCD" Name="Position" Kind="InputPin" />
             <Pin Id="ObGmfN32ShnNDHEIULdN52" Name="Size" Kind="InputPin" DefaultValue="0.75, 0.75">
-              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pin>
@@ -3394,7 +3406,7 @@
           </Patch>
           <Patch Id="LlCY4AdI8X7OzqCW6vGxJr" Name="GetWidget (Internal)">
             <Pin Id="Mp0o7aaUzMWOzlc8LgCMUX" Name="Output" Kind="OutputPin">
-              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="VL.Elementa.Core" LastDependency="VL.Elementa.Core.vl">
                 <Choice Kind="TypeFlag" Name="IElementum" />
               </p:TypeAnnotation>
             </Pin>
@@ -3426,7 +3438,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Dw2Lm0mNTvbLpwoMU5zclf" Location="VL.Skia" Version="2021.4.0-0365-g698d9b47a2" />
+  <NugetDependency Id="Dw2Lm0mNTvbLpwoMU5zclf" Location="VL.Skia" Version="2023.5.1" />
   <DocumentDependency Id="B09ZoyyA91lOjoR3cbi3Ti" Location="../VL.Elementa.Core.vl" />
   <DocumentDependency Id="KgHGRMbPikRL7YUkaVQOyR" Location="../VL.Elementa.Components.vl" />
 </Document>

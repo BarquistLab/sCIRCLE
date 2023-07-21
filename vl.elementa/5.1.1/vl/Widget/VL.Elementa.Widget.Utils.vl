@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="NBHXgdKdw5jP3vzS1rwwCh" LanguageVersion="2021.4.0.365" Version="0.128">
-  <NugetDependency Id="FCFWoT6rjT8O6cxumqt5D2" Location="VL.CoreLib" Version="2021.4.0-0365-g698d9b47a2" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="NBHXgdKdw5jP3vzS1rwwCh" LanguageVersion="2023.5.1" Version="0.128">
+  <NugetDependency Id="FCFWoT6rjT8O6cxumqt5D2" Location="VL.CoreLib" Version="2023.5.1" />
   <Patch Id="UVx9E1cX5ewN9PQIL1SqU9">
     <Canvas Id="NFwxIgBPdf6PbBG3NYMjK4" DefaultCategory="Elementa.Widget" CanvasType="FullCategory">
       <!--
@@ -9,11 +9,11 @@
 
 -->
       <Node Name="Console" Bounds="140,214" Id="MxAeQVxdSSaOZNcqytYwco">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+          <TypeReference LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
             <Choice Kind="InterfaceTypeFlag" Name="IElementum" />
           </TypeReference>
         </p:Interfaces>
@@ -24,7 +24,7 @@
             <ControlPoint Id="E26u75ggDK3LESXWb79twG" Bounds="320,130" />
             <Pad Id="Ej0IPUup2XANHkoXKHM1Jq" SlotId="KyFBUQ3D4nZNqGZqMWc2nb" Bounds="320,88" />
             <Pad Id="Irs3KFH3YYANl7whIlysoV" Comment="" Bounds="97,32,60,18" ShowValueBox="true" isIOBox="true" Value="Console">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -71,11 +71,11 @@
 
 -->
       <Node Name="ClientBounds" Bounds="140,291" Id="HCM4ykvu5HvO6iG2gCf2PV">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+        <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
         <p:Interfaces>
-          <TypeReference LastCategoryFullName="Elementa.Core" LastSymbolSource="VL.Elementa.Core.vl">
+          <TypeReference LastCategoryFullName="Elementa.Core" LastDependency="VL.Elementa.Core.vl">
             <Choice Kind="InterfaceTypeFlag" Name="IElementum" />
           </TypeReference>
         </p:Interfaces>
@@ -84,7 +84,7 @@
             <Pad Id="TiTeSVWR3TWQUPbRPN5t15" SlotId="VUEmqvfiRjMLMaN29qeiOv" Bounds="85,105" />
             <ControlPoint Id="Sx5rAiUjDPzPUO1dR3M5lq" Bounds="85,153" />
             <Node Bounds="256,57,76,19" Id="NzwKz7fGiGuMwnfRhrHCAo">
-              <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
+              <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ClientBounds" />
                 <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true" />
@@ -97,7 +97,7 @@
             <ControlPoint Id="ViTtpNJxXsfOVYlUzi3URm" Bounds="293,138" />
             <ControlPoint Id="GrPquhCkELxMLz0jVesl1b" Bounds="329,105" />
             <Pad Id="Ugu7xtgztlPMtofKVZajEk" Comment="" Bounds="85,51,75,16" ShowValueBox="true" isIOBox="true" Value="ClientBounds">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
@@ -157,6 +157,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Kje7i8guhbiOHd2GmToVpx" Location="VL.Skia" Version="2021.4.0-0365-g698d9b47a2" />
+  <NugetDependency Id="Kje7i8guhbiOHd2GmToVpx" Location="VL.Skia" Version="2023.5.1" />
   <DocumentDependency Id="APjkZrKkSntLueSktStSY6" Location="../VL.Elementa.Core.vl" />
 </Document>
