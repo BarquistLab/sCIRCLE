@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="PNDezSia30DN7wzRkZUUSQ" LanguageVersion="2021.4.7.903" Version="0.128">
+  <NugetDependency Id="NSDQf8njOF6QJLNnrQ1lwc" Location="VL.CoreLib" Version="2021.4.7" />
+  <Patch Id="FbLro724GWZPZdNC9OYhTy">
+    <Canvas Id="T2J2Ar4HXIVPBTGPBjK7ha" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="G6A6ACRRbKuLrQ6j9gs2tp">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Uy3jFGqOVTnORhrQssa3di">
+        <Canvas Id="EUxlGMjluUwLhI7GTGyFv6" CanvasType="Group">
+          <Node Bounds="694,231,45,19" Id="Pl9vsGCDTE5MfNh6863b86">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Bang.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Bang" />
+            </p:NodeReference>
+            <Pin Id="HIvwWWIPSJEMVmIfJH9Bag" Name="Position" Kind="InputPin" />
+            <Pin Id="TEDPTkCp9oMNTcIUmCj6L8" Name="Size" Kind="InputPin" />
+            <Pin Id="LHFh69fuo0vOx2Mu57FU9Q" Name="Value" Kind="InputPin" />
+            <Pin Id="CUIo6RvzCCELO4zUH8vUNH" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="TwXCR8L64TnNH7CxJHbTec" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="GHa1hnVPAW2LLk65z3RyAs" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="330,446,59,19" Id="SsgtddXJcS0NCkk8ghxR97">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Color.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ColorHSV" />
+            </p:NodeReference>
+            <Pin Id="OIJBzRNqVaDLy2RXc7dMJU" Name="Position" Kind="InputPin" />
+            <Pin Id="ABEPOHXxDA1P9e6V5alQSQ" Name="Size" Kind="InputPin" />
+            <Pin Id="UlUNFNeHkxOMRzemCHu2RU" Name="Value" Kind="InputPin" />
+            <Pin Id="Uy0njoNUEgHLywudOWStBl" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="LiF0hWiJevSLo9vT3a9v4I" Name="Value" Kind="OutputPin" />
+            <Pin Id="LaLMKkHxHFHLPKIHslROOZ" Name="On Interaction" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="692,446,85,19" Id="J8v0eW728S2PhKg7bz4fiC">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Dropdown.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Dropdown" />
+              <PinReference Kind="InputPin" Name="Component" />
+            </p:NodeReference>
+            <Pin Id="PUS5GBIs33fO4Ef4Cj7bpv" Name="Position" Kind="InputPin" />
+            <Pin Id="Pbv1On2iALnQH0bfyHfyfb" Name="Size" Kind="InputPin" />
+            <Pin Id="OBdLxkxMnXqMNZIuQL0pnt" Name="Entries" Kind="InputPin" />
+            <Pin Id="FlhasgFU7wENaXMDuecugJ" Name="Entries Label" Kind="InputPin" />
+            <Pin Id="JTfRowb49QALfzEFgzrROl" Name="Value" Kind="InputPin" />
+            <Pin Id="Q1WhjSBswoqNTP7yngZOKj" Name="Update" Kind="InputPin" />
+            <Pin Id="DkIvJxUZNIOLjNZyItbVez" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="DysAKr8AZAIO8oxNRGPKXg" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="Uo0jcZozc36LnoD8uiddiw" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="308,221,49,19" Id="UbJcYHij32uPZzNVVPfllP">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Integer.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Integer" />
+            </p:NodeReference>
+            <Pin Id="P39BugaFhBQNpvYPd25Dnp" Name="Position" Kind="InputPin" />
+            <Pin Id="GSGKJ7XLpG7Lwch9cQy8cc" Name="Size" Kind="InputPin" />
+            <Pin Id="HJADrJT1JOQM4U2WbtCkzY" Name="Value" Kind="InputPin" />
+            <Pin Id="P4ldgVMARvJNuGhgQNDyVY" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="KgZwIhPGAsENTXWtpIPLjW" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="FngzcWSNbacLUqUKxpqAq6" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="306,279,87,19" Id="M5Lf4ZVq7g3NgTZyIuF5k9">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.IntegerUpDown.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="IntegerUpDown" />
+            </p:NodeReference>
+            <Pin Id="QeMONhNYGtSMDVWXRZcdTw" Name="Position" Kind="InputPin" />
+            <Pin Id="NTYBVCY5B16MLnSOJknPaZ" Name="Size" Kind="InputPin" />
+            <Pin Id="B3r2mgZ7iKWMRJtOPTzka8" Name="Value" Kind="InputPin" />
+            <Pin Id="EkLGgJURrdAQM8E9EN7c4z" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Bd0xDFlfbH0Mi1Zf3aj3OS" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="Ll9PJYKNjPmL3gR3AXQxyP" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="693,272,45,19" Id="IxAIYfDjqemP8tWFeFBg2l">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Press.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Press" />
+            </p:NodeReference>
+            <Pin Id="FKGviqfvFINNyB2qaeY409" Name="Position" Kind="InputPin" />
+            <Pin Id="RAACTOc1x7aP5Wm5ydhdQX" Name="Size" Kind="InputPin" />
+            <Pin Id="Qz5By4VBZGnO1PXrHDmdoQ" Name="Value" Kind="InputPin" />
+            <Pin Id="ABEKjrJMxIBLZlMKB0Wujk" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="CbbFWqapTo6O5Ab3AsexDl" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="F2LXbn3nLSnLFl0S6jz2ET" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="306,251,125,19" Id="Q90L2lwFTLeP1RQJSTYxMH">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.RadioGroup.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="RadioGroup" />
+            </p:NodeReference>
+            <Pin Id="EIEPM6KbhwYOqNSRG1Qcbq" Name="Position" Kind="InputPin" />
+            <Pin Id="TtIojqkQFUbPts4culGlVM" Name="Size" Kind="InputPin" />
+            <Pin Id="PJAS9ctKFYdOFqF0OB6u0E" Name="Orientation" Kind="InputPin" />
+            <Pin Id="BVNdnyvcSk3PnplfCfWDDZ" Name="Element Count" Kind="InputPin" />
+            <Pin Id="DLALCvdmpktN1qcortCgCY" Name="Button Labels" Kind="InputPin" />
+            <Pin Id="AbtEnC9Nd1QNvHQFZ9kbiO" Name="Value" Kind="InputPin" />
+            <Pin Id="Okwm82Cd8gjPxFVllx7W5Y" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="JHLDQ8k9HDYPOXbSnGdLkl" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="AKXiVRzUzsgLD3TffeqETe" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="528,445,85,19" Id="Ugp2hqMHjE8PU2F2jZBCTA">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.RangeFloat.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="RangeValue" />
+            </p:NodeReference>
+            <Pin Id="KGLaWFStMCLNZr05dIuanB" Name="Position" Kind="InputPin" />
+            <Pin Id="Umx4ZtG4XfrLbXtCiuxZNX" Name="Size" Kind="InputPin" />
+            <Pin Id="Rm6ZWuYAwX3NN30ljgMUra" Name="Orientation" Kind="InputPin" />
+            <Pin Id="NZvbW5gLBoSOBGA4Tv40CX" Name="Resizing Range Enabled" Kind="InputPin" />
+            <Pin Id="GvYyXgnxUFcPpiwDcm1F4M" Name="Input Minimum" Kind="InputPin" />
+            <Pin Id="GPbgZDrS8JuMDfbEY2de0R" Name="Input Maximum" Kind="InputPin" />
+            <Pin Id="FnHDfYnfjtgLm0uKy0VgHf" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="CTCPKA9orhTMF0OzJ5G0Gj" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="OZuI8uDlEQPN1fefVFbakN" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="91,251,45,19" Id="QgTha6WkCRiNoHRNZwNLtF">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Rotary.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Rotary" />
+            </p:NodeReference>
+            <Pin Id="FRk75ObQ8RPOT0JGlUBiAL" Name="Position" Kind="InputPin" />
+            <Pin Id="PSI21LhAe1HOoBXMxTluE6" Name="Size" Kind="InputPin" />
+            <Pin Id="ARFJaY7l6DXPFXFxGVlZyO" Name="Value" Kind="InputPin" />
+            <Pin Id="LgMlpP5yd9mNdpKU4orTuZ" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="ICrjF0CmPotQV2O7COU0zK" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="BAEDOXR71hWPfrRbN4iNRg" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="91,290,45,19" Id="PHLEMdi0EBcLcnUEaENjlx">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Slider.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Slider" />
+            </p:NodeReference>
+            <Pin Id="GKjjYxWUS5UMDChQuQB8Tr" Name="Position" Kind="InputPin" />
+            <Pin Id="FHgj1VUHYgEMC6tjPE1dMG" Name="Size" Kind="InputPin" />
+            <Pin Id="VyOa7G9WvKHQRncbwWoxJX" Name="Value" Kind="InputPin" />
+            <Pin Id="UHe7PTnMzGYNtyLt3y9Fpr" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="OXZdQ5TqdW8LMCnm7BHmE0" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="DY5rk9fT7yOMNUdmZRkXQB" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="530,343,55,19" Id="EjUhEKi0KegNUoNiQAaM7S">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Slider2D.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Slider2D" />
+            </p:NodeReference>
+            <Pin Id="QFViUCkhtjmPSXqVbHJXsI" Name="Position" Kind="InputPin" />
+            <Pin Id="V13JICctKrkPRp5G3v3tzW" Name="Size" Kind="InputPin" />
+            <Pin Id="Cc0c1BnlkqlLmC2eQ62J4K" Name="Value" Kind="InputPin" />
+            <Pin Id="P5n6neuyYS4NmyYpmBfy8P" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="Bm0S4AwS0MgNyMvsswmvns" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="FCSSctrVevKOBygZV0o5AB" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="100,452,85,19" Id="KIH5Mv14LH6PQQDwfCbzGW">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Textfield.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="TextField" />
+            </p:NodeReference>
+            <Pin Id="NJbZp0U6ysgMnp826pHlGm" Name="Position" Kind="InputPin" />
+            <Pin Id="MXzripPsd7SM2bx4X0jsvM" Name="Size" Kind="InputPin" />
+            <Pin Id="FbmbCaqMIdiOiahOyrCax5" Name="Remove Empty Lines" Kind="InputPin" />
+            <Pin Id="VcOCXV6HjdxOUBxNgJuER1" Name="Break at Words" Kind="InputPin" />
+            <Pin Id="MO04GCsLDz4QKrYcpKRJcv" Name="Value" Kind="InputPin" />
+            <Pin Id="UHzJDnK0KC8OmoUmB5Ii0l" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="V5sJAFXvd1pQAVtN6qlNEf" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="EJ2EogxFoTlPZWT7ZpOi4A" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="693,313,48,19" Id="KuhXi7S0gLFLVMUPCdUWvT">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Toggle.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Toggle" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="HlZpdaGWPosMCqdmNpuh9V" Name="Position" Kind="InputPin" />
+            <Pin Id="Pax8aF2scYsPhSeFG5ZAnL" Name="Size" Kind="InputPin" />
+            <Pin Id="UdPc1wvViRcPQiBIzNnwly" Name="Value" Kind="InputPin" />
+            <Pin Id="AF0bZqGF8K3Pc4geY0lN2H" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="PEw6GItK8WAPzYOzKF0FDp" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="BRI4icIYbEiO8NroUZaaMa" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="91,213,45,19" Id="VEuIRZ8eHuZL5iLar5fpXQ">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Value.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Value" />
+            </p:NodeReference>
+            <Pin Id="RW0pdABB93yMXEB6owsRJy" Name="Position" Kind="InputPin" />
+            <Pin Id="OlmzsashNpwMv59zpGXP8a" Name="Size" Kind="InputPin" />
+            <Pin Id="Cvj52DiYyrYOPtMyywKQ6d" Name="Value" Kind="InputPin" />
+            <Pin Id="LKaAbkXs7lQOOHEfEMRrZE" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="P8B2xWh2CebOsyt0SnDUSk" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="MND62CAeHxFOFnma1uSMxW" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="530,229,59,19" Id="JqGEv6ajq4HQSBtFclTP2H">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Vector2D.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Vector2D" />
+            </p:NodeReference>
+            <Pin Id="AG2DrLPRsNoL2aySmjf7Ic" Name="Position" Kind="InputPin" />
+            <Pin Id="VV5qXvhtc28Pb87FKcivXe" Name="Size" Kind="InputPin" />
+            <Pin Id="Dqqq4E5g47KOnKzYOXMTcb" Name="Value" Kind="InputPin" />
+            <Pin Id="NyCziAGcEPPPcGC2bAA22v" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="V7iUwEZxc3CLqg57cBxM93" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="S8rtL3JpA4VMDHRlgYjD0g" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="530,267,59,19" Id="BgxnpWqoPGyODEHaSBZbBg">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Vector3D.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Vector3D" />
+            </p:NodeReference>
+            <Pin Id="JT3MOOrt8WAPVNnzajYiMs" Name="Position" Kind="InputPin" />
+            <Pin Id="A0HBvDrLDpRP0xp8DWBwRa" Name="Size" Kind="InputPin" />
+            <Pin Id="VQZAWykq6yNMcuEeylCQOz" Name="Value" Kind="InputPin" />
+            <Pin Id="RlYDHCkCljLPLe5JNUnsOO" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="JWq558sQYF1LdHBsjZzcgJ" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="D44ucAqeN7TMC9jbjjIpA3" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="530,305,59,19" Id="UihHEehGidVLoYPqMLpXj4">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Vector4D.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Vector4D" />
+            </p:NodeReference>
+            <Pin Id="MQaej4dJQwiNqFbYEHglQF" Name="Position" Kind="InputPin" />
+            <Pin Id="B5k4gRjudydP11wpjQHInl" Name="Size" Kind="InputPin" />
+            <Pin Id="CUiYggmut0HNk2WXBBrYBN" Name="Value" Kind="InputPin" />
+            <Pin Id="OqkxnUrLLtjOgvVZnDmFjK" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="AVbDokyMngsLcVobyFgdOi" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="Nbikcokj2ynPN6xSYYQVbu" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="NgylPnam5KqLXpRABJwJOR" Name="Bool" Bounds="675,181,129,174" />
+          <Overlay Id="G9SBTh2OV5POCsFZMgce6t" Name="Vectors" Bounds="507,179,133,199" />
+          <Overlay Id="HQ8vADWYLWHOeBWa2ryiF7" Name="Floats" Bounds="67,172,153,187" />
+          <Overlay Id="SW1SdXx48PCM0Kq8bKgC9p" Name="Int" Bounds="290,178,176,205" />
+          <Overlay Id="QILV5jufg7zLHUbzxkwPgv" Name="Range" Bounds="507,406,142,124" />
+          <Overlay Id="FeM28jLEIIONlBDlAM7dpj" Name="RGBA" Bounds="290,406,137,113" />
+          <Overlay Id="OzCRSyg0trIOE70bs2hvyK" Name="String" Bounds="67,406,175,161" />
+          <Overlay Id="F58TDWCVAy2QAk8m5y13AD" Name="Generic" Bounds="676,406,238,181" />
+          <Pad Id="VCxoC2qCfShQRmP43oLjcF" Bounds="59,73,221,34" ShowValueBox="true" isIOBox="true" Value="Widgets overview">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">16</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="SbRx1Q3QidILE3HeURS61x" Bounds="59,112,661,42" ShowValueBox="true" isIOBox="true" Value="Here are all the UI widgets you can use in Elementa, sorted by their type. You can press F1 on any of them to open a small help patch demonstrating its basic usage.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="330,478,65,19" Id="Qbnf1Iy28AtPrNTUZp9jkZ">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Color.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ColorRGB" />
+            </p:NodeReference>
+            <Pin Id="KNUr9dtC6fCMAPcubOvH3m" Name="Position" Kind="InputPin" />
+            <Pin Id="AoNTjeOOKyQL4pCLDj2xXb" Name="Size" Kind="InputPin" />
+            <Pin Id="EHYQ0j9jwFAO6GEMNnK2Ck" Name="Value" Kind="InputPin" />
+            <Pin Id="E8ftVJvWsPWOcku7bYg6e7" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="I36wpxaNiBrPnTlQrG2vze" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="U7L3A9EnoPZOosqtHqChWb" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,671,42,19" Id="OI48jiWGclyMco2Fl0pHpm">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Circle" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="DhWtH7dIMr5MIbf2RjYVqQ" Name="Position" Kind="InputPin" />
+            <Pin Id="BFAPg81YUOILtlwy7DcDo5" Name="Size" Kind="InputPin" />
+            <Pin Id="BS5qlZEbvALQGebND2dnep" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,708,36,19" Id="NbwaU3aULcxNltF1zo1KqQ">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Oval" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="TfYHFk0EQK2LhylH6fDXW7" Name="Position" Kind="InputPin" />
+            <Pin Id="Rys4VwtDRMkOhRB2ZESWXx" Name="Size" Kind="InputPin" />
+            <Pin Id="Bxa9SKWrSdsP90wUJOfghB" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,745,61,19" Id="SNuI6DX2yXHPG7cg7uN9mN">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Rectangle" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="CNC0yqOrFJ6QIvopT6oIMT" Name="Position" Kind="InputPin" />
+            <Pin Id="HKMPTqWpnnlODUaUwUV4em" Name="Size" Kind="InputPin" />
+            <Pin Id="PSHIOL8fkgJPbhvt8Fi65A" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,782,90,19" Id="PYT8JO2hW2LNJIM4SY28or">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="RoundRectangle" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="S3SEe5eWZNrLATB7IDCExa" Name="Position" Kind="InputPin" />
+            <Pin Id="FcqHzBc2cXaPEGPQxPCdWJ" Name="Size" Kind="InputPin" />
+            <Pin Id="RvmI1vGlqMnPYt6fhPJ3u8" Name="Radius" Kind="InputPin" />
+            <Pin Id="KOfjcwpnlLyPNVU7AyQzBO" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,819,105,19" Id="PuSttMNrf6JPd3oMbPYAyL">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Segment" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="UWe69z5VhYyNH7jcYawVTw" Name="Position" Kind="InputPin" />
+            <Pin Id="T1Kpv1dPCulNwQMNtrkm8w" Name="Size" Kind="InputPin" />
+            <Pin Id="LMeLqSod16VO4jPcr5Daez" Name="Phase" Kind="InputPin" />
+            <Pin Id="IdDRP6Sd3drO9hlhVqojUz" Name="Factor" Kind="InputPin" />
+            <Pin Id="J669JPxlMBRLB6vY2XWAXk" Name="Inner Radius" Kind="InputPin" />
+            <Pin Id="SHT2bQeQ1BUPmbFXenZpdy" Name="Resolution" Kind="InputPin" />
+            <Pin Id="Or5MI2V3LJYPRV1ELMv5Rj" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,856,85,19" Id="AljoclGVyBrMTFeaoP4UoH">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayoutableObject.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Text" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="GhnRDpyStYONS5hY738FjJ" Name="Position" Kind="InputPin" />
+            <Pin Id="HBVsrvvpw53QV2W9QX6tOa" Name="Size" Kind="InputPin" />
+            <Pin Id="CRnlsEP3BY5QRgClQliabM" Name="Anchor" Kind="InputPin" />
+            <Pin Id="DwlWSAIHxPcLGvbXg17jIW" Name="Text" Kind="InputPin" />
+            <Pin Id="HOAFE0cJOGiLHC4TlNSGPD" Name="Clip Enabled" Kind="InputPin" />
+            <Pin Id="SeyKbrGPEH4MYM1wLoRulo" Name="Component" Kind="InputPin" />
+            <Pin Id="QQDTxcBdq6lPd3pn5w6Bsj" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,893,110,19" Id="LFxUPuh2DHnQCgmJ6UI1B8">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="TextWithBackground" />
+            </p:NodeReference>
+            <Pin Id="U6SQCeTcYooNjPDX3NxLdM" Name="Position" Kind="InputPin" />
+            <Pin Id="C7Nl80QRLGqNAkx9Xem47r" Name="Size" Kind="InputPin" />
+            <Pin Id="LeNv2wftdFZOGwPwUVTGts" Name="Anchor" Kind="InputPin" />
+            <Pin Id="FEXTay8K3NbOpnIdxlHvDO" Name="Text" Kind="InputPin" />
+            <Pin Id="IJb6QmKyejKO6ghfxPFBbd" Name="Clip Text" Kind="InputPin" />
+            <Pin Id="ASbUvq1gNNbNBOiK6ipB9B" Name="Component" Kind="InputPin" />
+            <Pin Id="VG2BPNhrmmmOgc6c4wpdpS" Name="Update" Kind="InputPin" />
+            <Pin Id="FgxHzeDzhsGQbxkdVNApJX" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="98,930,65,19" Id="TUC7wvcMPMoPgNEW7MAOEF">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Image" />
+            </p:NodeReference>
+            <Pin Id="DlvNcfrwqcGMrNy3M18vbE" Name="Position" Kind="InputPin" />
+            <Pin Id="DRwdfsgcBN2MtgFb9c5XIb" Name="Size" Kind="InputPin" />
+            <Pin Id="PPOpFxT1WcGL5vg5Wxrfj5" Name="Image" Kind="InputPin" />
+            <Pin Id="MHLTzSKDwYsNvevx6eVtsU" Name="Size Mode" Kind="InputPin" />
+            <Pin Id="KixdTSkXVBzLH5BPP8bczL" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="M7L4Y34TC2iMGTwjXyhkzX" Name="Layoutable Objects" Bounds="62,625,194,354" />
+          <Overlay Id="NBFVpZUEpgfLltI3YVrB4J" Name="Skia Layer Elementum" Bounds="294,629,223,193" />
+          <Node Bounds="557,693,165,19" Id="Ul9dVMQaPrqNpsidncvRBZ">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Panel.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Panel" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="KqvrIfnnGqwPoYvPPQ0o5m" Name="Input" Kind="InputPin" />
+            <Pin Id="OJN7JC9y18sOOyscjnpklk" Name="Position" Kind="InputPin" />
+            <Pin Id="GDlGVbyZfrnLzYaNBLdAmS" Name="Size" Kind="InputPin" />
+            <Pin Id="IOQWiTlWZdgM88EqyskKDC" Name="Update" Kind="InputPin" />
+            <Pin Id="CX446O2QbJJMKUDf1VsXqW" Name="Translate Constraint Type" Kind="InputPin" />
+            <Pin Id="LDgFPsXXqyEP96G7GkhQZF" Name="Components" Kind="InputPin" />
+            <Pin Id="P67qyhnFA4OMRZe2rRiwuZ" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="557,729,105,19" Id="Ag9ttv5mvujQbnXnJh9m8T">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Panel.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Folder" />
+            </p:NodeReference>
+            <Pin Id="F89reiabkuMLMh6arCxh2u" Name="Input" Kind="InputPin" />
+            <Pin Id="Cnaj6xNwqWUMnqg7iOAWHn" Name="Position" Kind="InputPin" />
+            <Pin Id="LH1YaL1FtBSPC2RVv8ZN9r" Name="Size" Kind="InputPin" />
+            <Pin Id="TxHb3rOqsZTO6K6pzoVN7C" Name="Text" Kind="InputPin" />
+            <Pin Id="R8viNVQ31raMowfJS5h7Js" Name="Margin" Kind="InputPin" />
+            <Pin Id="BKJJYzRY5xaPdX0tUtXIpb" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Overlay Id="TW974BkSOcyLgG5XIQLimg" Name="Grouping" Bounds="535,630,218,170" />
+          <Node Bounds="692,477,89,19" Id="RoEkwx07bOwMyOUEVjKDMp">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Dropdown.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="DropdownEnum" />
+            </p:NodeReference>
+            <Pin Id="MNWfj2G6VYVM79LZjVv2ub" Name="Position" Kind="InputPin" />
+            <Pin Id="G0ZBYsv6IUqQXB0koXyBei" Name="Size" Kind="InputPin" />
+            <Pin Id="L0F5UZvxqYPPGTuLGBmt3s" Name="Anchor" Kind="InputPin" />
+            <Pin Id="G4rq2CWDMOkMIW9rhF88WQ" Name="Default" Kind="InputPin" />
+            <Pin Id="HFyonaKWF9DMBjEDky0vCX" Name="Value" Kind="InputPin" />
+            <Pin Id="OLwHvYwCxRxLyI4ho7A5r6" Name="Set Value" Kind="InputPin" />
+            <Pin Id="I2nQZRBgMQFPmjSoLy74uo" Name="Push Input Value To Observable" Kind="InputPin" />
+            <Pin Id="HPoej3QglgVLCa97Rnrclc" Name="Entries Height" Kind="InputPin" />
+            <Pin Id="EE1GUvdh8rIMBMCQwR43nG" Name="Update" Kind="InputPin" />
+            <Pin Id="C9KsTDLVwhlMze2w2VXrla" Name="Output" Kind="OutputPin" />
+            <Pin Id="VD064TEu0hDOpSJ14zOSB7" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="UBrSO921F0LOfBaKrlmRVc" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="389,695,84,95" Id="HAe5vIrUfGJN9cZmVAUzOq">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.LayerElementum.vl">
+              <Choice Kind="ProcessAppFlag" Name="LayerElementum" />
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+            </p:NodeReference>
+            <Patch Id="AGLoGIavvciPtabuL0dSz9" ManuallySortedPins="true">
+              <Patch Id="RzKFJ6q1mmEOJq6QCuGheR" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="NAfGPd0tg9KPEWXZmn03dt" Name="Update" ManuallySortedPins="true">
+                <Pin Id="KbErfHoMvY9LIM66WFXNWr" Name="Input 1" Kind="InputPin" />
+                <Pin Id="UipXIY8DbsMPI2VCkZ7EpV" Name="Output" Kind="OutputPin" />
+              </Patch>
+              <ControlPoint Id="RGzR76Qy393P2GSYLEq3fR" Bounds="393,703" />
+              <ControlPoint Id="A9WmRzQV86ZL6jGJlO65VW" Bounds="393,783" />
+            </Patch>
+            <Pin Id="E54LZRFhV6HQGys2xkB4sB" Name="Element" Kind="InputPin" />
+            <Pin Id="IKoWnFJdR2oPLjjtZCSQlh" Name="Position" Kind="InputPin" />
+            <Pin Id="MGf9ctkwhIuMFEocqSdyQk" Name="Size" Kind="InputPin" />
+            <Pin Id="EeWnJOrd5KzNRsMkANgCto" Name="Anchor" Kind="InputPin" />
+            <Pin Id="VtuFCsasZltLbbSFjP6fwv" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="528,479,57,19" Id="HjG5Zq6p1CmLBjMOLMCgmx">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Range2DFloat.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Range2D" />
+            </p:NodeReference>
+            <Pin Id="Es2TGSGWTrjQCX0vUYlQqv" Name="Position" Kind="InputPin" />
+            <Pin Id="PhPEchC0OTZLjTYV8FHb6E" Name="Size" Kind="InputPin" />
+            <Pin Id="FS4xrOx9C0FMKORQGluf87" Name="Value" Kind="InputPin" />
+            <Pin Id="FhLqfaW5gwXP9cgAFEBfEg" Name="Output" Kind="OutputPin" />
+            <Pin Id="RPgko4szFEXQMjJDHAutGe" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="FeaJI8IbVaBO0QQVSkr2kh" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="100,484,65,19" Id="ERR1vr9JUrqNerHcNL6xPY">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.PathDialog.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="PathDialog" />
+            </p:NodeReference>
+            <Pin Id="CEOz7qsI1tMLqqdT7crdZN" Name="Position" Kind="InputPin" />
+            <Pin Id="GbWnTyfsdFTLDpMJeuxG1x" Name="Size" Kind="InputPin" />
+            <Pin Id="JoPr8w0lfRRQYR0BsWqgRy" Name="Use Last Directory" Kind="InputPin" />
+            <Pin Id="DjJeysRXSLFNhZpiKCS4QZ" Name="Initial Directory" Kind="InputPin" />
+            <Pin Id="Lmz1mMb8NHYMQ468xkDofi" Name="Filter" Kind="InputPin" />
+            <Pin Id="Vx6IJGRKueLMkqKlzY1dFZ" Name="Is Folder" Kind="InputPin" />
+            <Pin Id="QMFIG8z5FLePANEwyN9hoK" Name="Value" Kind="InputPin" />
+            <Pin Id="NpwxzbNdlgoMrNI8NPKgAZ" Name="Output" Kind="OutputPin" />
+            <Pin Id="UdgFQX7TiAGLWUGhSQKiSv" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="FOxnQZPRUVaMP4xGhxgjl4" Name="Value " Kind="OutputPin" />
+          </Node>
+          <Node Bounds="556,763,125,19" Id="V38ciLPjVD6Lm5KqzPFbdj">
+            <p:NodeReference LastCategoryFullName="Elementa.Layout" LastSymbolSource="VL.Elementa.Widget.Tabs.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Tabs" />
+            </p:NodeReference>
+            <Pin Id="NK0EfTdvMSBNfumWoVbJhB" Name="Position" Kind="InputPin" />
+            <Pin Id="CF5ZfSgmu8yLY9KrRk02vo" Name="Size" Kind="InputPin" />
+            <Pin Id="HhcYBnMONvCMyMFDSYzCct" Name="Orientation" Kind="InputPin" />
+            <Pin Id="CMVq4KzkGmlOLULhr7YFcq" Name="Input" Kind="InputPin" />
+            <Pin Id="AYJlz5aIi61NwR4wQ0fcYS" Name="Tabs Labels" Kind="InputPin" />
+            <Pin Id="K9HRk9KFf7rMipejLtFQTg" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="692,540,205,19" Id="HlxqmbOhNprPEI8szaaaxC">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.DropdownGrid.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="DropdownGrid" />
+            </p:NodeReference>
+            <Pin Id="KNetW86uC8FLMQZ2aPav4Z" Name="Position" Kind="InputPin" />
+            <Pin Id="D8m5CRwi2CkL76k9xN1U6L" Name="Size" Kind="InputPin" />
+            <Pin Id="ONjFKA9D3kCPNsIQ2rzaSJ" Name="Anchor" Kind="InputPin" />
+            <Pin Id="LYzCyk3g41mPZz5v0uI7sj" Name="Entries" Kind="InputPin" />
+            <Pin Id="I2wAhBCyDfGMGZuBV24FCw" Name="Entries Label" Kind="InputPin" />
+            <Pin Id="L0rIpkCAEV6M9rZjvQDCXS" Name="Default" Kind="InputPin" />
+            <Pin Id="AVWNkZ4lhhVPObpMukVJko" Name="Value" Kind="InputPin" />
+            <Pin Id="VUt0qmStWB3PG19RFKMRrB" Name="Set Value" Kind="InputPin" />
+            <Pin Id="NStfZFw4xdkLf5zS4wyBYw" Name="Push Input Value To Observable" Kind="InputPin" />
+            <Pin Id="FPFZGxs958dNbj3HoCMqR0" Name="Entries Height" Kind="InputPin" />
+            <Pin Id="Rc4pspRj6lSM4baPUF0NMv" Name="Column Width" Kind="InputPin" />
+            <Pin Id="EXJEVM72vsjP4vHqs9UgDg" Name="Columns Margin" Kind="InputPin" />
+            <Pin Id="Bv9V5hJCboLO4cZpBwYo1t" Name="Row Height" Kind="InputPin" />
+            <Pin Id="PhNb4rZZtjsPDzMSgPBIDu" Name="Row Margin" Kind="InputPin" />
+            <Pin Id="VtZ99v1mKpuNSuPKv8aY2T" Name="Max Row Count" Kind="InputPin" />
+            <Pin Id="CzMZegQkyrwLGk14ql3qOc" Name="Padding String" Kind="InputPin" />
+            <Pin Id="OCUpHlyHVKCQb75j0qB7JE" Name="Update" Kind="InputPin" />
+            <Pin Id="OiKQkXViLPZLycMu5euMmK" Name="Output" Kind="OutputPin" />
+            <Pin Id="KmE6upOjlGcOdXTRw7Yy92" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="EFiwdUGiQxfLnzHlSI70MB" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="692,508,108,19" Id="OQez720iykaODW7HLoR920">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.DropdownGrid.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="DropdownGridEnum" />
+            </p:NodeReference>
+            <Pin Id="Mko1TIq57eDLwiY9vNCbjQ" Name="Position" Kind="InputPin" />
+            <Pin Id="GX4uugoYq7WLYZsRigv2xn" Name="Size" Kind="InputPin" />
+            <Pin Id="EVJdJbDdKKOOdQydE2iqqX" Name="Anchor" Kind="InputPin" />
+            <Pin Id="DxF1ac9U80ULocBWaqZ0dD" Name="Default" Kind="InputPin" />
+            <Pin Id="CvlbOH3woKyNRaHCjigxlZ" Name="Value" Kind="InputPin" />
+            <Pin Id="RQGuu8VWT7LLvsn8jz6Nko" Name="Set Value" Kind="InputPin" />
+            <Pin Id="LsvJOA0ph0sL8YjChU4NBN" Name="Push Input Value To Observable" Kind="InputPin" />
+            <Pin Id="NETrN97wAQXNLqKHcR687i" Name="Entries Height" Kind="InputPin" />
+            <Pin Id="TqhDsWLYltYOAUlhaHQaAk" Name="Column Width" Kind="InputPin" />
+            <Pin Id="Qm3yhwNvF4QPKYoXsbDPGA" Name="Columns Margin" Kind="InputPin" />
+            <Pin Id="P7AXUKjX0f9NkQBbi4ls0x" Name="Row Height" Kind="InputPin" />
+            <Pin Id="JLaK6OBY6mUP9sD3xa5H91" Name="Row Margin" Kind="InputPin" />
+            <Pin Id="KESv6TvvTovMztALkSd4d1" Name="Max Row Count" Kind="InputPin" />
+            <Pin Id="Ra9UkvrwR0fOYDlr5arIq4" Name="Padding String" Kind="InputPin" />
+            <Pin Id="J3wbWAsZoG5L2JtSF4EfTp" Name="Update" Kind="InputPin" />
+            <Pin Id="ECA3YxR2OeTNE2OZr3eW4Q" Name="Output" Kind="OutputPin" />
+            <Pin Id="CW6Pqiejw98NFKXFn0S0W7" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="T7fswOrcPD9L6sjlm6fsIq" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="306,312,71,19" Id="IKZgifNyKueOr2On4qzDJK">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.IntegerPolar.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="IntegerPolar" />
+            </p:NodeReference>
+            <Pin Id="K5UW1gudLYSLgJpRVPl8cP" Name="Position" Kind="InputPin" />
+            <Pin Id="LutkP9sX5A9LVjGQGUdTa3" Name="Size" Kind="InputPin" />
+            <Pin Id="TGkIcI3Nue9MhgKQrRwl8j" Name="Value" Kind="InputPin" />
+            <Pin Id="IhGun0Tl4I1OABR8RZSTzX" Name="Output" Kind="OutputPin" />
+            <Pin Id="KV9j33rY7QkMzMlGcQwFRP" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="AO0CDvKSj0uNY7vxUDTTmj" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="306,346,45,19" Id="NBWyinecHGXNXCEK76fv7m">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.IntegerPolarUpDown.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="IntegerPolarUpDown" />
+            </p:NodeReference>
+            <Pin Id="SqNXKQSuBbON68cAOrXEW1" Name="Position" Kind="InputPin" />
+            <Pin Id="Al9OaKFTLdhMfp5SPQv24n" Name="Size" Kind="InputPin" />
+            <Pin Id="LYWugBb7tDnMVJVigDydvQ" Name="Value" Kind="InputPin" />
+            <Pin Id="JDUlMVASJT7MlzwDUFybwn" Name="Output" Kind="OutputPin" />
+            <Pin Id="I8aaeIZ7jSuNwfbDKvPdg7" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="HpkZOvFOEJHNJTERVDH5a5" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="89,327,65,19" Id="FUQfE8PqPSWNHzNHQrCUKY">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.ValuePolar.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ValuePolar" />
+            </p:NodeReference>
+            <Pin Id="FDQ27cRmrnOM1C1amQadAq" Name="Position" Kind="InputPin" />
+            <Pin Id="OUEaGA9owawQUkK3OcFYOv" Name="Size" Kind="InputPin" />
+            <Pin Id="QcYQPIHxTiQNVA5LloteLG" Name="Min" Kind="InputPin" />
+            <Pin Id="HI3JGSWt6TGNvAe9EcoQSQ" Name="Value" Kind="InputPin" />
+            <Pin Id="UCSSqhGWhbjNOZ2wlCahPd" Name="Output" Kind="OutputPin" />
+            <Pin Id="IxWUEXYwYDGMAGQgyfzCxk" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="Q0L1CakDzS1N0sSIinvb9y" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="100,519,85,19" Id="MLYLYPwen1oNFJlj9DEQkh">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.SaveDialog.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SaveDialog" />
+            </p:NodeReference>
+            <Pin Id="P9K0LIWnJZxLU4pmhvO042" Name="Position" Kind="InputPin" />
+            <Pin Id="PtdwZXVC9TbPTCX9RZiXYH" Name="Size" Kind="InputPin" />
+            <Pin Id="Rz15KZAqu1pPoQ15bcqY2c" Name="Use Last Directory" Kind="InputPin" />
+            <Pin Id="As37e3kDKT9PZDKfuCZen6" Name="Initial Directory" Kind="InputPin" />
+            <Pin Id="UEBzdH57XidP2PSimpfpJG" Name="Value" Kind="InputPin" />
+            <Pin Id="N3ZKyD9pXRsMjydSSwZQ3s" Name="Output" Kind="OutputPin" />
+            <Pin Id="KhtIbeBL9nnQG7Zn18iEDX" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="OGn8wpXquGZOLdApkqNMkN" Name="Value " Kind="OutputPin" />
+          </Node>
+        </Canvas>
+        <Patch Id="TjbprjAuoiBLmxITVptbHi" Name="Create" />
+        <Patch Id="RIxJ54OGuVLPugXtU1GOGm" Name="Update" />
+        <ProcessDefinition Id="NmClJKmKMKhMqj9oHntu3K">
+          <Fragment Id="HRQOVJMZGZMMpSAsXyEI9v" Patch="TjbprjAuoiBLmxITVptbHi" Enabled="true" />
+          <Fragment Id="GYXyWbGBNnmM9VBrUj6HwF" Patch="RIxJ54OGuVLPugXtU1GOGm" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="EEuoGELFJbYMfzdhqOBVhg" Ids="KbErfHoMvY9LIM66WFXNWr,RGzR76Qy393P2GSYLEq3fR" IsHidden="true" />
+        <Link Id="CwHONH7mpobNUv7Uv60DIl" Ids="A9WmRzQV86ZL6jGJlO65VW,UipXIY8DbsMPI2VCkZ7EpV" IsHidden="true" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="IUGaSbOUfSPOckX1Hk8ASj" Location="VL.Skia" Version="2021.4.7" />
+  <NugetDependency Id="BtPwdxVUs0zQV4r1sO0oRW" Location="VL.Elementa" Version="0.0.0.0" />
+</Document>

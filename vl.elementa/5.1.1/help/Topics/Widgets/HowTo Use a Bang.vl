@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="FW1KpzMh2DbN3p0BUiK5BM" LanguageVersion="2020.3.0.138" Version="0.128">
+  <NugetDependency Id="L4k7lIbYnxWLln5DPtYvoH" Location="VL.CoreLib" Version="2021.3.0-0021-g44253d2755" />
+  <Patch Id="HtTQf88urIeO49Qalqrh85">
+    <Canvas Id="NSLbDJd60R2M217Pg9ytBm" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="Ckqm3SXi1v5QWtHOU0625p">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Q1ZqeaJ8X51Lt3hmhuQq1z">
+        <Canvas Id="HCviOzyDqF8MnlYgtjUW6V" CanvasType="Group">
+          <Node Bounds="332,656,145,19" Id="QzAlh8k9CftNvlLDl9XB6O">
+            <p:NodeReference LastCategoryFullName="VL.Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Bang.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Widget" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="Bang" />
+            </p:NodeReference>
+            <Pin Id="ArV1uHPzdikLxP0880HzPJ" Name="Position" Kind="InputPin" />
+            <Pin Id="SDx1SAQsDrrMCd0d5hRznQ" Name="Size" Kind="InputPin" />
+            <Pin Id="NgP7RRWzu2bPfdC3tXkxT6" Name="Anchor" Kind="InputPin" />
+            <Pin Id="QNxcPcl7pQPQc61Wk3b2GL" Name="Display Text" Kind="InputPin" />
+            <Pin Id="MvEnZrAwe9rMFlrXoeWj2d" Name="Enable Interaction" Kind="InputPin" />
+            <Pin Id="O3R0qtuwXPIQat7xLVFSri" Name="Value" Kind="InputPin" />
+            <Pin Id="QrwP68XXUHPMHZ5sGbD2m5" Name="Set Value" Kind="InputPin" />
+            <Pin Id="JfNdzT0972JP3Dy050RP4e" Name="Push Input Value To Observable" Kind="InputPin" />
+            <Pin Id="LB8Jbva41ZmNt95UVUdri8" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="OhAw1jf0qBqLiZtsXLFTQM" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="GglDtqos25EOKyNNG4LNtk" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="67,629,65,19" Id="CHpJktx3yV5PgstQjirhqH">
+            <p:NodeReference LastCategoryFullName="Elementa" LastSymbolSource="VL.Elementa.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Elementa" />
+              <Choice Kind="ProcessAppFlag" Name="Elementa" />
+            </p:NodeReference>
+            <Pin Id="J4gZQbya1QlOpBjzN0lKhq" Name="Input" Kind="InputPin" />
+            <Pin Id="HIGVlBuizMeLq1BpTnrUkk" Name="Enabled" Kind="InputPin" />
+            <Pin Id="VAkiQWJvxM8M6mg88kXY7P" Name="Output" Kind="OutputPin" />
+            <Pin Id="Gst8sVH9yKzPaixyqU3YiG" Name="Context" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="27,687,165,19" Id="JQqMv47ZfhfPeYkZQlIUFC">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="J84u0O081w1ONIbMf74qZn" Name="Bounds" Kind="InputPin" DefaultValue="1191, 504, 165, 203">
+              <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
+                <Choice Kind="TypeFlag" Name="Rectangle" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="GIkD4MMZWtPO0nZ7mkEhMq" Name="Bound to Document" Kind="InputPin" DefaultValue="True">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="TB98iAarlciQZC4PfWfAJJ" Name="Input" Kind="InputPin" />
+            <Pin Id="MJ0uAOLukJHPmJw8xNHheK" Name="Color" Kind="InputPin" />
+            <Pin Id="QsAtaNAC1ZTMQK3xe8szQy" Name="Clear" Kind="InputPin" />
+            <Pin Id="SrN3Rb5wFb2Nig3bAQOeTw" Name="Space" Kind="InputPin" DefaultValue="DIPTopLeft">
+              <p:TypeAnnotation LastCategoryFullName="VL.Skia" LastSymbolSource="VL.Skia.dll">
+                <Choice Kind="TypeFlag" Name="CommonSpace" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="LGgcIR0ZnqhMg8QVQgQ6bY" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="Ecq3G9v36cCO6zGq44yF5n" Name="VSync" Kind="InputPin" />
+            <Pin Id="JdhkAvk3EfNMYI6MHzuOiQ" Name="Enabled" Kind="InputPin" />
+            <Pin Id="VQ1PTe2uxhSQCTM4eonujF" Name="Form" Kind="OutputPin" />
+            <Pin Id="DFiG21j5xyjM8B5GAZ3myT" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="I29aUKTcmCgPp6CrI1iXMq" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Pad Id="OiFQFAJjTJVOO74p0p3sTX" Comment="Anchor" Bounds="375,342,91,15" ShowValueBox="true" isIOBox="true" Value="TopLeft">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RectangleAnchor" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="N23WI2AZ3YrN6KKk59DlbU" Comment="Enable Interaction" Bounds="413,456,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Ef6gh8WCDRQLpYmVXB9O0t" Comment="Push Input Value To Observable" Bounds="474,618,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Ve7Hf7DIK22QNM6lONR92T" Bounds="545,340,254,19" ShowValueBox="true" isIOBox="true" Value="Sets the anchor of the widget">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="C11G3ORUI0gLCh1uDYmkOr" Bounds="547,432,330,60" ShowValueBox="true" isIOBox="true" Value="Enables interaction with the widget (defaults to True). Disable it if you only want your widget to display a value, and prevent the user to interact with it.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="AQbysTkR4IiMmC4IMEzdj5" Bounds="519,637,265,39" ShowValueBox="true" isIOBox="true" Value="Whether to push the input value to the On Interaction output (defaults to False).">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="ATiRJQ9Vh5KOwt7U6cX9cn" Bounds="37,147,513,16" ShowValueBox="true" isIOBox="true" Value="A bang switches to true for one frame when you left click it.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">10</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="67,421,45,19" Id="U1NUALWZFc4NTIIItXLKGP">
+            <p:NodeReference LastCategoryFullName="Elementa.Widget" LastSymbolSource="VL.Elementa.Widget.Bang.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Bang" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="CkMdAsaYG21MAIEvdL6XQ8" Name="Position" Kind="InputPin" DefaultValue="0.14, 0.24">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="KTcTXuC2xOzPS91kblzqS7" Name="Size" Kind="InputPin" />
+            <Pin Id="Nz8ScPc28uCQHRYTYUWZ6w" Name="Value" Kind="InputPin" />
+            <Pin Id="PZCnAjCahqmQRTciLk97pL" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="KeD13zMWE27LAQ6vPFLak9" Name="On Interaction" Kind="OutputPin" />
+            <Pin Id="UN4Ud8vtLcPOg6MoyG43Lq" Name="Value" Kind="OutputPin" />
+          </Node>
+          <Pad Id="B4xBq6J2AnxQDdoMOmzki1" Comment="Position" Bounds="68,246,35,28" ShowValueBox="true" isIOBox="true" Value="0.58, 0.64">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="SDjbvnZSSwCNMsC7emiR6H" Comment="Size" Bounds="89,298,33,28" ShowValueBox="true" isIOBox="true" Value="0.3, 0.3">
+            <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Vector2" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="P0r7YrCjeCwMZlSHvT6Gg7" Comment="Value" Bounds="109,361,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="G0nrOOrDG7HOGNGRNqdoAZ" Bounds="187,253,90,76" ShowValueBox="true" isIOBox="true" Value="Sets the position and size of the widget">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="EkFdgeyfDJeO8JXbRfa73v" Bounds="187,350,74,57" ShowValueBox="true" isIOBox="true" Value="Sets the value of the widget">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="VNOYheNr4F7L6AxCmfx8Ak" Name="With all optional pins enabled" Bounds="309,225,611,482" />
+          <Pad Id="FZZq2qyBJHZLzeoGszTTrD" Bounds="388,278,409,19" ShowValueBox="true" isIOBox="true" Value="To enable optional pins : right-click the node and click &quot;Configure&quot;.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="87,461,65,19" Id="TM3TIO9A15RMylxc3jXeUw">
+            <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+            </p:NodeReference>
+            <Pin Id="O3jhro54KZAPt8UuzRoqFL" Name="Async Notifications" Kind="InputPin" />
+            <Pin Id="BqkhdIZZmhrMIm9vj8JGTQ" Name="Reset" Kind="InputPin" />
+            <Pin Id="UR1zheLLiJ1LL7Os57Azc2" Name="Value" Kind="OutputPin" />
+            <Pin Id="JTF2MMcGDqBQGHKpzbmmoF" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Pad Id="PGw7WJWTdVQMoUQqXXLNj6" Comment="On Data" Bounds="149,499,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Dnim5ypg25ZOxSNH81ml3l" Bounds="77,522,167,99" ShowValueBox="true" isIOBox="true" Value="Observable value. Note that here, the value itself is not relevant, you should only use the Observable itself.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Cho9DoHuBAJNcfMQfmA4oT" Comment="Display Text" Bounds="396,395,35,15" ShowValueBox="true" isIOBox="true" Value="">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="LkRDKHQ7Uf0Le0f4dSCIdJ" Bounds="541,376,196,45" ShowValueBox="true" isIOBox="true" Value="A text to display on top of the widget">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="HMGyKquHU13P77p5WWVecC" Comment="Set Value" Bounds="454,588,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Boolean" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Type="String">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="DArUWxCd2LmOAjCr0m76HP" Name="Create" />
+        <Patch Id="UjE4YWqkvPvPpe1JGNWXbR" Name="Update" />
+        <ProcessDefinition Id="JJ54gEyjvhGPGOfmXGSPFL">
+          <Fragment Id="SueODiDDBn3MDX6mNv9ciL" Patch="DArUWxCd2LmOAjCr0m76HP" Enabled="true" />
+          <Fragment Id="KsnpWrOsW5CQdXQfuTaRZz" Patch="UjE4YWqkvPvPpe1JGNWXbR" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="PnXwteImCWfP387ufzUVGr" Ids="VAkiQWJvxM8M6mg88kXY7P,TB98iAarlciQZC4PfWfAJJ" />
+        <Link Id="Ubuc0tw8cBXOF3oX6GBwgs" Ids="OiFQFAJjTJVOO74p0p3sTX,NgP7RRWzu2bPfdC3tXkxT6" />
+        <Link Id="FVYK4j19AJWNnHwDiuJnKx" Ids="N23WI2AZ3YrN6KKk59DlbU,MvEnZrAwe9rMFlrXoeWj2d" />
+        <Link Id="E8JsrI8xtGgLXEIyTt1iTM" Ids="Ef6gh8WCDRQLpYmVXB9O0t,JfNdzT0972JP3Dy050RP4e" />
+        <Link Id="T7pBzgoLDT9Nk3r29zmUrf" Ids="B4xBq6J2AnxQDdoMOmzki1,CkMdAsaYG21MAIEvdL6XQ8" />
+        <Link Id="TFwJZRsLunYPUNmqxRc7Tf" Ids="SDjbvnZSSwCNMsC7emiR6H,KTcTXuC2xOzPS91kblzqS7" />
+        <Link Id="HGR5U1hd9RuP21JxWQftAq" Ids="P0r7YrCjeCwMZlSHvT6Gg7,Nz8ScPc28uCQHRYTYUWZ6w" />
+        <Link Id="QwNJoe5GFMwNz8T4q7etrt" Ids="JTF2MMcGDqBQGHKpzbmmoF,PGw7WJWTdVQMoUQqXXLNj6" />
+        <Link Id="BG4evlC2nZSPssTD3kbkpK" Ids="KeD13zMWE27LAQ6vPFLak9,O3jhro54KZAPt8UuzRoqFL" />
+        <Link Id="KkFyYGb2cryPSbYhmC2xNA" Ids="Cho9DoHuBAJNcfMQfmA4oT,QNxcPcl7pQPQc61Wk3b2GL" />
+        <Link Id="Io1fDnN6QfeLwRlVmoUr6R" Ids="PZCnAjCahqmQRTciLk97pL,J4gZQbya1QlOpBjzN0lKhq" />
+        <Link Id="EyEJyozvJzPPm6TLkpu7Gb" Ids="HMGyKquHU13P77p5WWVecC,QrwP68XXUHPMHZ5sGbD2m5" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="LbkO1zJgNK3NVXK87mGtQy" Location="VL.Skia" Version="2021.3.0-0021-g44253d2755" />
+  <NugetDependency Id="THGgCvsvMl1N31uXYUE1Rz" Location="VL.Elementa" Version="2.0.4" />
+</Document>
