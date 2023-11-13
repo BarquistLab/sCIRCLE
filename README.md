@@ -6,7 +6,9 @@ is a standalone Windows application for visual data mining and exploration of sc
 <img src="https://github.com/BarquistLab/sCIRCLE/assets/46606031/72e41ee4-5fe4-450d-ae64-3dd5041237ab" width="950">
 
 ## 💻 Prerequisites
-You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended. 
+You need a Windows partition to run the software. Additionally a 3-button mouse and a keyboard are recommended.
+The software has also been tested running in virtual machines on a MacOS system. Linux compatibility is currently not given, but could be added in the future.
+
 
 ## ➡️ Getting Started
 For a quick start, load the latest release on the right, unpack it and start the .exe file included in the download. 
